@@ -27,7 +27,7 @@ Lying in the blood: a folded letter, soaked, legible. Nothing else. No weapon, n
 - **Headcount.** Let them do it themselves. They will come up one short and the only name that is missing is Sal's. No character can say a sixth person was ever on the boat. The players will. Let the silence sit.
 - **The blood** (Medicine 12): human, under an hour old, far more than anyone walks away from. Drag marks into the surf. **The whole site is a perception void.** Passive Perception under 10: a pool of blood. 10 to 14: there was gear here, you cannot say what. 15+: someone was lying here and you cannot picture them. 20+: there is a person-shaped gap in your memory of the last hour.
 - **The hull** (Investigation 14): a small coastal boat, not theirs. One hammock more than the party needs. A manifest with a passenger count one higher than them, the last name water-ruined.
-- **The sending stone.** If anyone has one and tries it: the song, faintly, and nothing else. **[Jack: or does Sal answer?]**
+- **The sending stone.** It works. Sal answers, three times a day. First call: relief, then "What do you mean who else? There were five of you when you left." He reminds them of the job: find Ashe Orendis, check on him, say nothing about Sal, bring him home if he will come. See `05-goal-stones-and-origin.md`.
 - **History 15:** you have heard of Lumenshire and cannot remember why. 20+: you know you should remember more.
 
 Nobody says "Kael" aloud yet. The letter does it for you.
@@ -55,5 +55,4 @@ Whatever they are doing when it is time to stop: the song plays. Fade. They wake
 
 ## Open for Jack
 
-- Does the sending stone reach Sal, and if so what does he hear?
 - Does Ashe know his son's eyes do not match? (Sal's do not; Kael's did not.) If the party describes Sal to him, that is the moment he knows something is wrong.
