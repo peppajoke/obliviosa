@@ -1,25 +1,37 @@
-# 02. The party
+# 02. The party (synced from D&D Beyond 2026-10-11)
 
-| Character | Class | Player | On the island |
-| --- | --- | --- | --- |
-| Salanar "Sal" (in Kael Orendis's body) | Oath of Redemption paladin, former Life cleric of Ilmater | Jack (DMing the dream) | Not on the island. Alive in Phandalin. The party is meant to assume he is the one in the blood; the letter to Kael makes sure of it. |
-| Rowan | Druid | Tara | Clear face. Candidate keeper if the party bonds with the island's wild side (the Reach, Ashe's dogs). |
-| TJ | Barbarian | Alicia | Clear face. The song hits the loudest character hardest; consider TJ for the "get so drunk the song cannot land" discovery. |
-| Sprig | Monk | Steph | Clear face. Natural fit for the Staff of Silence and for sneaking up on Liv while she is not singing. |
-| Darla | Rogue | Nat | Clear face. Karleen's track is built for her: the treehouse, the break-in under town hall, the DON'T FORGET pages. |
-| Porridge | Wizard | Amanda | Clear face. The Oblivion tome and the Eternal Tome are hers to read. She is the one most likely to understand the keeper clause before anyone else, and therefore most likely to be offered the choice. |
+Campaign **NAD Group** ("AKA Sal's Pizza"), DM TheRecoveryRoom, [campaign 7693664](https://www.dndbeyond.com/campaigns/7693664). Raw pull in `party/ddb-roster.json`. Re-sync method at the bottom.
 
-Six players, five present on the island. Karleen's DON'T FORGET pages describe five people and a sixth whose description has been scratched out.
+| Character | Class | Player | HP | Key kit | On the island |
+| --- | --- | --- | --- | --- | --- |
+| **Sal** (Salanar in Kael Orendis's body) | Paladin 5, Oath of Redemption | Jack (DMing the dream) | 34 | Sentinel Shield, splint, greatclub, Zone of Truth, Calm Emotions | Not on the island. Asleep-side voice on the stone. |
+| **Darla Dewdrop** | Rogue 5, Soulknife, halfling | Nat | 28 | **Sending Stones**, Potion of Invisibility, Ring of Warmth, expertise Persuasion and Animal Handling, Actor | Karleen's track is hers: treehouse, the break-in, the DON'T FORGET pages. She holds the stone that reaches Sal. |
+| **Porridge** | Wizard 5, Necromancy, drow | Amanda | 22 | Animate Dead, Summon Lesser Demons, Blindness/Deafness, Tasha's Mind Whip, Cause Fear, Darkness; talks to spirits nobody else sees | The Oblivion tome and the Eternal Tome are hers. Blindness/Deafness is a song counter she already owns. Most likely to understand the keeper clause first. |
+| **Rowan Sunwood** | Druid 5, Circle of the Land, wood elf | Tara | 28 | Staff of the Python, Revivify, Conjure Animals, Moonbeam, Pass without Trace, Lightning Bolt (land spell) | Revivify changes the death math. Lightning Bolt is the Forgotten's weakness. Ashe's dogs and the Reach are hers. |
+| **Sprig Grenoble** | Monk 5, Warrior of Mercy, human | Steph | 28 | Lucky, Fey Touched (Misty Step, Hex), Stunning Strike, Hand of Healing, drum, thieves' tools, speaks Orc | Staff of Silence, sneaking up on Liv while she is not singing. The drum is a noise tool against the song. |
+| **TJ Star** | Barbarian 4, Berserker, half-orc | Alicia | 33 | Dual Wielder, Clockwork Amulet, 550 gp, three chests of gear, "I have an addiction" | The "so drunk the song cannot land" discovery. Hydra's Fury at the Dragon's Inn is for him. |
+| **Rynn Caulrunners** | Fighter 4, Battle Master, dwarf | Hailey (rarely plays) | 28 | Maul, Great Weapon Master, smith's tools | Occasional. Fine to be absent from the dream without comment; if present, Willem's Forge is her door. |
 
-## Sal, for reference
+**Entry level: 5.** Scale Liv, the Forgotten, Fawkes and Seraphina to a level 5 party of five or six.
 
-From Jack's Drive sheet (`Sal DND`, Apr 2026), the parts the island will touch:
+## Things the sheets say about the waking game
 
-- Real name Salanar. Was a Life Domain cleric of Ilmater in a small Alimir foothills settlement. His partner Merith died of a wasting sickness he could not cure.
-- Found void stones: crystals that numb pain and unmake people. Convinced himself he was ending suffering. Erased his entire settlement, his culture, everyone. "The Great Erasure."
-- Survivors sent a paladin, Kael Orendis, to stop him. Salanar forced his consciousness into Kael's body and lived all of Kael's memories, birth to present. It changed him.
-- Now an Oath of Redemption paladin in Kael's body. Quiet, watchful, flinches at "hero". Carries his last void stone openly on a cord. Hears two voices, Ilmater and The Unmaker. Mismatched eyes. Sponsor: Brother Aldric. Cover story: looking for his niece Lysa.
-- Three-tiered reveal: traveling paladin; was a healer who hurt people; body thief and mass eraser.
-- In the Icespire game: has kept faith as a new paladin and rehabilitated many orcs in Phandalin.
+- **Every character has the "Dark Bargain" feat.** Homebrew, campaign-wide. Jack knows what it is; it should be written into `01-plan.md` because a party-wide pact is exactly the kind of thing Liv's illusions can play with. **[Jack: what is Dark Bargain?]**
+- **Four Rings of Warmth and Ice Knife on two casters.** The party is kitted for Cryovain. Lumenshire is not cold. Let them notice.
+- **The Sending Stones are Darla's.** Only one stone is listed on any sheet. **[Jack: who holds the other, Sal or an NPC?]** If Sal, the live-line design works as written. If an NPC, the design needs Sal to have borrowed it.
+- **Three Haunted One backgrounds** (Sal, Porridge, TJ) and one personal possession each that is already a horror prop: a cloth doll skewered with needles, a bone caltrop, an eggshell painted with scenes of misery. Liv can use those.
+- **Rowan's notes record the campaign so far:** Sal's horn summons orcs; Charles and Chooch are feuding brothers; Alexander converted to Sal's cause; Chooch Jr is gathering orcs to meet in Phandalin; a lighthouse where a half-orc named Mosco lures ships for Talos, and "they are friends with Cryovain and they are Talos"; Halia Thornton runs the miners' exchange; Adabra (the Umbrage Hill druid) is receiving ingredients; a shrine of Savras where Rowan touched the altar and saw Cryovain destroying Conyberry and a fortress on Icespire Peak that felt like home. Full text in the JSON.
+- **Revivify is on the table** (Rowan). The past/future rule says "died and stayed dead at the end of the dream". Revivify keeps a death from counting. Diamonds are the limit; the party has one blue sapphire and no diamonds listed.
 
-Liv is what Sal was. The island is a mirror he is not there to look into. In the past timeline he learns from the others that Kael's father is alive on an island. In the future timeline the letter for Kael is why he sent them.
+## Sal's full backstory, as written on the sheet
+
+Now on file in the JSON. Two things in it matter for the integration and were not known before:
+
+1. **Kael Orendis confronted Salanar in Calimshan, among the Vel'tharin survivors.** The integration says Kael grew up in Lumenshire. Both can be true: Kael was born on the island, left young (which is why Ashe still remembers him and why Liv never got him), became a paladin on the mainland and was in Calimshan when the Erasure happened. Ashe has not seen him since he left.
+2. **Lysa, Kael's niece, taken by Calishite slavers six months before the Erasure.** Kael's niece is **Ashe's granddaughter**, the child of one of the four Orendis children Liv ate. Ashe cannot remember her. Sal is actively searching for her. The two campaigns now share a missing girl. **[Jack: deliberate? If yes, Lysa is the strongest possible thread between the island and the waking game, and the past ending can hand Sal a lead.]**
+
+## Re-syncing from D&D Beyond
+
+1. Open `https://www.dndbeyond.com/campaigns/7693664` in the browser pane while Jack is signed in. Character ids are the `/characters/<id>` links on that page.
+2. In page JavaScript: `POST https://auth-service.dndbeyond.com/v1/cobalt-token` with credentials to get a token, then `GET https://character-service.dndbeyond.com/character/v5/character/<id>` with `Authorization: Bearer <token>`. Direct curl is refused (403); unauthenticated fetch from the page is refused too.
+3. Regenerate `party/ddb-roster.json` and this table.

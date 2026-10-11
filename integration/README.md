@@ -9,3 +9,4 @@ Separate from `book/`. The book is the general, publishable Lumenshire campaign.
 | `03-handoff-for-other-dm.md` | One page to give the Icespire DM. The only coordination the plan needs. |
 | `04-session-1-intro.md` | Sample session 1: knockout, beach, three doors, handling choices. |
 | `05-goal-stones-and-origin.md` | The on-island goal (bring Ashe home), the sending stones, the origin wrinkle, one reason for the trip in both timelines. |
+| `party/ddb-roster.json` | Raw character pull from D&D Beyond, 2026-10-11. |

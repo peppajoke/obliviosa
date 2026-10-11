@@ -43,7 +43,7 @@ Needs to be something Lumenshire would plausibly hold and that only makes sense 
 
 ## Scaling
 
-The party is probably tier 1 to early tier 2 at entry. Liv (CR 10), the Forgotten (roughly CR 9), Fawkes and Seraphina (level 10) all need scaled variants. **[TODO once the entry level is known.]**
+Synced from D&D Beyond 2026-10-11: the party is level 4 to 5 (see `02-party.md`). Entry level is 5. Liv (CR 10), the Forgotten (roughly CR 9), Fawkes and Seraphina (level 10) all need scaled variants. **[TODO once the entry level is known.]**
 
 ## Void of perception, applied
 
