@@ -52,3 +52,14 @@ Every open task found across the Drive docs, deduplicated, grouped. Source in br
 - [ ] Memory cards (blank index cards, see 01).
 - [ ] Fawkes re-election poster.
 - [ ] Map of the four islands (none exists in Drive; the Museum doc references an image that did not export).
+
+## Added 2026-10-11 (dream frame, book)
+
+- [ ] Decide: does erasure by Liv count as death for the past/future rule. (Recommend yes.)
+- [ ] Decide: does a keeper wake up in the past ending. (Recommend yes, remembered by nobody but their own player.)
+- [ ] Victim roster for the blurred-face rule: who is destined to be eaten, in what order.
+- [ ] Blurred and clear art for every NPC on the roster.
+- [ ] Reward-stash design: every significant reward needs a hiding place the party would plausibly choose.
+- [ ] Tier scaling guidance (the book cannot assume a level).
+- [ ] Session-boundary procedure: how the DM leaves and re-enters the dream, what card is lost.
+- [ ] Book structure to standard: introduction and running the dream, background, chapters by act, appendices (NPCs, monsters, items, handouts, maps), session-zero script.

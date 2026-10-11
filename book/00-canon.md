@@ -1,5 +1,7 @@
 # 00. Canon: the truth of Lumenshire
 
+This campaign runs as a dream inside another campaign with an existing party; see `06-dream-frame.md` for the entry point, persistence and past/future rules. The island story below is the same regardless of frame.
+
 Everything below is DM-only truth, merged from every source doc. Where sources disagree, the choice made here is marked **[decision]** and the alternative is listed in `03-open-questions.md`.
 
 ## The island
@@ -29,7 +31,9 @@ The Blackwood farmstead is outside town, on the beach side of the road.
 - Being eaten erases the victim from memory. Evidence remains: belongings, portraits, receipts, extra chairs, an oversized graveyard, sad songs the bard cannot explain.
 - The DM may lie to players about what their characters know. Session-zero disclaimer (from the redux script): "If I'm saying something that doesn't add up, that's probably part of the mystery."
 - Resisting the song, as currently written: Potion of Encapsulation (Gary), Balm of the Banshee (Gary), a tuning fork or other loud noise, a Potion of Deafness Gary can be talked into making exactly once (may be permanent), playing an instrument (Wis DC 10 to keep memory), the Staff of Silence, the Orb of Screaming, getting blackout drunk on Hydra's Fury, sneaking up on her while she is not singing. Ashe's "potion of clarity" gives advantage on Obliviosa checks.
-- Killing Liv restores every lost memory on the island. Saving her does not.
+- Killing Liv restores every lost memory on the island. Saving her through a willing keeper also restores them, at the cost of the keeper being forgotten (see `05-sacrifice-and-hooks.md`). Saving her any other way does not.
+- **Blurred faces.** Any character who will later be eaten by Liv is shown to the players with a blurred face from their first appearance, in every handout and token. Never explained. See `06-dream-frame.md`.
+- **Persistence.** Characters and inventory are never forked between the dream and the waking campaign. Continuity conflicts are Liv's illusions.
 
 ## Who knows what
 
