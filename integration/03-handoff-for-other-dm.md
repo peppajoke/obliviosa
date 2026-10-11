@@ -4,7 +4,7 @@ One page. Everything the Icespire game needs to know, and nothing it does not.
 
 **What it is.** Jack is running a side campaign, Lumenshire, as a dream the party has intermittently. The players are not told it is a dream, or anything about how it resolves; from their side they get knocked out and wake up somewhere else. Same characters, same sheets, same inventory. It runs for a session here and there when it suits both tables. Jack DMs those sessions.
 
-**What you do.** At a moment of your choosing, knock the whole party out. All of them, at once, no save that matters. Cryovain's breath, an avalanche, a collapse in the excavation, poisoned ale at Gnomengarde, anything. Tell Jack the scene so the wake-up can echo it. They will wake on a beach somewhere else. Your campaign pauses at the knockout.
+**What you do.** At a moment of your choosing, put the whole party to sleep or knock them out. All of them, at once, no save that matters. Cryovain's breath, an avalanche, a collapse in the excavation, poisoned ale at Gnomengarde, an ordinary night's camp, anything. Tell Jack the scene so the wake-up can echo it. They will wake on a beach somewhere else. Sal stays awake with you. Whether your clock pauses or runs while they are under is your call; Jack's working assumption is that each dream session is one night's sleep in your game.
 
 **Sal.** Jack cannot play Sal while DMing, so Sal is not in the dream. Before the knockout, imply indirectly that Sal is in danger or separated from the group, so that when they wake one short they assume the worst. Do not confirm anything. Sal is alive; the dream's reason for his absence is a plot point.
 
@@ -20,6 +20,6 @@ One page. Everything the Icespire game needs to know, and nothing it does not.
 
 **Forgettable people.** Some nameless NPCs on the island will be described as oddly hard to notice or remember. That is deliberate. Players may ask you about it. Shrug.
 
-**The sending stone.** If the party has a sending stone paired with Sal's, it will ring during dream sessions, and Jack will voice Sal answering it. From your table's side this means Sal, in your game, has heard his unconscious friends describe a beach and an old man. Jack will play that knowledge straight in your game. Where Sal physically is during the knockout matters: separated from the party, not standing over them.
+**The sending stone.** If the party has a sending stone paired with Sal's, it will ring during dream sessions, and Jack will voice Sal answering it. From your table's side this means Sal, in your game, is sitting next to his sleeping friends while the stone speaks with their voices about a beach and an old man. He can tell them they are asleep. He cannot wake them, and neither can anything in your game until the dream is done with them. Jack will play that knowledge straight at your table, and the others will wake remembering none of it.
 
 **What Jack needs from you.** The knockout scene, the party's level at that moment, a yes to loot and XP carrying over, and, for the past version, whether you are comfortable with Cryovain having already attacked Phandalin before the trip. That is all.

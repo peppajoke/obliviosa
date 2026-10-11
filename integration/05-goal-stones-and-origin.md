@@ -27,13 +27,13 @@ Three pressures on top of it:
 
 ## The sending stones: a live line to the present (Jack, 2026-10-11)
 
-The stone does not reach a Sal who sent them. It reaches **Sal in the waking timeline, right now, in the minutes and hours after the knockout.** The party's consciousness is on the island; their bodies are wherever the Icespire DM dropped them. Sal is wherever that scene left him, separated, and his stone starts talking about a beach.
+The stone does not reach a Sal who sent them. It reaches **Sal in the Cryovain storyline, as it is happening.** From his side the party is asleep, right there, and the stone is speaking with their voices. He is not separated from them. He can see them breathing. He cannot wake them.
 
-**Sal does not know what is happening.** Neither side does. Both think the other is in danger. He answers up to three times a day, dream time, and he is confused, then frightened, then quiet.
+**Sal does not know what is happening.** He can tell them they are asleep beside him, and he will, because he is frightened. That tells the characters their bodies are somewhere else. It does not tell them what the island is, whether it is a memory or a dream or something ahead of them, or how to leave. Nobody on either end knows that. He answers up to three times a day, dream time.
 
 First contact, roughly:
 
-> "Where are you? You went down an hour ago, all of you, I could not get to you. What beach? There is no beach. Describe it again."
+> "Where are you? You are right here. You are all asleep, I am looking at you. What beach? Describe it again."
 
 Then they read him the letter, or say the name on it.
 
@@ -53,7 +53,7 @@ The loop closes on itself. Sal asks for the thing that already happened, or that
 
 This is the information engine the campaign was missing. The party does not need the Eternal Tome to learn what was lost; they have a man on a stone who remembers it, three times a day, and every answer he gives them is a hole they can go and stand in. It also solves why they can learn the broad strokes and never the whole: Sal remembers a childhood, not a trial. He left before Elara, before Liv, before Fawkes was anyone.
 
-**Drift.** Each dream session is later in Phandalin time. Between sessions Sal has been living. He mentions things the Icespire campaign has done since; the party is hearing their own future from a man who thinks it is the present. Liv's illusions. And across the dream itself the song reaches the stone: static where a name should be, Sal taking a beat too long, and by the fourth day he has to be reminded who is talking.
+**Drift.** Each dream session is later in the Cryovain story. Between sessions Sal has been living, and so have they, awake, remembering none of this; only Sal carries the stone conversations forward. Proposed frame: each dream session is one night's sleep in the Icespire game. The song at the end of a dream session is them waking in Phandalin with nothing. Sal wakes next to them knowing. **[Jack to confirm.]** He mentions things the Icespire campaign has done since; the party is hearing their own future from a man who thinks it is the present. Liv's illusions. And across the dream itself the song reaches the stone: static where a name should be, Sal taking a beat too long, and by the fourth day he has to be reminded who is talking.
 
 **For Jack as a player.** Everything Sal hears on the stone, Sal knows in the Icespire game. Jack has an in-character reason to dread a letter he has not received yet, and to behave strangely toward five people he may or may not have met before. The Icespire DM should be told this is happening.
 
