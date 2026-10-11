@@ -60,6 +60,7 @@ Every open task found across the Drive docs, deduplicated, grouped. Source in br
 - [ ] Nameless-victim list for the void-of-perception rule (guards, citizens, the beach body).
 - [ ] Reward-stash design: every significant reward needs a hiding place the party would plausibly choose.
 - [ ] Tier scaling guidance (the book cannot assume a level).
+- [x] Players are told nothing about the dream, past/future, or the deciding rule.
 - [ ] Session-boundary procedure: how the DM leaves and re-enters the dream, what card is lost.
 - [ ] Book structure to standard: introduction and running the dream, background, chapters by act, appendices (NPCs, monsters, items, handouts, maps), session-zero script.
 

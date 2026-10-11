@@ -23,7 +23,7 @@ The dream resolves one of two ways, and the party does not know which until it e
 
 "Died" means died and stayed dead at the end of the dream. The forgotten friend's erasure happens before the dream begins and never counts. A character brought back inside the dream has not died for this rule.
 
-Tell the players at session zero that the dream is either their past or their future and that they will not know which until it ends. Do not tell them the rule that decides it.
+**The players are told nothing.** Not that it is a dream, not that it is past or future, not that a rule decides it. They wake on a beach with no memory of why they are there and that is all they get. (Jack, 2026-10-11.)
 
 ## Consequences for the book
 

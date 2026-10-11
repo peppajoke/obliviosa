@@ -15,7 +15,7 @@ It is Fawkes's current fate, made voluntary and total. He has spent five years a
 ### Who can pay
 
 - **Fawkes.** The redemption ending. He finally does what he could not do at the courthouse. Liv wakes up and does not know him, and neither does anyone else.
-- **A player.** The "player sacrifice" ending. Needs to be earned: the party has to come to care about Liv or the town enough. Tell the players this ending exists at session zero in the abstract ("someone may have to pay for this"), never who.
+- **A player.** The "player sacrifice" ending. Needs to be earned: the party has to come to care about Liv or the town enough. Nothing about it is telegraphed out of character; the keeper clause is learned in-fiction (Eternal Tome, Fawkes, the cult) or not at all.
 - **Karleen.** She has already lost everything once and does not know it. Learning the truth and choosing to be forgotten anyway is her arc completing.
 - **Ashe.** The dark horse. A man with nothing left to forget volunteers. If the party has been kind to him, this one hurts the most.
 - **Seraphina.** Her nightmares mean she already half-holds the truth. A turned Seraphina is a natural keeper.

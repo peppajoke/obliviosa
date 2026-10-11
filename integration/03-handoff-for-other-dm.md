@@ -2,7 +2,7 @@
 
 One page. Everything the Icespire game needs to know, and nothing it does not.
 
-**What it is.** Jack is running a side campaign, Lumenshire, as a dream the party has intermittently. Same characters, same sheets, same inventory. It runs for a session here and there when it suits both tables. Jack DMs those sessions.
+**What it is.** Jack is running a side campaign, Lumenshire, as a dream the party has intermittently. The players are not told it is a dream, or anything about how it resolves; from their side they get knocked out and wake up somewhere else. Same characters, same sheets, same inventory. It runs for a session here and there when it suits both tables. Jack DMs those sessions.
 
 **What you do.** At a moment of your choosing, knock the whole party out. All of them, at once, no save that matters. Cryovain's breath, an avalanche, a collapse in the excavation, poisoned ale at Gnomengarde, anything. Tell Jack the scene so the wake-up can echo it. They will wake on a beach somewhere else. Your campaign pauses at the knockout.
 
