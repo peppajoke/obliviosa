@@ -20,4 +20,6 @@ One page. Everything the Icespire game needs to know, and nothing it does not.
 
 **Forgettable people.** Some nameless NPCs on the island will be described as oddly hard to notice or remember. That is deliberate. Players may ask you about it. Shrug.
 
+**The sending stone.** If the party has a sending stone paired with Sal's, it will ring during dream sessions, and Jack will voice Sal answering it. From your table's side this means Sal, in your game, has heard his unconscious friends describe a beach and an old man. Jack will play that knowledge straight in your game. Where Sal physically is during the knockout matters: separated from the party, not standing over them.
+
 **What Jack needs from you.** The knockout scene, the party's level at that moment, a yes to loot and XP carrying over, and, for the past version, whether you are comfortable with Cryovain having already attacked Phandalin before the trip. That is all.

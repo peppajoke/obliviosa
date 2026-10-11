@@ -23,27 +23,46 @@ Three pressures on top of it:
 
 1. **They lose themselves every night.** One memory card each time the song plays. Staying costs them who they are. Solving it is the only way to stop the bleed. This is the horror push and it needs no NPC.
 2. **The clock.** Remembrance Festival in four days. The weekly ferry leaves the morning after. Fawkes's offer of free passage home expires with the festival.
-3. **Sal on the stone.** Three times a day, a voice that remembers what they were sent to do. The DM has a built-in nudge channel in the voice of the person they trust most.
+3. **Sal on the stone.** Three times a day, the one person who remembers the island as it was, asking them to bring an old man home. The DM has a nudge channel in the voice of the person they trust most, and an information source that only ever gives them the broad strokes.
 
-## The sending stones: Sal answers, three times a day
+## The sending stones: a live line to the present (Jack, 2026-10-11)
 
-Jack's call: the party's sending stone reaches Sal, and he answers up to three times per day.
+The stone does not reach a Sal who sent them. It reaches **Sal in the waking timeline, right now, in the minutes and hours after the knockout.** The party's consciousness is on the island; their bodies are wherever the Icespire DM dropped them. Sal is wherever that scene left him, separated, and his stone starts talking about a beach.
 
-What this does to the Sal-is-dead misdirection: it ends the moment they use the stone, and what replaces it is better. They hear Sal alive. Relief. Then:
+**Sal does not know what is happening.** Neither side does. Both think the other is in danger. He answers up to three times a day, dream time, and he is confused, then frightened, then quiet.
 
-> "What do you mean who else? There were five of you when you left."
+First contact, roughly:
 
-They count five. They look at the blood. Whose was it? Sal does not know, cannot know, and the perception void on the beach means they will never fully know either. The mystery of the sixth replaces the grief for Sal, and it is a mystery nobody can solve, which is the point.
+> "Where are you? You went down an hour ago, all of you, I could not get to you. What beach? There is no beach. Describe it again."
 
-Rules for Sal on the stone:
+Then they read him the letter, or say the name on it.
 
-- He knows the job and the letter. He will repeat the ask. He will not explain Kael unless asked directly, and then only part of it ("he was someone I knew, his father does not know he is gone, please do not be the one who tells him").
-- He is in Phandalin time. His answers drift against the dream: he mentions things that have not happened yet for them, or that happened differently. Liv's illusions. Never explained.
-- Each use after the first in a day costs something small: static where a word should be, or Sal taking a beat too long to remember a name. By the fourth day he has to be reminded who is talking.
-- Three uses means the DM can be stingy on the island and generous on the way out. The third use on the last night is Sal asking whether Ashe is coming home.
+> *silence* "Say the name again." *silence* "Who gave you that?"
+
+Nobody has said Kael to Sal in years. That is the moment Sal knows this is real, whatever it is. And it is the moment he gives them the errand, live, out of guilt, which turns out to be the same errand that was the reason for the trip in whichever timeline this becomes:
+
+> "Listen to me. Find Ashe Orendis. Make sure he is alright. Do not tell him anything about me. If he will come, bring him home."
+
+The loop closes on itself. Sal asks for the thing that already happened, or that is going to.
+
+**What Sal knows that nobody else does.** Kael grew up in Lumenshire. Sal lived every one of Kael's memories. **Sal remembers the island as it was before the rampage**, and he is the only living person who does, because Kael left before Liv happened. On the stone he can describe the town the party is standing in and get it wrong in exactly the ways that matter:
+
+- "The bakery next to Willem's is the Fenwicks'. Marta Fenwick, three kids, the youngest has a lisp." There is a bakery. It is Bartholomew's. He has run it for thirty years and has receipts for customers he never served.
+- "Ashe has four children. Kael is the youngest. Mary keeps bees behind the house." The hives are there. Empty.
+- "The courthouse is on the little island, you cross the bridge by the pier." There is no bridge.
+
+This is the information engine the campaign was missing. The party does not need the Eternal Tome to learn what was lost; they have a man on a stone who remembers it, three times a day, and every answer he gives them is a hole they can go and stand in. It also solves why they can learn the broad strokes and never the whole: Sal remembers a childhood, not a trial. He left before Elara, before Liv, before Fawkes was anyone.
+
+**Drift.** Each dream session is later in Phandalin time. Between sessions Sal has been living. He mentions things the Icespire campaign has done since; the party is hearing their own future from a man who thinks it is the present. Liv's illusions. And across the dream itself the song reaches the stone: static where a name should be, Sal taking a beat too long, and by the fourth day he has to be reminded who is talking.
+
+**For Jack as a player.** Everything Sal hears on the stone, Sal knows in the Icespire game. Jack has an in-character reason to dread a letter he has not received yet, and to behave strangely toward five people he may or may not have met before. The Icespire DM should be told this is happening.
+
+**The sixth.** Sal cannot help with whose blood is on the beach. From where he stands there were five of them when they went down. The sixth stays unsolvable, which is correct.
+
+**Timeline note.** In the past-with-origin version Sal would have received the letter years ago and hired five strangers. Present-day Sal on the stone does not remember doing so. That is either a continuity break (and therefore the future), or the song took it from him too, the way it takes victims from everyone who knew them. Jack decides when the ending is known, not before.
 
 ## What this changes in the session 1 draft
 
-- Add the stone to the beach signals: it works, and the first conversation is written above.
+- Add the stone to the beach signals: it works, it reaches present-day Sal who does not know what is happening, and the first conversation is written above.
 - Ashe's farmhouse becomes the goal location, not just a door. Session 1 should end with the party knowing Ashe will not leave and not yet knowing why.
 - Karleen's crossed-out sixth description now points at the nameless dead, not at Sal. Keep it crossed out.
