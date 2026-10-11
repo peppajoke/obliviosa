@@ -55,10 +55,9 @@ Every open task found across the Drive docs, deduplicated, grouped. Source in br
 
 ## Added 2026-10-11 (dream frame, book)
 
-- [ ] Decide: does erasure by Liv count as death for the past/future rule. (Recommend yes.)
-- [ ] Decide: does a keeper wake up in the past ending. (Recommend yes, remembered by nobody but their own player.)
-- [ ] Victim roster for the blurred-face rule: who is destined to be eaten, in what order.
-- [ ] Blurred and clear art for every NPC on the roster.
+- [x] Erasure by Liv counts as death. Party wipe means it was only a dream.
+- [x] The keeper wakes in the past ending, remembered only by their own player.
+- [ ] Nameless-victim list for the void-of-perception rule (guards, citizens, the beach body).
 - [ ] Reward-stash design: every significant reward needs a hiding place the party would plausibly choose.
 - [ ] Tier scaling guidance (the book cannot assume a level).
 - [ ] Session-boundary procedure: how the DM leaves and re-enters the dream, what card is lost.
@@ -66,8 +65,10 @@ Every open task found across the Drive docs, deduplicated, grouped. Source in br
 
 ## Integration (Icespire table), see integration/01-plan.md
 
-- [ ] Jack decides: Sal as the forgotten friend (Ashe becomes Ashe Orendis, letter to Kael) or Sal simply absent.
-- [ ] Write Kael Orendis's father and the Kael version of the letter.
-- [ ] Victim roster for this table.
+- [x] Sal is alive and absent; the party must presume him dead. Ashe becomes Ashe Orendis, letter to Kael.
+- [ ] Write Ashe Orendis and the Kael version of the letter.
+- [ ] Define the past-timeline artifact against Cryovain (recommend the Forgetting Edge, forged from Liv's scale).
+- [ ] Define the future-timeline reason for the trip (recommend the letter for Kael arriving in Phandalin).
+- [ ] Write Sal's stay-behind scene for each timeline, for the Icespire DM to seed.
 - [ ] Scale Liv, the Forgotten, Fawkes, Seraphina to the party's entry level.
 - [ ] Hand `integration/03-handoff-for-other-dm.md` to the Icespire DM.

@@ -1,67 +1,67 @@
-# 01. Integration plan
+# 01. Integration plan (revised 2026-10-11 after Jack's answers)
 
 ## The waking campaign
 
-*Dragon of Icespire Peak* (the Essentials Kit campaign), run by another DM. Base is Phandalin. The dragon is Cryovain, a white dragon; the party met him once in a brief fight and got stomped, and is now building up, learning secrets, and taking contracts (a dwarf excavation at ancient ruins to the south-west, Gnomengarde, and a horn that summons Charles the orc and his gang). Sal has spent the campaign befriending and rehabilitating orcs in Phandalin.
+*Dragon of Icespire Peak*, run by another DM. Base is Phandalin. The dragon is Cryovain, a white dragon. The party met him once in a brief fight and got stomped, and is building up: contracts at the dwarf excavation (ancient ruins to the south-west), Gnomengarde, a horn that summons Charles the orc and his gang. Sal has spent the campaign befriending and rehabilitating orcs in Phandalin.
 
-Lumenshire already sits "far off the coast of Neverwinter" in every location doc, and the Blackwood farmhouse is "rural Neverwinter". Phandalin is a few days from Neverwinter. No geography needs to move.
+Lumenshire sits "far off the coast of Neverwinter" in every location doc. Phandalin is a few days from Neverwinter. Nothing moves.
 
 ## Entry
 
-Something knocks the whole party out. The trigger is the Icespire DM's call (see `03-handoff-for-other-dm.md` for suggestions). They wake on the beach in Lumenshire next to the pool of blood and the letter. From that moment Jack is DM and the book's cold open runs as written (`../book/01-opening-the-letter.md`).
+The Icespire DM knocks the whole party out at a moment of their choosing. They wake on the beach in Lumenshire beside a wrecked hull they do not recognise, a pool of blood, and the letter. Jack is DM from that moment and the book's cold open runs (`../book/01-opening-the-letter.md`).
 
-No wreck is required. The party did not sail here; they woke here. The shipwreck can stay as set dressing (a hull they do not recognise, Cid wandering out of it) or be dropped. **[Jack to decide; recommend keep the hull, it is the first thing that does not add up.]**
+**The players do not remember why they are here.** That memory is the first thing the song took. Whatever the reason turns out to be (below), they discover it on the island, not before.
 
-## Who plays Sal
+## Sal: alive, and the party must believe otherwise
 
-Jack cannot DM the dream and play Sal in it. That constraint and the story want the same answer:
+Jack cannot DM and play Sal, so Sal is not on the island. **Sal is not dead.** He stayed behind for a reason that depends on which timeline this turns out to be. The party must assume he is the one in the blood, and the Icespire DM will imply it indirectly before the knockout.
 
-**Sal is the forgotten friend.** The blood on the beach is his. The party wakes one paladin short and does not notice, because Liv has already eaten him and eaten the memory of him. Every player at the table knows Sal is missing. No character does. That is the false hydra at full strength, aimed at the people who will feel it most.
+How the misdirection works without lying:
 
-Why it fits beyond convenience:
+- There is nothing left of the forgotten friend. Blood, no body, no gear anyone recognises. The party counts heads, comes up one short, and the only name missing is Sal's. No character can say that name, because nobody in the fiction remembers a sixth person at all. The players will, and that is the dread.
+- The letter in the blood is real and is addressed to **"my beloved son Kael"**, from Ashe Orendis. Ashe Blackwood becomes Ashe Orendis, Kael's father, a man who does not know his son is dead and his body stolen. Nobody at the table knows a Kael. Every player knows whose body is called that. The party will go looking for Sal on this island and find his face in an old man's memory instead.
+- The actual forgotten friend is a nobody: a hired guide, a sailor off the hull, someone with no name. They fall under the void-of-perception rule (below) and the party will never fully know who it was. That is correct. The book's Thorne does not appear in this run.
+- No void stone on the beach. Sal's necklace goes nowhere; Sal has it, because Sal is in Phandalin.
 
-- Sal's backstory is Liv's crime from the other side. He erased an entire settlement with void stones to end suffering. She erased a courtroom to save her father. The Unmaker he hears and the Oblivion she cast are the same hunger. The island is his sin, externalised, and he is the first thing it takes.
-- Sal is wearing Kael Orendis's body. The book's forgotten friend has a father on the island who wrote him a letter. **Make Ashe Blackwood into Ashe Orendis, Kael's father.** The letter in the blood is addressed to "my beloved son Kael". Nobody at the table knows a Kael. Sal would have: he lived every one of Kael's memories. The one person who could have recognised the farmhouse is the one who is gone.
-- In the past ending, Sal wakes with the party remembering all of it: that Liv ate him, that Kael's father is alive and alone on an island, and that he walked past the man's door wearing his dead son's face. That is Jack's payoff as a player, delivered in the waking game, where he is a player.
+## Why they came: two reasons, one per timeline
 
-What this changes from the book's three fixed facts about the forgotten friend:
+The dream is **the future by default**. It becomes the past only if nobody dies and continuity holds.
 
-| Book | Integration |
-| --- | --- |
-| Friend is Ashe Blackwood's son Thorne | Friend is Kael Orendis, whose body Sal wears. Ashe Blackwood becomes Ashe Orendis. |
-| Friend carried the Blackwood family blade | In the blood: Sal's void-stone necklace on its cord, and whatever weapon Sal carries in the waking game. The family blade can still be at the farmhouse if the Orendis line had one. |
-| Friend was eaten during the wreck | Friend was eaten before the party woke. His erasure happens before the dream begins and **does not count as a death for the past/future rule.** Only deaths during the dream count. |
+**If it becomes the past (nobody died, continuity intact).** The trip was something the party did *before* the Cryovain finale, to get the one thing that could kill him. **Lumenshire holds a critical artifact against Cryovain** (candidates below). Cryovain had already hit Phandalin; the town was limping. Sal stayed to heal, hold the orcs together, and keep Phandalin standing while the others went for the weapon. When the dream ends, the party wakes from the knockout with the weapon's location and the island's stashes in memory, and the story goes back to the Cryovain finale with the artifact in play.
 
-The void-stone necklace is the strongest prop. Sal never hid it. The party has seen it every day for months. On the beach, in the blood, nobody knows what it is.
+**If it stays the future (a death, or continuity broken).** The trip happened *after* Cryovain. Reason, proposed: **the letter.** Months after the dragon, a letter arrives in Phandalin for Kael Orendis. Sal cannot face Kael's father wearing Kael's body. He asks the party to go in his place, and stays because the orcs and the town still need him. When the dream ends with continuity broken, the dreams stop forever, the Cryovain timeline resumes, and the Icespire DM has a ready-made trigger to get the party to Lumenshire for real: the letter arrives. The timelines merge there and Jack picks the story back up where the dream left it.
 
-**Alternative if Jack would rather not spend Sal on this:** keep Thorne exactly as in the book, and have Sal simply absent from the dream with no explanation, as one of Liv's illusions. Weaker, but it keeps Sal out of the blurred-face roster.
+Both timelines keep Sal's reason the same shape: Phandalin needs him more than the party does. Only what Phandalin needs him *for* changes.
 
-## Exit
+## The artifact (past timeline)
 
-The dream ends by the book's rules. If no one died, the party wakes wherever the Icespire DM dropped them, remembering everything, and the Lumenshire caches are real places the Icespire DM now has to honour. If anyone died, the campaign is now heading toward Lumenshire, and the Icespire DM knows it.
+Needs to be something Lumenshire would plausibly hold and that only makes sense after the island's story is resolved, so the party cannot grab it and leave in session two. Candidates:
 
-Between dream sessions the song plays, the Icespire campaign resumes, and nothing is forked: gear used in Phandalin is gone from the beach, levels gained in Phandalin are there on the island. Written off as Liv's illusions, never explained.
+1. **The Forgetting Edge** (recommended). A weapon forged from one of Liv's scales. What it cuts, forgets. A dragon that forgets how to fly, forgets its breath, forgets its own name. Obtaining it depends on how the party resolves Liv: kill her and take a scale; save her through a keeper and the hydra form sheds, leaving the scales behind. Either way the weapon is the last thing the island gives them, and it carries the whole campaign's theme into the Cryovain finale. Oblivion as a blade, in the hands of the people who now know what it costs.
+2. **The Feyfire Lantern, rewritten.** Already in the item list: a lantern whose light is true sunlight. Make it the relic the ancient sorcerers used to drive the Forgotten back, and give its light a second property against cold-blooded things. Weaker tie to the story, but it exists in the source and sits in Fawkes's vault.
+3. **Luminous Vanguard armour.** The Vanguard's glowing sigils are already described. A suit, or Seraphina's own, that burns cold away. Only reachable by turning Seraphina or taking it off her.
 
 ## Scaling
 
-The book cannot assume a level. The Icespire party is probably tier 1 to early tier 2 when this starts. Liv is written at CR 10 with regeneration and legendary resistance, the Forgotten at roughly CR 9, Fawkes and Seraphina at level 10. All of it needs a scaled variant for the actual party level at entry. **[TODO when the entry level is known.]**
+The party is probably tier 1 to early tier 2 at entry. Liv (CR 10), the Forgotten (roughly CR 9), Fawkes and Seraphina (level 10) all need scaled variants. **[TODO once the entry level is known.]**
 
-## Blurred faces, applied
+## Void of perception, applied
 
-Victim roster for this table, first pass:
+See `../book/06-dream-frame.md`. Named NPCs are shown normally. Unnamed people who will die on the island (guards, citizens, the sailor on the beach) are perception voids. Cid is undecided and stays open.
 
-- Sal / Kael. Already gone. If any recap art shows him, it is blurred.
-- One shopkeeper the party will like. Recommend Bartholomew.
-- One tavern patron. Recommend Thomas the sailor, after he offers the boat ride.
-- Cid, if the airship ending is not wanted.
+## Decisions taken 2026-10-11
 
-Rowan, TJ, Sprig, Darla and Porridge are shown clear. If one of them dies in the dream, their portrait blurs from then on and the table will know what that means before anyone says it.
+- Sal alive, absent, presumed dead by the party. Icespire DM implies it indirectly.
+- Ashe Orendis, letter to Kael. Yes.
+- Wrecked hull on the beach. Yes.
+- No void stone prop.
+- Erasure by Liv is permadeath. A party wipe means it was only a dream.
+- Cid open.
+- Spelling: Cryovain.
 
-## Open decisions for Jack
+## Still open
 
-1. Sal as the forgotten friend, or Sal simply absent.
-2. Ashe Orendis and the Kael letter: Jack writes Kael's father, since Kael is his to write.
-3. Keep the wrecked hull as set dressing.
-4. Whether Sal's void-stone necklace is the beach prop, and whether Liv or the Unmaker gets the last word on it.
-5. Victim roster.
-6. Entry level, so the stat blocks can be scaled.
+- Which artifact (recommend the Forgetting Edge).
+- The future-timeline reason: the letter arriving for Kael, or something else.
+- Entry level.
+- Whether the Icespire DM is comfortable with Cryovain having already hit Phandalin in the past timeline, since that is their town.

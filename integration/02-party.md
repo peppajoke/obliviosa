@@ -2,14 +2,14 @@
 
 | Character | Class | Player | On the island |
 | --- | --- | --- | --- |
-| Salanar "Sal" (in Kael Orendis's body) | Oath of Redemption paladin, former Life cleric of Ilmater | Jack (DMing the dream) | The forgotten friend. Eaten before the party wakes. His blood, his void-stone necklace and a letter to Kael are on the beach. |
+| Salanar "Sal" (in Kael Orendis's body) | Oath of Redemption paladin, former Life cleric of Ilmater | Jack (DMing the dream) | Not on the island. Alive in Phandalin. The party is meant to assume he is the one in the blood; the letter to Kael makes sure of it. |
 | Rowan | Druid | Tara | Clear face. Candidate keeper if the party bonds with the island's wild side (the Reach, Ashe's dogs). |
 | TJ | Barbarian | Alicia | Clear face. The song hits the loudest character hardest; consider TJ for the "get so drunk the song cannot land" discovery. |
 | Sprig | Monk | Steph | Clear face. Natural fit for the Staff of Silence and for sneaking up on Liv while she is not singing. |
 | Darla | Rogue | Nat | Clear face. Karleen's track is built for her: the treehouse, the break-in under town hall, the DON'T FORGET pages. |
 | Porridge | Wizard | Amanda | Clear face. The Oblivion tome and the Eternal Tome are hers to read. She is the one most likely to understand the keeper clause before anyone else, and therefore most likely to be offered the choice. |
 
-Six players, five present on the island. Karleen's DON'T FORGET pages should describe six people.
+Six players, five present on the island. Karleen's DON'T FORGET pages describe five people and a sixth whose description has been scratched out.
 
 ## Sal, for reference
 
@@ -22,4 +22,4 @@ From Jack's Drive sheet (`Sal DND`, Apr 2026), the parts the island will touch:
 - Three-tiered reveal: traveling paladin; was a healer who hurt people; body thief and mass eraser.
 - In the Icespire game: has kept faith as a new paladin and rehabilitated many orcs in Phandalin.
 
-Liv is what Sal was. The island is a mirror he is not there to look into. If the past ending fires, he wakes knowing the mirror exists, and that Kael's father is in it.
+Liv is what Sal was. The island is a mirror he is not there to look into. In the past timeline he learns from the others that Kael's father is alive on an island. In the future timeline the letter for Kael is why he sent them.
