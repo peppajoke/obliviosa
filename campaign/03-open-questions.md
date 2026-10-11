@@ -1,0 +1,23 @@
+# 03. Open questions and contradictions
+
+Decisions only Jack can make. Each has a recommendation so it can be answered with one word.
+
+**Q1. Does the pre-wreck Act 1 survive?** The redux added a whole act at sea (Flaming Fist oath, salvage contract, ghost ship, storm). The new direction opens on the beach. Options: cut it to backstory; keep it as a one-shot prologue the night before; keep only the fifteen-minute Salt Wind toast for the fake-player handoff. **Recommend: cut, keep the toast if running option A.**
+
+**Q2. Elara: dead or the big bad?** Every 2023 doc: Fawkes drowned her, she is dead. The 2025 redux: she "wants to bring her family together, devour Lumenshire as fuel, become a demigod; Liv is 50% of the plan", and endings 4 and 6 are about her. Nothing explains how she is active. Options: her consciousness rode the void portal her ancestor opened and she is the voice the Forgotten hear; she is the first Forgotten; drop her and let Liv + Fawkes carry it. **Recommend: she is what the Forgotten worship, speaking through them, and Liv is her way back into a body. It gives the Forgotten a will and makes "save Liv" a real third option.**
+
+**Q3. What does Fawkes's serum actually do?** His pitch says it unmasks hidden Forgotten. The source never says what it really is. Options: it is Oblivion in liquid form, a town-wide wipe so he can stop feeding her; it is poison, his suicide scaled to the whole island; it genuinely works and he is right. **Recommend: liquid Oblivion. It rhymes with Liv's original sin and makes Team Fawkes a real moral trap rather than an obvious villain route.**
+
+**Q4. Karleen's intro speech is still Marcus's.** Into Lumenshire says "Perception DC 15 to notice Karleen" and then the whole speech uses "he" and "Marcus will tell them about..." The 2023 note says "fully replace chubby with Karleen" and Marcus is in Deprecated, but the redux script still lists "Marcus meets the party" in Act 2. Options: Karleen gives the speech (rewrite pronouns, drop the museum), Marcus comes back as a second contact, split it (Marcus has the notes, Karleen has the treehouse). **Recommend: Karleen only. Marcus's deaf servant Carl can stay as a tavern patron.**
+
+**Q5. The cave scene.** The 2023 lair (cultists arguing about who is her favourite, the blue-haired woman having sex with cultists, hydra babies in a web nest, "she's been throwing up") is a different tone from the 2025 tragic-little-girl Liv with INT 2 who cannot speak. They cannot both be true. Options: cut the sex-cult material and keep cultists + spawn; keep it and make the blue-haired woman Elara's projection rather than Liv; keep it as is. **Recommend: cut it. Cultists becoming Forgotten and a nest of spawn is plenty, and it keeps Liv a victim.**
+
+**Q6. Thorne: keep, replace, or player-defined?** See the three options in `01-opening-the-letter.md`. Also undecided: Thorne "may have been romantically attached to Karleen" (only mentioned once). **Recommend: keep Thorne, planted player if a confederate exists.**
+
+**Q7. Setting anchor.** Lumenshire is "far off the coast of Neverwinter" and the farmhouse is "rural Neverwinter" in every location doc. The 2025 Session 0 makes the party the 43rd Fist Infantry of Baldur's Gate celebrating Gortash's fall. Fine for backstory, but it is a different coast. **Recommend: Neverwinter, drop the Flaming Fist unless Q1 keeps the prologue.**
+
+**Q8. Timeline numbers.** "Five years ago" everywhere, but liv scratch says the Forgotten were a myth until 8 months ago and there has been no disappearance in nearly a year, and Karleen was fired two weeks ago. Need one timeline: when the rampage was, when the feedings resumed, what changed recently that started people noticing (and what made Fawkes fire Karleen). **Recommend: five years since the rampage; feedings have been steady and small; what changed is Liv is hungrier (or Elara is pushing), the feedings doubled a few months ago, holes started showing, Karleen started asking, Fawkes fired her to protect her.**
+
+**Q9. Where is the Oblivion tome now?** Raw notes: "work in that the Mayor has the oblivion spell tome." Not placed anywhere. **Recommend: Fawkes's secret lair under town hall, the Karleen-track prize, and the thing Fawkes needs for the serum (ties Q3).**
+
+**Q10. Missing doc.** The cultist's journal linked from the Cultist Character Sheet no longer exists in Drive. If it was written, it is gone; if it matters, it needs rewriting. Thorne's Journal is marked DEPRECATE in the doc itself but is the only in-world document that mentions Thaddeus Finn, the mystic who warns that restored memories have a price. Worth salvaging that one idea.

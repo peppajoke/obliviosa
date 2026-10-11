@@ -1,0 +1,14 @@
+<!-- drive: 1lUlP8NgSOoYkHUD395TBwtNObX7U-MZ1xeLB2zDUeMo | title: Elara | modified: 2023-07-30 -->
+Elara, a woman of allure and mystery, possesses an otherworldly charm that captivates those who encounter her. With piercing sapphire eyes that seem to hold the secrets of forgotten realms, she gazes upon the world with a mixture of curiosity and intensity. Cascading raven-black hair, adorned with intricate braids and small trinkets, frames her delicate features, lending an air of ethereal beauty to her presence.
+
+Her lithe and graceful figure moves with the fluidity of a dancer, every step seemingly guided by an ancient melody only she can hear. Dressed in flowing, dark-hued robes adorned with symbols of arcane power, she exudes an aura of mystique and sophistication. A silver crescent moon pendant, an heirloom passed down through generations, rests against her heart, a symbol of her affinity with the night and the enigmatic powers she wields.
+
+Elara's knowledge of history and the arcane arts is vast and profound, rivaled only by her unyielding thirst for forbidden knowledge. Her studies delve into the darkest and most elusive corners of the past, exploring forgotten civilizations and unraveling the mysteries of long-lost magic. Her pursuit of ancient secrets often brings a hint of obsession, as if she dances dangerously close to the precipice of forbidden knowledge.
+
+Yet, behind her intellectual prowess lies a soul in turmoil. Burdened by inner demons, Elara grapples with mental instability that casts shadows over her once-brilliant mind. Her emotions can be as turbulent as the seas during a storm, ranging from moments of tenderness and warmth to fits of despair and anguish.
+
+Elara's relationship with her daughter, Liv, is complex and marred by the dark forces that tug at her heart. At times, she exhibits moments of affection and love, seeking to foster her daughter's magical talents. Yet, these tender moments often give way to bouts of cruelty and unpredictability, leaving Liv caught in the turbulent wake of her mother's emotional tempest.
+
+Her fascination with The Forgotten, the ominous tentacle monsters, hints at an attraction to the unknown and the dangerous. As if drawn by an irresistible force, she teeters on the precipice of madness and discovery, seeking to unveil the secrets locked within their dark essence.
+
+In her quest for arcane enlightenment, Elara dances a delicate waltz with forces far beyond mortal comprehension. Her relentless pursuit of knowledge and power will bring her to the brink of tragedy, setting in motion a series of events that will forever alter the lives of those entangled in her enigmatic web. To some, she is a mesmerizing enigma; to others, a source of fear and fascination. But one thing is certain – Elara's legacy will leave an indelible mark on the tapestry of Lumenshire's history.

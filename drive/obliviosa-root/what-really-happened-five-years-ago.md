@@ -1,0 +1,12 @@
+<!-- drive: 1LcdkxBYiB0mopE3Cc43XK95Fym3Bn53gN_u6LSdB0x4 | title: What really happened five years ago... | modified: 2023-07-30 -->
+In ancient times, a dark, ambitious wizard accidentally opened a portal to the void dimension, unleashing the Forgotten into Lumenshire. The Forgotten were a deadly force of monstrous foes to the people of Lumenshire for years. Eventually, they were eradicated and dissolved into myth. That wizard's descendant, Elara, would later become obsessed with researching her ancestor's work.
+
+Fawkes had once been married to the mentally unstable Elara who was a lifelong historian and witch deeply fascinated with The Forgotten. Their daughter, Liv, just nine years old at the time, showed an early aptitude for magic, much like her mother. However, the marriage was fraught with turbulence and shadows, with Fawkes often catching his wife being cruel to young Liv.
+
+One fateful day, Fawkes returned home to their lakeside cabin and found his wife tormenting Liv, holding her head under the water. Overwhelmed by rage and fear for his daughter's safety, Fawkes snapped, and a deadly scuffle ensued. In a moment of blind fury, he unintentionally drowned his wife, forever altering the course of their family.
+
+Arrested and put on trial for his wife's murder, Fawkes faced overwhelming regret and grief, while young Liv was devastated by the loss of both her parents. Determined to save her father from a grim fate, Liv delved into her mother's old magic books in search of a way to make everyone in Lumenshire forget his crimes. With desperation driving her, she attempted a dark and powerful spell during the trial, hoping to erase the memories of the dreadful incident.
+
+Tragically, the spell went awry, transforming Liv into a monstrous, giant, blue hydra beast. Consumed by her newfound nature, Liv unleashed her fury upon the courthouse and town, devouring those who crossed her path. As she devoured her victims, their memories vanished from the minds of those who knew them, leaving a trail of amnesia in her wake.
+
+The cataclysmic event gave rise to the appearance of The Forgotten, transformed into loyal followers of the monstrous hydra beast, with Liv now leading the charge against her former home. The haunting legacy of that fateful day lies deeply buried within Lumenshire's past, forever hidden from the public eye. Today, only Liv and Fawkes know what truly happened on that fateful day.
