@@ -63,3 +63,11 @@ Every open task found across the Drive docs, deduplicated, grouped. Source in br
 - [ ] Tier scaling guidance (the book cannot assume a level).
 - [ ] Session-boundary procedure: how the DM leaves and re-enters the dream, what card is lost.
 - [ ] Book structure to standard: introduction and running the dream, background, chapters by act, appendices (NPCs, monsters, items, handouts, maps), session-zero script.
+
+## Integration (Icespire table), see integration/01-plan.md
+
+- [ ] Jack decides: Sal as the forgotten friend (Ashe becomes Ashe Orendis, letter to Kael) or Sal simply absent.
+- [ ] Write Kael Orendis's father and the Kael version of the letter.
+- [ ] Victim roster for this table.
+- [ ] Scale Liv, the Forgotten, Fawkes, Seraphina to the party's entry level.
+- [ ] Hand `integration/03-handoff-for-other-dm.md` to the Icespire DM.

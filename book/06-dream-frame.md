@@ -19,7 +19,7 @@ The dream resolves one of two ways, and the party does not know which until it e
 - **Nobody in the party died in Lumenshire: it was the past.** They wake in the waking campaign remembering all of it, including where they stashed every quest reward on the island. Those caches are real and recoverable. The dream was a memory they had been made to forget, now returned.
 - **Any party member died in Lumenshire: it was the future.** No waking. No recovery. The waking campaign continues toward it.
 
-"Died" means died and stayed dead at the end of the dream. A character brought back inside the dream has not died for this rule. **[decision needed: does a character erased by Liv, rather than killed, count as dead? Recommend yes, erasure is the campaign's version of death.]**
+"Died" means died and stayed dead at the end of the dream. The forgotten friend's erasure happens before the dream begins and never counts. A character brought back inside the dream has not died for this rule. **[decision needed: does a character erased by Liv, rather than killed, count as dead? Recommend yes, erasure is the campaign's version of death.]**
 
 Tell the players at session zero that the dream is either their past or their future and that they will not know which until it ends. Do not tell them the rule that decides it.
 
