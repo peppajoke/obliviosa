@@ -29,6 +29,7 @@ Waking campaign: Phandalin, the white dragon Cryovain, the dwarf excavation, Gno
 | `07-todo.md` | Open tasks and questions for this table only. |
 | `08-salanar.md` | Rejected 2026-10-13: Salanar as Elara's partner who handed Liv the spell. |
 | `09-kael-returns.md` | Current direction: the handoff from Nick, Thorne's forgotten hook, why Sal reverts to Kael. |
+| `art/` | Image prompts for table-specific art (female Fawkes). |
 | `party/` | D&D Beyond sync: procedure, script, raw roster, changelog. |
 
 ## How this table differs from the book
@@ -36,4 +37,4 @@ Waking campaign: Phandalin, the white dragon Cryovain, the dwarf excavation, Gno
 - The forgotten friend is not Thorne. Ashe Blackwood becomes **Ashe Orendis**, and the letter is to **Kael**, the body Sal wears. The party assumes the blood on the beach is Sal's.
 - Sal is alive and in Phandalin, reachable through the sending stone, and remembers the island as it was before the rampage.
 - The reason for the trip is the letter, in both timelines.
-- Liv is Kael's daughter. Salanar was unmaking her; her mother's spell half-saved her into the hydra. Salanar jumped into Kael and left the island believing the family erased. After Cryovain, Thorne brings Sal and the party home; Liv eats Thorne on landing and Sal reverts to Kael (`09-kael-returns.md`). Parts of this README and of `01` to `06` are out of date until rewritten.
+- Liv is Kael's daughter; Fawkes is Kael's wife. Salanar was unmaking Liv and her mother's magic half-saved her into the hydra. Salanar jumped into Kael and left believing the family erased. After Cryovain, Thorne brings Sal and the party home; Liv eats Thorne on landing, Sal and Kael come apart, Kael lies at the temple of Ilmater, and evil Salanar walks again (`09-kael-returns.md`). Parts of this README and of `01` to `06` are out of date until rewritten.
