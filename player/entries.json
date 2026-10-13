@@ -462,7 +462,13 @@
     "related": [
       "party"
     ],
-    "seen": "Before Lumenshire"
+    "seen": "Before Lumenshire",
+    "images": [
+      {
+        "src": "img/darla-dewdrop.jpg",
+        "caption": "Darla"
+      }
+    ]
   },
   {
     "id": "porridge",
@@ -494,7 +500,13 @@
     "related": [
       "party"
     ],
-    "seen": "Before Lumenshire"
+    "seen": "Before Lumenshire",
+    "images": [
+      {
+        "src": "img/rowan-sunwood.jpg",
+        "caption": "Rowan"
+      }
+    ]
   },
   {
     "id": "rynn-caulrunners",
@@ -510,7 +522,13 @@
     "related": [
       "party"
     ],
-    "seen": "Before Lumenshire"
+    "seen": "Before Lumenshire",
+    "images": [
+      {
+        "src": "img/rynn-caulrunners.jpg",
+        "caption": "Rynn"
+      }
+    ]
   },
   {
     "id": "sprig-grenoble",
@@ -526,7 +544,13 @@
     "related": [
       "party"
     ],
-    "seen": "Before Lumenshire"
+    "seen": "Before Lumenshire",
+    "images": [
+      {
+        "src": "img/sprig-grenoble.jpg",
+        "caption": "Sprig"
+      }
+    ]
   },
   {
     "id": "tj-star",
@@ -542,6 +566,12 @@
     "related": [
       "party"
     ],
-    "seen": "Before Lumenshire"
+    "seen": "Before Lumenshire",
+    "images": [
+      {
+        "src": "img/tj-star.jpg",
+        "caption": "TJ"
+      }
+    ]
   }
 ]

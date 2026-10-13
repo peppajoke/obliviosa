@@ -490,6 +490,7 @@ window.THINGS = [
     summary: "Nat's halfling Rogue 5 (Soulknife). Her sending stone is paired with Sal's, which is now on unconscious Kael at the temple. Karleen's track is hers: the treehouse, the break-in, the DON'T FORGET pages.",
     details: "From D&D Beyond (pulled 2026-10-11):\nHalfling Rogue 5 / Soulknife, background Farmer. Player: Nat. HP 28, 50 gp.\nSTR 8 DEX 15 CON 10 INT 12 WIS 13 CHA 14\nFeats: Actor, Tough, Weapon Mastery, Dark Bargain\nExpertise: Persuasion, Animal Handling\nMagic items: Sending Stones, Potion of Invisibility, Ring of Warmth (eq)\nGear: Shortbow, Shortsword, 2 daggers, Thieves' Tools, Healer's Kit, Ball bearings x1000, Riding horse, Blue sapphire\nLanguages: Common, Halfling, Elvish, Thieves' Cant, Common Sign Language",
     links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164907865"}],
+    images: [{ src: "img/darla-dewdrop.jpg", caption: "Darla, from Jack" }],
     related: ["sending-stones", "karleen", "karleen-track", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -508,6 +509,7 @@ window.THINGS = [
     summary: "Tara's wood elf Druid 5 (Circle of the Land) from Ardeep Forest. Revivify; Lightning Bolt hits the Forgotten's weakness. Ashe's dogs and the Reach are hers.",
     details: "From D&D Beyond (pulled 2026-10-11):\nElf (wood) Druid 5 / Circle of the Land, background Farmer. Player: Tara. HP 28, 50 gp.\nSTR 8 DEX 13 CON 14 INT 10 WIS 15 CHA 12\nFeats: Crafter, Tough, Dark Bargain\nCantrips: Starry Wisp, Frostbite, Thorn Whip, Druidcraft\nSpells: Healing Word, Moonbeam, Warding Wind, Thunderwave, Absorb Elements, Ice Knife, Conjure Animals, Revivify, Earth Tremor\nLand spells: Speak with Animals, Find Familiar, Shocking Grasp, Sleep, Misty Step, Lightning Bolt\nMagic items: Staff of the Python (eq), Ring of Warmth (eq), Potion of Healing\nLanguages: Common, Elvish, Druidic\nLooks: Female wood elf, 136, light copper skin, strawberry blonde hair dyed pink, green eyes; from Ardeep Forest, ambassador to Nightstone and Waterdeep; rowan staff with copper charms\nPossession: Egg shell painted with scenes of misery in disturbing detail\nBackstory: Born in Ardeep Forest to wood elf druids; forest guardian turned ambassador; began travelling at 120 to teach balance of nature, heal nature in towns, make animal friends.",
     links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164292669"}],
+    images: [{ src: "img/rowan-sunwood.jpg", caption: "Rowan, from Jack" }],
     related: ["revivify", "the-forgotten", "forgotten-reach", "haunted-one-props", "past-future-rule", "shrine-of-savras", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -517,6 +519,7 @@ window.THINGS = [
     summary: "Steph's human Monk 5 (Warrior of Mercy). Her island hooks are the Staff of Silence and sneaking up on Liv while she is not singing; her drum is a noise tool against the song.",
     details: "From D&D Beyond (pulled 2026-10-11):\nHuman Monk 5 / Warrior of Mercy, background Wayfarer. Player: Steph. HP 28, 50 gp.\nSTR 12 DEX 15 CON 14 INT 10 WIS 13 CHA 8\nFeats: Lucky, Savage Attacker, Fey Touched, Dark Bargain\nMagic items: Ring of Warmth (eq, attuned), 2 Spell Scrolls (1st), 2 Potions of Healing\nGear: Quarterstaff, Spear, 5 daggers, Drum, Brewer's Supplies, Herbalism Kit, Thieves' Tools, Riding horse\nLanguages: Common, Common Sign Language, Orc",
     links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164569028"}],
+    images: [{ src: "img/sprig-grenoble.jpg", caption: "Sprig, from Jack" }],
     related: ["staff-of-silence", "song-counters", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -526,6 +529,7 @@ window.THINGS = [
     summary: "Alicia's half-orc Barbarian 4 (Berserker), flaw 'I have an addiction'. He is the 'so drunk the song cannot land' discovery; Hydra's Fury at the Dragon's Inn is for him.",
     details: "From D&D Beyond (pulled 2026-10-11):\nHalf-Orc Barbarian 4 / Berserker, background Haunted One. Player: Alicia. HP 33, 550 gp.\nSTR 15 DEX 12 CON 13 INT 8 WIS 10 CHA 14\nFeats: Weapon Mastery, Dual Wielder, Dark Bargain\nMagic items: Clockwork Amulet x2 (one eq), Potion of Healing\nGear: Flail (eq), Morningstar (eq), Shortsword (eq), Greataxe, 4 handaxes, Shield, three chests of gear\nLanguages: Common, Orc, Infernal\nTraits: {\"personality\": \"I spend money freely and live life to the fullest, knowing that tomorrow I might die. I expect danger around every corner.\", \"ideal\": \"I'm a monster that destroys other monsters, and anything else that gets in my way.\", \"bond\": \"My torment drove away the person I love. I strive to win back the love I've lost. There's evil in me, I can feel it. It must never be set free.\", \"flaw\": \"I have an addiction. I assume the worst in people.\"}\nLooks: Male half-orc, 37, 6'11, 303 lb, hazel eyes, silver hair, green skin\nPossession: A single caltrop made from bone",
     links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164293521"}],
+    images: [{ src: "img/tj-star.jpg", caption: "TJ, from Jack" }],
     related: ["hydras-fury", "song-counters", "haunted-one-props", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -535,6 +539,7 @@ window.THINGS = [
     summary: "Hailey's dwarf Fighter 4 (Battle Master); Hailey rarely plays. Fine to be absent without comment; if present, Willem's Forge is her door.",
     details: "From D&D Beyond (pulled 2026-10-11):\nDwarf Fighter 4 / Battle Master, background Artisan. Player: Hailey (rarely plays). HP 28, 24 gp.\nSTR 15 DEX 14 CON 12 INT 13 WIS 8 CHA 10\nFeats: Crafter, Weapon Mastery, Great Weapon Fighting, Great Weapon Master\nGear: Breastplate, Maul, Handaxe, Smith's Tools\nLanguages: Common, Dwarvish, Common Sign Language",
     links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/168063159"}],
+    images: [{ src: "img/rynn-caulrunners.jpg", caption: "Rynn, from Jack" }],
     related: ["willems-forge", "willem"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
