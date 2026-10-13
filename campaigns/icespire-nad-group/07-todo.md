@@ -22,15 +22,17 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [ ] Cid: perception void or not. (`01-plan.md`)
 - [ ] Is the Icespire DM comfortable with Cryovain having already hit Phandalin, if that version survives? (`01-plan.md`)
 
-## Kael returns (from `09-kael-returns.md`, 2026-10-13, second pass)
+## Kael returns (from `09-kael-returns.md`, 2026-10-13, third pass)
 
-- [x] 08 rejected. Sal inside the hydra rejected.
-- [x] Close to the original design. Nick cuts to black in the Cryovain epilogue; letter-in-blood opening; Sal not with the party.
-- [x] Sal came with the party and told them why; Liv wiped it on arrival; Sal reverts to Kael, who has returned home as a hero presumed dead.
-- [x] The forgotten friend is Kael's old friend who roped them in; eating them erases the hook.
-- [ ] Confirm Thorne as that friend, and the epilogue beat for Nick ("Kael?").
-- [ ] Confirm the mechanism: the song peels Salanar off as a graft; Thorne's erasure is why it happened that night.
-- [ ] Kael: the mayor, or a returning hero beside Fawkes?
-- [ ] Lysa as Liv: Elara as Kael's sister?
+- [x] Rejected: 08, Sal inside the hydra, Fawkes as Kael.
+- [x] Nick cuts to black in the Cryovain epilogue; letter-in-blood opening; Sal not with the party.
+- [x] Thorne is Kael's old friend, meets Sal at the epilogue, thinks he is Kael, shows him the letter; Sal knows it is his fault.
+- [x] The Great Erasure happened on Lumenshire; Sal fled in Kael's body thinking it was over; Liv became the hydra as a result and he never knew.
+- [x] On arrival Liv eats Thorne, the hook goes, Sal reverts to Kael, welcomed home as a hero presumed dead. Kill Liv or lift the curse and Sal returns.
+- [ ] Confirm the reframe: the Erasure tore the void open, Elara felt it, the drowning was a ritual, Liv's Oblivion poured through her.
+- [ ] Sal's Lysa/slavers mission: drop, Elara "took" her, or rename only.
+- [ ] Kael as Elara's brother (portal blood) or Fawkes's.
+- [ ] Ashe Orendis back to Ashe Blackwood.
+- [ ] Table timeline: Erasure about two years ago, trial weeks to months after.
 - [ ] Dream frame: still used at this table?
 - [ ] Rewrite `01` to `06` and the handoff (`03`, now for Nick).

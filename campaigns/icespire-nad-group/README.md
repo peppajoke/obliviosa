@@ -36,4 +36,4 @@ Waking campaign: Phandalin, the white dragon Cryovain, the dwarf excavation, Gno
 - The forgotten friend is not Thorne. Ashe Blackwood becomes **Ashe Orendis**, and the letter is to **Kael**, the body Sal wears. The party assumes the blood on the beach is Sal's.
 - Sal is alive and in Phandalin, reachable through the sending stone, and remembers the island as it was before the rampage.
 - The reason for the trip is the letter, in both timelines.
-- After Cryovain, Thorne brings the party and Sal to Lumenshire. Liv eats Thorne on landing, the party forgets why they came, and Sal reverts to Kael, who is hailed as a returning hero (`09-kael-returns.md`). Parts of this README and of `01` to `06` are out of date until rewritten.
+- Salanar's Great Erasure happened on Lumenshire and led to Liv; he fled in Kael's body and never knew. After Cryovain, Thorne finds him, thinks he is Kael, and brings him and the party home. Liv eats Thorne on landing, the party forgets why they came, and Sal reverts to Kael (`09-kael-returns.md`). Parts of this README and of `01` to `06` are out of date until rewritten.

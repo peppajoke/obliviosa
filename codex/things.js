@@ -10,7 +10,7 @@ window.THINGS = [
     type: "monster", scope: "book", status: "canon",
     summary: "Fawkes and Elara's daughter. At nine she cast Oblivion at her father's murder trial to make the town forget his crime; the spell failed and she became a thirty-foot blue memory-devouring hydra. Anyone she eats is erased from the memory of everyone who knew them.",
     details: "Cannot speak; understands Common. Wants to be with her father. Knows everything.\nCR 10, AC 17, HP 195, speed 40 / swim 40. Multiattack: bite +10 (2d10+6) and two tentacles +10 (2d6+6, grapple DC 16, up to three grappled).\nFrightful Presence DC 16 Wis, 120 ft. Legendary Resistance 3/day. Regeneration 10 unless she took acid or fire damage. Must submerge every 4 hours.\nLair actions replay stolen memories: Memory Eruption, Spectral Guardian (a Specter), Distorted Reality; legendary lair actions Memory Maze, Phantasmal Assault, Reverie of Oblivion (DC 16).\nShe sings the hydra song. Killing her restores every lost memory on the island; saving her through a willing keeper does too (keeper clause).\nOpen: INT 2 vs. a Liv who 'longs for forgiveness'; Frightful Presence is referenced as 'altered memory' by a lair action but does not alter memory.",
-    table: "At this table Liv is Lysa, the girl Kael was trying to save (decided 2026-10-13). Open: if Fawkes stays her father, Elara is Kael's sister. Sal is not inside her (rejected).",
+    table: "At this table Liv is Lysa, the girl Kael was trying to save (decided 2026-10-13). Decided: she became the hydra as a result of Salanar's Great Erasure, and Sal never knew. Proposal (09): the Erasure left the void open, so her Oblivion at the trial poured through her and made her the vessel. Kael is her uncle.",
     related: ["fawkes", "elara", "spell-oblivion", "night-of-the-spell", "hydra-song", "keeper-clause", "livs-lair", "the-forgotten", "hydra-spawn", "cult-of-obliviosa", "the-feedings", "salanar"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "book/00-canon.md", "book/02-story-flow.md", "book/05-sacrifice-and-hooks.md", "drive/characters/liv-obliviosa.md", "drive/obliviosa-root/what-really-happened-five-years-ago.md", "drive/loose/false-hydra-redux-script.md", "campaigns/icespire-nad-group/08-salanar.md"]
   },
@@ -19,7 +19,7 @@ window.THINGS = [
     type: "person", scope: "book", status: "canon",
     summary: "Mayor of Lumenshire, hailed as the hero who drove off 'the Forgotten's attack' five years ago. In truth he killed his wife Elara while she was drowning Liv, and has fed captives to his daughter every few nights since. The only person who remembers everything; suicidal at campaign start.",
     details: "Human fighter 10 (sheet says Lawful Evil). AC 18, HP 85, longsword +1, Protection style, Second Wind, Action Surge, crits on 19-20.\nGreying hair, deep blue eyes, gold and silver armour, dark blue cloak.\nWants to keep Liv alive and keep Karleen out of it. Can be convinced to change.\nHis serum plan for the Remembrance Festival is the keeper ritual by force (decided 2026-10-11, Q3). He owns the Oblivion tome but not the Eternal Tome, so he does not know the clause needs consent.\nHands out marbles that each imprison one witness. Declining his errand means never leaving the island.",
-    table: "Decided 2026-10-13 (09): Kael has returned home and the town hails him as a hero presumed dead; Fawkes puts him on the re-election posters. Open: whether Kael is the mayor or a returning hero beside Fawkes (the first pass made Fawkes Kael).",
+    table: "Proposal (09): Kael's brother-in-law. He welcomes Kael home as a hero presumed dead and puts him on the re-election posters. He knows everything; whether he tells Kael about Liv is his choice. (Fawkes as Kael was rejected 2026-10-13.)",
     related: ["liv", "elara", "karleen", "seraphina-dawnbringer", "luminous-vanguard", "fawkes-serum", "fawkes-marbles", "oblivion-tome", "fawkes-trial", "the-feedings", "remembrance-festival", "town-hall", "fawkes-secret-lair", "fawkes-track", "ending-fawkes-sacrifice"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "book/00-canon.md", "book/02-story-flow.md", "book/05-sacrifice-and-hooks.md", "drive/characters/mayor-fawkes.md", "drive/loose/fawkes-missions.md", "drive/obliviosa-root/what-really-happened-five-years-ago.md", "drive/loose/false-hydra-redux-script.md", "campaigns/icespire-nad-group/08-salanar.md"]
   },
@@ -28,6 +28,7 @@ window.THINGS = [
     type: "person", scope: "book", status: "canon",
     summary: "Fawkes's wife and Liv's mother: a historian-witch obsessed with the Forgotten and descended from the wizard who first opened the void portal. Fawkes killed her while she was drowning Liv. Decided 2026-10-11 (Q2): she is the will inside the Forgotten, and Liv is her way back into a body.",
     details: "Sapphire eyes, raven-black braided hair, silver crescent-moon pendant. Mentally unstable, alternately tender and cruel to Liv.\nRedux goal: reunite her family into one being, devour Lumenshire as fuel and ascend; Liv is half the plan.\nHer plan and the cure are the same ritual with different intent: she wants to be the keeper of every memory on the island, which is why the cultists feed Liv.\nEndings 4 (kill Elara, save Liv) and 6 (Elara wins) are hers.",
+    table: "Proposal (09): Kael's older sister. The Great Erasure tore the void open; she felt it, and her cruelty to Liv became a ritual to make Liv (same blood) the door. That is the drowning Fawkes stopped.",
     related: ["fawkes", "liv", "the-forgotten", "portal-wizard", "oblivion-tome", "keeper-clause", "lakeside-cabin", "ending-kill-elara", "ending-elara-wins", "salanar"],
     sources: ["book/00-canon.md", "book/03-open-questions.md", "book/05-sacrifice-and-hooks.md", "drive/characters/elara.md", "drive/obliviosa-root/what-really-happened-five-years-ago.md", "drive/loose/false-hydra-redux-script.md", "campaigns/icespire-nad-group/08-salanar.md"]
   },
@@ -62,7 +63,7 @@ window.THINGS = [
     type: "person", scope: "book", status: "canon",
     summary: "Ashe's son, a Lumenshire-born ranger and the party's friend, who brought them to the island after his father's letter and was eaten by Liv during the wreck. Nobody remembers him; only his blood, his family blade and the letter remain.",
     details: "Originally designed as a planted 'fake' player who leaves the table when the song first plays (option A). Options B (cold open) and C (replace him) exist; decided 2026-10-11 (Q6) that each table chooses.\nFixed facts whatever the choice: Ashe's son, carried the family blade, eaten during the wreck and the reason it happened.\nMay have been romantically attached to Karleen (mentioned once, undecided).",
-    table: "Proposal (09, 2026-10-13): back in the Icespire run as Kael's oldest friend. He found Sal at the Cryovain victory celebration, heard the truth, asked him to come home as Kael anyway, and brought the party. Liv ate him on landing, which erased the hook.",
+    table: "Decided 2026-10-13 (09): Kael's old friend. At the Cryovain epilogue he sees Sal, thinks he is Kael, and shows him Ashe's letter; Sal knows it is his fault and goes home as Kael with the party. Liv eats Thorne on landing, which erases the hook.",
     related: ["forgotten-friend", "ashe-blackwood", "letter-found-in-blood", "blackwood-blade", "the-wreck", "salt-wind-toast", "thornes-journal", "karleen"],
     sources: ["book/01-opening-the-letter.md", "book/03-open-questions.md", "drive/characters/thorne-blackwood.md", "drive/loose/obliviosa-session-0.md", "drive/loose/act-1-salvage-operation.md", "campaigns/icespire-nad-group/01-plan.md"]
   },
@@ -208,31 +209,31 @@ window.THINGS = [
   {
     id: "salanar", name: "Sal (Salanar)", aliases: ["Sal", "Salanar", "Brother Salanar"],
     type: "person", scope: "icespire", status: "canon",
-    summary: "Jack's paladin: the soul of Salanar, a grief-mad healer who used void stones in an erasure he believed was mercy, living in Kael Orendis's body. Decided 2026-10-13 (09): after Cryovain he sails to Lumenshire with the party, and on landing Liv's song reverts him to Kael. Kill Liv or lift the curse and Sal comes back.",
-    details: "Paladin 5, Oath of Redemption, HP 34, Sentinel Shield. Faith Ilmater. Two years 'clean', wears his last void stone on a cord. Hears two voices, Ilmater and the Unmaker. Sponsor: Brother Aldric.\nAt the table he is a lighthearted, peacekeeping goofball, open about having done something terrible; do not make him grim.\nProposal (09): Thorne found him in Phandalin, Sal told him the truth, and agreed to go home as Kael. The song takes what does not belong: Salanar is a graft of memories and it peels off, leaving Kael.\nRejected 2026-10-13: 08 (Elara's partner) and Sal inside the hydra.",
+    summary: "Jack's paladin: the soul of Salanar living in Kael Orendis's body. Decided 2026-10-13: Salanar was Lumenshire's healer, caused the Great Erasure there, took Kael's body and fled believing it was over. Liv became the hydra as a result and he never knew. Thorne's letter tells him. On landing he reverts to Kael; kill Liv or lift the curse and Sal comes back.",
+    details: "Paladin 5, Oath of Redemption, HP 34, Sentinel Shield. Faith Ilmater. Two years 'clean', wears his last void stone on a cord. Hears two voices, Ilmater and the Unmaker. Sponsor: Brother Aldric.\nAt the table he is a lighthearted, peacekeeping goofball, open about having done something terrible; do not make him grim.\nProposal (09): the song peels Salanar off as a graft of borrowed memories, leaving Kael.\nOpen: what becomes of the Lysa/slavers mission (drop it, Elara 'took' her, or rename only).\nRejected 2026-10-13: 08 (Elara's partner), Sal inside the hydra, Fawkes as Kael.",
     related: ["kael-orendis", "void-stones", "great-erasure", "vel-tharin", "merith", "brother-aldric", "lysa", "two-voices", "sending-stones", "elara", "jack", "sals-errand", "accomplice-slot"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/05-goal-stones-and-origin.md", "campaigns/icespire-nad-group/07-todo.md"]
   },
   {
     id: "kael-orendis", name: "Kael Orendis", aliases: ["Kael", "my beloved son Kael"],
     type: "person", scope: "icespire", status: "canon",
-    summary: "The paladin whose body Sal wears. Decided 2026-10-13 (09): on landing at Lumenshire Sal reverts to Kael, who walks home and is hailed as a hero presumed dead. His face is on the posters; the party can meet him.",
-    details: "Fixed: Kael, the body swap, Kael's oath and his mission to find Lysa, who at this table is Liv.\nProposal (09): Thorne's oldest friend. Remembers up to confronting Salanar two years ago, then waking in the surf with a black stone on a cord. Earnest, on Fawkes's side because Fawkes welcomed him home. If he wears Sal's sending stone, he answers Darla's: 'Who is this?'",
+    summary: "The paladin whose body Sal wears. Decided 2026-10-13: he confronted Salanar during the Great Erasure on Lumenshire and was taken; on landing with the party two years later, Sal reverts to Kael, who is welcomed home as a hero presumed dead.",
+    details: "Fixed: Kael, the body swap, Kael's oath, his niece (Liv, at this table).\nProposal (09): Elara's younger brother, Liv's uncle, Thorne's oldest friend; carries the portal-wizard's blood, which is why Salanar could take him. Wakes in the surf believing it is still the night of the Erasure, with a black stone on a cord he does not know, and hunts Salanar. If he wears Sal's sending stone he answers Darla's: 'Who is this?'",
     related: ["salanar", "ashe-blackwood", "letter-found-in-blood", "lysa", "great-erasure"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/05-goal-stones-and-origin.md", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
   {
     id: "lysa", name: "Lysa", aliases: ["Kael's niece", "Ashe's granddaughter"],
     type: "person", scope: "icespire", status: "canon",
-    summary: "Kael's niece in Sal's sheet, taken by Calishite slavers; finding her is Kael's mission. Decided 2026-10-13 (09): at this table Lysa is Liv.",
-    details: "The older options in 06 (nameless child, Karleen, eaten, cult acolyte) are superseded. Open: whether she is Kael's daughter (book Liv) or niece (sheet).",
+    summary: "Kael's niece in Sal's sheet, taken by Calishite slavers six months before the Erasure. Decided 2026-10-13: at this table Lysa is Liv.",
+    details: "Open (09): drop the slavers (Sal believed she was safe with her father and stayed away out of shame), Elara 'took' her and blamed slavers, or rename only.",
     related: ["kael-orendis", "salanar", "ashe-blackwood", "karleen", "cult-of-obliviosa", "boat-graveyard", "mosco", "brother-aldric", "election-boy"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "campaigns/icespire-nad-group/06-lysa-options.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/07-todo.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
   {
     id: "sals-disappearance", name: "Sal's disappearance", aliases: ["after Cryovain", "the bridge to Lumenshire"],
     type: "event", scope: "icespire", status: "proposal",
-    summary: "Decided 2026-10-13 (09): Nick cuts to black during the Cryovain epilogue; the party wakes on the beach without Sal. Proposal: Nick's one beat is a salt-stained stranger (Thorne) stopping in front of Sal at the celebration: 'Kael?'",
+    summary: "Decided 2026-10-13: at the Cryovain epilogue Thorne finds Sal, thinks he is Kael and shows him Ashe's letter; Nick cuts to black and the party wakes on the beach without Sal. Nick's one beat: a salt-stained stranger stops in front of Sal and says 'Kael?'",
     details: "Forgotten by the party: Thorne recruited them and Sal to sail home; Liv ate Thorne on landing, so the hook went with him, and the song peeled Salanar off Kael. Earlier bridge ideas (Sal leaving alone, the humming stone, a relapse, the wreckers) are superseded.",
     related: ["salanar", "kael-orendis", "cryovain", "thorne-blackwood", "letter-found-in-blood", "icespire-dm", "sending-stones", "liv"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md"]
@@ -440,7 +441,7 @@ window.THINGS = [
   {
     id: "vel-tharin", name: "The Vel'tharin", aliases: ["Vel'tharin", "the healer order"],
     type: "faction", scope: "icespire", status: "proposal",
-    summary: "Salanar's people, a healer order of Ilmater that sang burden songs. Sal's sheet places them in the Alimir foothills of Calimshan.",
+    summary: "Salanar's people, a healer order of Ilmater that sang burden songs. Proposal (09): Lumenshire's own small order, unmade in the Great Erasure and forgotten by the island.",
     details: "Proposal: unmade in the Great Erasure on the night of Liv's spell; most became the Forgotten; Liv's song is their burden song. The table may already have heard 'Calimshan' (see Sal).",
     related: ["salanar", "burden-songs", "great-erasure", "veltharin-chapel", "the-forgotten", "calimshan"],
     sources: ["campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
@@ -710,8 +711,8 @@ window.THINGS = [
   {
     id: "calimshan", name: "Calimshan (Alimir foothills)", aliases: ["Alimir foothills"],
     type: "place", scope: "icespire", status: "canon",
-    summary: "Where Sal's sheet places the Vel'tharin commune and the Great Erasure, and where Lysa's Calishite slavers came from.",
-    details: "Back to open after the 08 relocation to Lumenshire was rejected (2026-10-13).",
+    summary: "Where Sal's sheet placed the Vel'tharin and the Great Erasure, and where Lysa's Calishite slavers came from. Superseded 2026-10-13: the Erasure happened on Lumenshire.",
+    details: "What survives of Calimshan depends on the Lysa/slavers decision in 09.",
     related: ["vel-tharin", "great-erasure", "lysa", "salanar"],
     sources: ["campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/02-party.md"]
   },
@@ -903,7 +904,7 @@ window.THINGS = [
     id: "void-stones", name: "Void stones", aliases: ["void stone", "Sal's last void stone", "black stone"],
     type: "item", scope: "icespire", status: "canon",
     summary: "Black crystals that erase pain, and held long enough, erase people. Salanar's addiction; he wears his last one on a cord to resist it. Decided 2026-10-13: void stones belong to this story.",
-    details: "Decided 2026-10-11: no void stone prop on the beach.\nProposal (09): when Cryovain dies Sal's last stone starts humming, one possible reason he goes to Lumenshire; the void stones or Liv wipe Sal out of Kael.",
+    details: "Decided 2026-10-11: no void stone prop on the beach.\nProposal (09): shards of the portal Elara's ancestor opened, washing up on the Reach. Salanar's Erasure with them tore the void open again. Kael wakes wearing Sal's last one and does not know what it is.",
     related: ["salanar", "portal-wizard", "keeper-clause", "great-erasure", "brother-aldric", "vial-of-complete-restoration"],
     sources: ["campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/01-plan.md"]
   },
@@ -970,7 +971,7 @@ window.THINGS = [
     type: "document", scope: "book", status: "canon",
     summary: "Ashe's soaked letter to his son, found in the pool of blood on the beach. He describes a wailing song, toys and sketches of a family he cannot remember, and begs his son to come home. It is the campaign's opening, handed over as a physical prop.",
     details: "Signed 'Your loving father, Ashe Blackwood'. Optional: 'DON'T FORGET M' scratched in blood on the rock beside the pool.",
-    table: "Proposal (09, 2026-10-13): back to the book version, to Thorne from Ashe Blackwood. Nick cuts to black during the Cryovain epilogue and Jack opens on it.",
+    table: "Back to the book version, to Thorne from Ashe Blackwood. Thorne shows it to Sal at the Cryovain epilogue (decided 2026-10-13); Nick cuts to black and Jack opens on it.",
     related: ["ashe-blackwood", "thorne-blackwood", "kael-orendis", "the-wreck", "blackwood-blade", "forgotten-friend"],
     sources: ["drive/found-documents/a-letter-found-in-blood.md", "book/01-opening-the-letter.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/05-goal-stones-and-origin.md"]
   },
@@ -1159,8 +1160,8 @@ window.THINGS = [
   {
     id: "great-erasure", name: "The Great Erasure", aliases: ["the Erasure"],
     type: "event", scope: "icespire", status: "canon",
-    summary: "Salanar's catastrophe: with void stones he unmade nearly all the Vel'tharin, believing he was ending suffering. Kael led the survivors to confront him. The 08 proposal moving it to Lumenshire was rejected 2026-10-13; where it happened is open again.",
-    details: "Sheet version: in Calimshan.",
+    summary: "Salanar's catastrophe. Decided 2026-10-13: it happened on Lumenshire, about two years ago; Liv became the hydra as a result. Proposal (09): he unmade the Vel'tharin with void stones, the island forgot them, and the unmaking tore the void open again.",
+    details: "Kael confronted him that night and was taken; Salanar left on the next boat thinking it was over. The sheet's Calimshan location is superseded.",
     related: ["salanar", "vel-tharin", "void-stones", "night-of-the-spell", "kael-orendis", "calimshan"],
     sources: ["campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/07-todo.md"]
   },
