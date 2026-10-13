@@ -64,12 +64,4 @@ Every open task found across the Drive docs, deduplicated, grouped. Source in br
 - [ ] Session-boundary procedure: how the DM leaves and re-enters the dream, what card is lost.
 - [ ] Book structure to standard: introduction and running the dream, background, chapters by act, appendices (NPCs, monsters, items, handouts, maps), session-zero script.
 
-## Integration (Icespire table), see integration/01-plan.md
-
-- [x] Sal is alive and absent; the party must presume him dead. Ashe becomes Ashe Orendis, letter to Kael.
-- [ ] Write Ashe Orendis and the Kael version of the letter.
-- [ ] Define the past-timeline artifact against Cryovain (recommend the Forgetting Edge, forged from Liv's scale).
-- [ ] Define the future-timeline reason for the trip (recommend the letter for Kael arriving in Phandalin).
-- [ ] Write Sal's stay-behind scene for each timeline, for the Icespire DM to seed.
-- [ ] Scale Liv, the Forgotten, Fawkes, Seraphina to the party's entry level.
-- [ ] Hand `integration/03-handoff-for-other-dm.md` to the Icespire DM.
+Table-specific tasks live with each table under `../campaigns/`.

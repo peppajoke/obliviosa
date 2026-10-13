@@ -8,7 +8,12 @@ Jack's homebrew D&D 5e campaign. A false-hydra mystery on the isolated island of
 | --- | --- |
 | `drive/` | Verbatim text mirror of every Google Drive doc for this campaign (46 docs). One folder per Drive folder, plus `loose/` for docs that sit in My Drive root. Each file's first line is an HTML comment with the Drive id and last-modified date. **Do not edit these; they are the pull side of the sync.** |
 | `book/` | The general Lumenshire campaign, the material that becomes the published campaign book. This is where story edits happen. |
-| `integration/` | How the book is run inside the campaign Jack currently plays in. Game-specific; never goes in the book. |
+| `campaigns/` | One folder per real table running Obliviosa. Specific people, characters and the host campaign it plugs into. Never goes in the book. |
+| `campaigns/icespire-nad-group/` | Jack's current table: the NAD Group's *Dragon of Icespire Peak* game (Cryovain, Phandalin), where Jack plays Sal. |
+
+## The separation rule
+
+`book/` is the generic, publishable campaign. It never names a real player, a specific party's characters, or a host campaign (no Sal, Kael, Phandalin, Cryovain). Anything that only makes sense for one group goes in that group's `campaigns/` folder. When a table decision would work for any table, write the general version into `book/` and keep the specific one in `campaigns/`.
 | `MANIFEST.json` | Drive id, title, folder, modified date for every mirrored doc. Used to re-pull. |
 
 ## book/

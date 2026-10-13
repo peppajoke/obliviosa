@@ -8,7 +8,7 @@ Lumenshire sits "far off the coast of Neverwinter" in every location doc. Phanda
 
 ## Entry
 
-The Icespire DM knocks the whole party out at a moment of their choosing. They wake on the beach in Lumenshire beside a wrecked hull they do not recognise, a pool of blood, and the letter. Jack is DM from that moment and the book's cold open runs (`../book/01-opening-the-letter.md`).
+The Icespire DM knocks the whole party out at a moment of their choosing. They wake on the beach in Lumenshire beside a wrecked hull they do not recognise, a pool of blood, and the letter. Jack is DM from that moment and the book's cold open runs (`../../book/01-opening-the-letter.md`).
 
 **The players do not remember why they are here.** That memory is the first thing the song took. Whatever the reason turns out to be (below), they discover it on the island, not before.
 
@@ -47,7 +47,7 @@ Synced from D&D Beyond 2026-10-11: the party is level 4 to 5 (see `02-party.md`)
 
 ## Void of perception, applied
 
-See `../book/06-dream-frame.md`. Named NPCs are shown normally. Unnamed people who will die on the island (guards, citizens, the sailor on the beach) are perception voids. Cid is undecided and stays open.
+See `../../book/06-dream-frame.md`. Named NPCs are shown normally. Unnamed people who will die on the island (guards, citizens, the sailor on the beach) are perception voids. Cid is undecided and stays open.
 
 ## Decisions taken 2026-10-11
 

@@ -1,6 +1,6 @@
 # 03. Open questions and contradictions
 
-**Status 2026-10-11: Jack accepted every recommendation below (Q1 cut, Q2 Elara is the will inside the Forgotten, Q3 serum is the keeper ritual by force, Q4 Karleen only, Q5 cut the cave sex scene, Q6 superseded by the integration plan, Q7 Neverwinter, Q8 the proposed timeline, Q9 the lair, Q10 salvage Thaddeus Finn). Kept for the reasoning. Remaining open items live in `04-todo.md` and `../integration/01-plan.md`.**
+**Status 2026-10-11: Jack accepted every recommendation below (Q1 cut, Q2 Elara is the will inside the Forgotten, Q3 serum is the keeper ritual by force, Q4 Karleen only, Q5 cut the cave sex scene, Q6 the forgotten friend is chosen per table from the options in `01-opening-the-letter.md`, Q7 Neverwinter, Q8 the proposed timeline, Q9 the lair, Q10 salvage Thaddeus Finn). Kept for the reasoning. Remaining open items live in `04-todo.md`; table-specific ones live under `../campaigns/`.**
 
 Decisions only Jack can make. Each has a recommendation so it can be answered with one word.
 

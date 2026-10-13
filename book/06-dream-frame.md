@@ -31,7 +31,7 @@ The dream resolves one of two ways, and the party does not know which until it e
 - **The letter beat still works.** The forgotten friend is whoever brought them here. With an existing party the strongest version is a real NPC from the waking campaign who the DM pulls into the dream and feeds to Liv first.
 - **Rewards must be stashable.** Every significant reward on the island needs a place it can be left so the past ending can pay out. Design item placement with "where would they hide this" in mind.
 - **The keeper sacrifice interacts with the past/future rule.** A keeper is forgotten, not killed. If the party saves Liv through a volunteer and nobody dies, it was the past. The keeper wakes with everyone else; nobody at the table but their own player remembers who they were on the island. (Decided 2026-10-11.)
-- **The party does not remember why they came.** That memory is the first thing the song takes. The reason is discovered on the island and should differ by timeline (see any table's integration notes).
+- **The party does not remember why they came.** That memory is the first thing the song takes. The reason is discovered on the island and should differ by timeline (each table decides its own; see that table's folder under `../campaigns/`).
 - **Session boundaries are the song.** Each time the DM leaves Lumenshire for the waking campaign, the song plays. Each return begins mid-scene or on the beach. Players should expect to lose a memory card at every boundary.
 
 ## The void of perception (replaces "blurred faces", Jack, 2026-10-11)

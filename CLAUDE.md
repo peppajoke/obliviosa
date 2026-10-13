@@ -1,0 +1,9 @@
+# Working in this repo
+
+Jack keeps feeding story ideas in conversation; refine the docs as they come and treat everything as fluid until he says otherwise.
+
+- `book/` is the generic Obliviosa campaign book. Never put real players, a specific party's characters, or a host campaign (Sal, Kael, Phandalin, Cryovain, Icespire) in it.
+- `campaigns/<table>/` holds everything specific to one real group. The current one is `campaigns/icespire-nad-group/`.
+- When an idea is specific to Jack's table, write it in the campaign folder. When it would work for any table, write the general version in `book/` and the specific application in the campaign folder.
+- `drive/` is a read-only mirror of Google Drive. Do not edit it.
+- Record Jack's decisions with dates, and move answered questions out of the open lists.
