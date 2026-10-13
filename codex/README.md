@@ -39,3 +39,9 @@ Rules:
 - `deprecated` is for things that only survive in `drive/deprecated/` or were explicitly cut.
 - Pictures live in `codex/img/`, named after the entry id (`<id>.jpg`, then `<id>-2.jpg` and so on for extras). `src` is relative to `codex/`. Keep them small: at most 900px on the long side, JPEG quality around 82. Put each picture on the most specific entry it shows (a shopkeeper's portrait goes on the person, not the shop). The current set came from the pictures embedded in the Google Docs, which the `drive/` text mirror does not keep.
 - Keep the codex in step with the story docs: when people, places, items or decisions change, update `things.js` in the same change.
+
+## Checking
+
+`node codex/validate.js` checks ids, types, links, source paths and image files. Run it after every edit.
+
+Open task for an agent with internet access: `PICTURES-TASK.md` (pictures for entries without one, and a fresh D&D Beyond pull).
