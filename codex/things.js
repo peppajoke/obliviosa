@@ -23,7 +23,7 @@ window.THINGS = [
     table: "Decided 2026-10-13 (09): Fawkes is a woman, Kael's wife and Liv's mother. Her magic half-saved Liv from Salanar's unmaking into the hydra. She keeps every book Fawkes role (mayor, hero of the attack, the feedings, the only one who remembers) and is on the re-election posters. Her husband, dead two years, has just come back; she sits at his bedside and cannot tell him anything. Proposal: she also takes Elara's roles (the portal-wizard's blood), so Elara is cut at this table. First name and stat block open. Image prompts in campaigns/icespire-nad-group/art/image-prompts.md.",
     related: ["liv", "elara", "karleen", "seraphina-dawnbringer", "luminous-vanguard", "fawkes-serum", "fawkes-marbles", "oblivion-tome", "fawkes-trial", "the-feedings", "remembrance-festival", "town-hall", "fawkes-secret-lair", "fawkes-track", "ending-fawkes-sacrifice"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "book/00-canon.md", "book/02-story-flow.md", "book/05-sacrifice-and-hooks.md", "drive/characters/mayor-fawkes.md", "drive/loose/fawkes-missions.md", "drive/obliviosa-root/what-really-happened-five-years-ago.md", "drive/loose/false-hydra-redux-script.md", "campaigns/icespire-nad-group/08-salanar.md"],
-    images: [{ src: "img/fawkes.jpg", caption: "From the Mayor Fawkes doc" }]
+    images: [{ src: "img/fawkes.jpg", caption: "From the Mayor Fawkes doc: the book version. At Jack's table Fawkes is a woman (prompts in campaigns/icespire-nad-group/art/image-prompts.md)." }]
   },
   {
     id: "elara", name: "Elara", aliases: ["Liv's mother", "Fawkes's wife"],
@@ -40,7 +40,7 @@ window.THINGS = [
     type: "person", scope: "book", status: "canon",
     summary: "Half-elf former assistant to Fawkes, fired two weeks before the party arrives. Liv ate her whole family; Fawkes took her in and hid it. She keeps their drawings and belongings without knowing whose they are, and leads the rebels trying to uncover the truth.",
     details: "Wizard 3, AC 11, HP 18, spell DC 13: Fire Bolt, Mage Hand, Prestidigitation, Magic Missile, Shield, Detect Magic, Misty Step, Invisibility. Not a combatant.\nAuburn hair, green-gold eyes. Kind, optimistic, reserved.\nNoticed watching the party (Perception DC 15); approaches with the DON'T FORGET pages; rents a room at the Dragon's Inn as a base.\nHer treehouse is the evidence room. She pushes the party to break into Fawkes's library / secret lair.\nDecided 2026-10-11 (Q4): she alone gives the intro speech, which is still written in Marcus's voice and needs rewriting.\nPossible keeper. Can become mayor if Liv dies.",
-    table: "Darla's track. Lysa option B (proposal): Karleen is Lysa, a wreck survivor Fawkes renamed. In session 1 she was supposed to meet the party and 'a man named Kael'.",
+    table: "Darla's track. Q7 and Q10 on the quest board lead to her.",
     related: ["fawkes", "dont-forget-pages", "karleens-treehouse", "karleens-rebels", "karleen-track", "karleen-family-documents", "marcus-ainsworth", "thorne-blackwood", "boat-graveyard", "lysa", "darla-dewdrop"],
     sources: ["book/00-canon.md", "book/02-story-flow.md", "book/03-open-questions.md", "book/05-sacrifice-and-hooks.md", "drive/characters/karleen.md", "drive/notes/into-lumenshire.md", "drive/notes/liv-scratch.md", "drive/notes/obliviosa-redux-raw-notes.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/06-lysa-options.md"],
     images: [{ src: "img/karleen.jpg", caption: "From the Karleen doc" }]
@@ -59,7 +59,7 @@ window.THINGS = [
     type: "person", scope: "book", status: "canon",
     summary: "Very old, paranoid hermit on the Blackwood farmstead. Liv ate his wife Mary and all four children, and he remembers none of them; his house is full of their things. Wrote the letter found in blood, and hates Fawkes, who has tried to move him off the farm.",
     details: "Human, AC 12, HP 24 (level 4). Two attack dogs on chains, a flintlock pistol. Advantage vs charm and fear, disadvantage vs madness.\nGreets the party with 'COME TO TAKE THE REST OF ME DO YE?' and 'I TOLD THAT DIRTY OLD MAN FAWKES I AIN'T LEAVIN'. Persuasion DC 25 or he and the dogs attack.\nShown the letter, he does not recognise his own handwriting, then does, then asks which of them is Thorne.\nHis journal and a 'story thing' clue in the house are still unwritten. Sells or holds the potion of clarity. Possible dark-horse keeper. Possible wildcard combat sheet (TODO).",
-    table: "At the Icespire table he is Ashe Orendis, Kael's father, and the letter is to Kael. He remembers Kael leaving but not the family before him. Bringing him home to Phandalin is Sal's errand. If the party is kind he gives them Kael's room and a child's drawing of a blue-haired girl. Superseded by 09 (2026-10-13): back to the book's Ashe Blackwood, Thorne's father; Ashe Orendis is open.",
+    table: "Back to the book's Ashe Blackwood, Thorne's father (2026-10-13). Fawkes is trying to get him off the island alive (Q18).",
     related: ["blackwood-farmstead", "letter-found-in-blood", "thorne-blackwood", "mary-blackwood", "blackwood-blade", "potion-of-clarity", "ashes-journal", "kael-orendis", "sals-errand", "lysa", "childs-drawing"],
     sources: ["book/00-canon.md", "book/01-opening-the-letter.md", "book/05-sacrifice-and-hooks.md", "drive/characters/ashe-blackwood.md", "drive/loose/rude-awakening.md", "drive/found-documents/a-letter-found-in-blood.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md", "campaigns/icespire-nad-group/08-salanar.md"],
     images: [{ src: "img/ashe-blackwood.jpg", caption: "From the Ashe Blackwood doc" }]
@@ -78,7 +78,7 @@ window.THINGS = [
     id: "mary-blackwood", name: "Mary Blackwood", aliases: ["Mary", "Mary Orendis", "Ashe's wife"],
     type: "person", scope: "book", status: "canon",
     summary: "Ashe's wife and Thorne's mother, eaten by Liv along with the other children. Ashe cannot remember her; the letter asks Thorne whether she was kind.",
-    table: "Sal, on the sending stone, remembers that 'Mary keeps bees behind the house'. The hives are there, empty.",
+    table: "The empty beehives behind the farmhouse.",
     related: ["ashe-blackwood", "thorne-blackwood", "blackwood-farmstead", "salanar"],
     sources: ["book/00-canon.md", "drive/characters/thorne-blackwood.md", "drive/found-documents/a-letter-found-in-blood.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -87,7 +87,6 @@ window.THINGS = [
     type: "person", scope: "book", status: "canon",
     summary: "The party's sailor friend and helmsman of the Salt Wind, who dreams of flying. He survives the wreck and is in town, not remembering it clearly, wanting a 5,000 gp ship or the weekly ferry and already talking about building something that flies.",
     details: "Tall, ebony skin, short curly black hair, silver seagull pendant. Does not fight.\nThe airship escape with Cid is ending 8 and the campaign's 'to be continued' valve. Reunion and airship build (and his collaborator) are TODO.",
-    table: "Whether Cid is a perception void is still open (01-plan).",
     related: ["salt-wind", "the-wreck", "ending-airship-escape", "salt-wind-toast"],
     sources: ["book/00-canon.md", "book/01-opening-the-letter.md", "book/02-story-flow.md", "drive/characters/cid-tidebringer.md", "drive/loose/intro-aboard-the-salt-wind.md", "drive/notes/into-lumenshire.md", "campaigns/icespire-nad-group/01-plan.md"],
     images: [{ src: "img/cid-tidebringer.jpg", caption: "From the Cid Tidebringer doc" }]
@@ -122,7 +121,6 @@ window.THINGS = [
     id: "bartholomew", name: "Bartholomew", aliases: ["the baker"],
     type: "person", scope: "book", status: "canon",
     summary: "Portly, kindly baker in his late 50s, nervous under the cheer. His hole: he keeps finding receipts and notes for customers he never served.",
-    table: "Sal on the stone remembers the bakery as the Fenwicks' (Marta Fenwick). Bartholomew has run it for thirty years.",
     related: ["bartholomews-bakery", "the-holes", "marta-fenwick"],
     sources: ["book/00-canon.md", "drive/locations/bartholomews-bakery.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"],
     images: [{ src: "img/bartholomew.jpg", caption: "From the Bartholomew's Bakery doc: Bartholomew with a pie" }]
@@ -197,7 +195,6 @@ window.THINGS = [
     id: "election-boy", name: "The election boy", aliases: ["little boy", "the kid who won't shut up"],
     type: "person", scope: "book", status: "canon",
     summary: "A little boy in town who will not stop talking about Fawkes's re-election. Town texture on arrival.",
-    table: "Lysa option A (proposal) suggests he, or another nameless child, could secretly be Lysa.",
     related: ["fawkes-re-election", "lysa"],
     sources: ["book/02-story-flow.md", "drive/obliviosa-root/basic-script.md", "campaigns/icespire-nad-group/06-lysa-options.md"]
   },
@@ -466,16 +463,15 @@ window.THINGS = [
   },
   {
     id: "marta-fenwick", name: "Marta Fenwick", aliases: ["the Fenwicks"],
-    type: "person", scope: "icespire", status: "proposal",
-    summary: "Sal's memory, on the sending stone, of the bakery next to Willem's: 'Marta Fenwick, three kids, the youngest has a lisp.' The bakery is Bartholomew's; the Fenwicks are a hole the party can go and stand in.",
+    type: "person", scope: "icespire", status: "deprecated",
+    summary: "Superseded 2026-10-13: from the old sending-stone design, where Sal in Phandalin remembered the island wrong.",
     related: ["bartholomew", "bartholomews-bakery", "sending-stones", "salanar"],
     sources: ["campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
   {
     id: "jack", name: "Jack", aliases: ["snekkyjek", "the DM"],
     type: "person", scope: "icespire", status: "canon",
-    summary: "The campaign's author. DMs the Lumenshire dream and plays Sal in the Icespire game, so Sal stays in Phandalin and speaks only through the sending stone.",
-    details: "Everything Sal hears on the stone, Sal knows in the Icespire game: Jack has an in-character reason to dread a letter he has not received yet.",
+    summary: "The campaign's author and Sal's player. After the Cryovain finale he takes over from Nick and DMs Lumenshire, voicing Kael and Salanar Reborn.",
     related: ["salanar", "icespire-dm", "dream-frame", "sending-stones"],
     sources: ["campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -483,14 +479,14 @@ window.THINGS = [
     id: "icespire-dm", name: "Nick (Icespire DM)", aliases: ["Nick", "the Icespire DM", "the other DM", "TheRecoveryRoom"],
     type: "person", scope: "icespire", status: "canon",
     summary: "Nick, DM of the NAD Group's Dragon of Icespire Peak game (TheRecoveryRoom on D&D Beyond). Decided 2026-10-13: he runs the Cryovain finale and hands off to Jack by cutting to black during the epilogue, once Sal goes missing. Nothing about his finale is guaranteed.",
-    details: "Needs to give Jack: the knockout scene, the party's level, a yes on loot carrying over. Open: comfort with Cryovain having already hit Phandalin (past timeline).",
+    details: "His one beat: in the epilogue a salt-stained stranger (Thorne) stops in front of Sal and says 'Kael?', then cut to black. Brief in campaigns/icespire-nad-group/03-handoff-for-other-dm.md.",
     related: ["the-knockout", "jack", "phandalin", "cryovain"],
     sources: ["campaigns/icespire-nad-group/03-handoff-for-other-dm.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/01-plan.md"]
   },
   {
     id: "darla-dewdrop", name: "Darla Dewdrop", aliases: ["Darla"],
     type: "person", scope: "icespire", status: "canon",
-    summary: "Nat's halfling Rogue 5 (Soulknife). Holds the Sending Stones that reach Sal. Karleen's track is hers: the treehouse, the break-in, the DON'T FORGET pages.",
+    summary: "Nat's halfling Rogue 5 (Soulknife). Her sending stone is paired with Sal's, which is now on unconscious Kael at the temple. Karleen's track is hers: the treehouse, the break-in, the DON'T FORGET pages.",
     details: "Player: Nat. HP 28. Expertise Persuasion and Animal Handling, Actor feat, Potion of Invisibility, Ring of Warmth, Common Sign Language.",
     related: ["sending-stones", "karleen", "karleen-track", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
@@ -506,7 +502,7 @@ window.THINGS = [
   {
     id: "rowan-sunwood", name: "Rowan Sunwood", aliases: ["Rowan"],
     type: "person", scope: "icespire", status: "canon",
-    summary: "Tara's wood elf Druid 5 (Circle of the Land) from Ardeep Forest. Revivify changes the death math of the past/future rule; Lightning Bolt hits the Forgotten's weakness. Ashe's dogs and the Reach are hers.",
+    summary: "Tara's wood elf Druid 5 (Circle of the Land) from Ardeep Forest. Revivify; Lightning Bolt hits the Forgotten's weakness. Ashe's dogs and the Reach are hers.",
     details: "Player: Tara. HP 28. Staff of the Python, Conjure Animals, Moonbeam. Keeps the party's session notes. Personal possession: an eggshell painted with scenes of misery. Saw Cryovain destroying Conyberry at the shrine of Savras.",
     related: ["revivify", "the-forgotten", "forgotten-reach", "haunted-one-props", "past-future-rule", "shrine-of-savras", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
@@ -530,7 +526,7 @@ window.THINGS = [
   {
     id: "rynn-caulrunners", name: "Rynn Caulrunners", aliases: ["Rynn"],
     type: "person", scope: "icespire", status: "canon",
-    summary: "Hailey's dwarf Fighter 4 (Battle Master); Hailey rarely plays. Fine to be absent from the dream without comment; if present, Willem's Forge is her door.",
+    summary: "Hailey's dwarf Fighter 4 (Battle Master); Hailey rarely plays. Fine to be absent without comment; if present, Willem's Forge is her door.",
     details: "Player: Hailey. HP 28. Maul, Great Weapon Master, smith's tools. No Dark Bargain on her sheet.",
     related: ["willems-forge", "willem"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
@@ -539,7 +535,7 @@ window.THINGS = [
     id: "mosco", name: "Mosco", aliases: ["the lighthouse half-orc", "Talos wreckers"],
     type: "person", scope: "icespire", status: "canon",
     summary: "A half-orc in the Icespire game who runs a lighthouse and lures ships in to steal for Talos; his people are friends with Cryovain.",
-    details: "Lysa proposal (06): a Calishite slaver ship lured onto the Reach by wreckers like these ties both campaigns together.",
+    details: "Waking-campaign colour.",
     related: ["cryovain", "lysa", "boat-graveyard"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/06-lysa-options.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -547,7 +543,7 @@ window.THINGS = [
     id: "phandalin-orcs", name: "Phandalin orcs", aliases: ["Charles", "Chooch", "Chooch Jr", "Alexander", "the orc horn"],
     type: "faction", scope: "icespire", status: "canon",
     summary: "The orcs Sal has been befriending and rehabilitating in the Icespire game. Charles and Chooch are feuding brothers, Alexander converted to Sal's cause, Chooch Jr is gathering orcs to meet in Phandalin. Sal has a horn that summons Charles and his gang.",
-    details: "Part of why Sal stays behind: the orcs and the town need him.",
+    details: "Waking-campaign colour.",
     related: ["salanar", "phandalin"],
     sources: ["campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -612,8 +608,8 @@ window.THINGS = [
   {
     id: "cryovain", name: "Cryovain", aliases: ["the white dragon"],
     type: "monster", scope: "icespire", status: "canon",
-    summary: "The white dragon of the waking campaign, Dragon of Icespire Peak. The party met him once and got stomped. The past-timeline payoff is a weapon from Lumenshire that can kill him.",
-    details: "Spelling decided 2026-10-11. The party is kitted for him (four Rings of Warmth, Ice Knife on two casters); Lumenshire is not cold.\nOpen: whether he has already hit Phandalin in the past timeline (05 proposes removing that need).",
+    summary: "The white dragon of Nick's Dragon of Icespire Peak game. The party fights him in the finale; Lumenshire begins in the epilogue after.",
+    details: "Spelling decided 2026-10-11. The party is kitted for him (Rings of Warmth, Ice Knife); Lumenshire is not cold.",
     related: ["forgetting-edge", "phandalin", "icespire-dm", "mosco", "past-future-rule"],
     sources: ["campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -633,7 +629,6 @@ window.THINGS = [
     type: "faction", scope: "book", status: "canon",
     summary: "Black-robed worshippers who believe Liv is a goddess who takes away pain and that the town is lucky to be fed to her. They are slowly turning into Forgotten, and they feed Liv to fill the vessel for Elara.",
     details: "Base: the cult cave on the Forgotten Reach. They call the Remembrance Festival 'the Feast'.\nTheir pitch arrives planted on the party the first night: a necklace, a dead cultist with a journal, or blue chalk symbols on the door.\nCult track reveals how the song works, what blocks it, that the Forgotten were people, and 'the vessel must be filled'.",
-    table: "Lysa option D (proposal): surviving slavers became the robed outsiders and Lysa grew up among them as Liv's favoured acolyte.",
     related: ["cultist", "cult-cave", "cult-track", "cultist-journal", "cultist-necklace", "blue-chalk-symbols", "the-forgotten", "elara", "remembrance-festival", "lysa"],
     sources: ["book/00-canon.md", "book/02-story-flow.md", "book/05-sacrifice-and-hooks.md", "drive/notes/into-lumenshire.md", "drive/obliviosa-root/cultist-character-sheet.md", "drive/notes/liv-scratch.md", "campaigns/icespire-nad-group/06-lysa-options.md"],
     images: [{ src: "img/cult-of-obliviosa.jpg", caption: "From the Into Lumenshire notes: a hydra-headed emblem (placed beside the map-to-the-cave beat)" }]
@@ -655,9 +650,8 @@ window.THINGS = [
   },
   {
     id: "vel-tharin", name: "The Vel'tharin", aliases: ["Vel'tharin", "the healer order"],
-    type: "faction", scope: "icespire", status: "proposal",
-    summary: "Salanar's people on his sheet. Proposal (09): drop the name at this table; Salanar is simply a healer on Lumenshire.",
-    details: "Proposal: unmade in the Great Erasure on the night of Liv's spell; most became the Forgotten; Liv's song is their burden song. The table may already have heard 'Calimshan' (see Sal).",
+    type: "faction", scope: "icespire", status: "deprecated",
+    summary: "Dropped 2026-10-13: the name of Salanar's people on his sheet. At this table Salanar is simply a healer on Lumenshire.",
     related: ["salanar", "burden-songs", "great-erasure", "veltharin-chapel", "the-forgotten", "calimshan"],
     sources: ["campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -756,7 +750,7 @@ window.THINGS = [
     type: "place", scope: "book", status: "canon",
     summary: "Ashe's whitewashed farmhouse with a red roof and green shutters, outside town on the beach side of the road, signposted 'Blackwood'. Overgrown yard, candlelit windows, two dogs, and rooms full of a family he cannot remember.",
     details: "A clue in the house ('something cool that is a story thing') is TODO.",
-    table: "At the Icespire table it is the goal location, not just a door. Kael's room, a child's drawing of a blue-haired girl, empty beehives, and perhaps a child's room newer than the others (Lysa option C).",
+    table: "Ashe Blackwood's farm, as in the book. Thorne's empty room.",
     related: ["ashe-blackwood", "the-wreck", "childs-drawing", "sals-errand"],
     sources: ["book/00-canon.md", "book/01-opening-the-letter.md", "drive/loose/rude-awakening.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md", "campaigns/icespire-nad-group/06-lysa-options.md"]
   },
@@ -801,7 +795,6 @@ window.THINGS = [
     id: "boat-graveyard", name: "The hidden boat graveyard", aliases: ["destroyed boats", "ship graveyard"],
     type: "place", scope: "book", status: "canon",
     summary: "Somewhere secret on the coast lie many destroyed boats, which is how travel to the island has been obstructed. Karleen knows where.",
-    table: "Lysa proposal: the Calishite slaver ship is one of them.",
     related: ["karleen", "lumen-pier", "the-wreck", "lysa"],
     sources: ["book/00-canon.md", "drive/notes/obliviosa-redux-raw-notes.md", "campaigns/icespire-nad-group/06-lysa-options.md"]
   },
@@ -835,7 +828,6 @@ window.THINGS = [
     type: "place", scope: "book", status: "canon",
     summary: "Bartholomew's bakery, famous for pies and bread, where he keeps finding receipts for customers he never served.",
     details: "Stock: baguette 1 gp, apple tart 3, sourdough 2, blueberry muffin 1.5, almond croissant 3, oatmeal raisin cookies 1.5, a bag of crisps 1 (loud CRUNCH).",
-    table: "Sal remembers it as the Fenwicks' bakery, next to Willem's.",
     related: ["bartholomew", "merchant-district", "marta-fenwick"],
     sources: ["drive/locations/bartholomews-bakery.md", "book/00-canon.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -894,7 +886,7 @@ window.THINGS = [
   {
     id: "phandalin", name: "Phandalin", aliases: [],
     type: "place", scope: "icespire", status: "canon",
-    summary: "Base of the waking Icespire campaign. Sal stays here while the party dreams, holding the town and the orcs together; in the future timeline a letter for Kael Orendis arrives here.",
+    summary: "Base of Nick's Icespire campaign. Thorne finds Sal at the victory celebration here, the last scene before the cut to black.",
     related: ["salanar", "cryovain", "phandalin-orcs", "gnomengarde", "dwarf-excavation", "letter-found-in-blood"],
     sources: ["campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md"]
   },
@@ -908,7 +900,7 @@ window.THINGS = [
   {
     id: "dwarf-excavation", name: "The dwarf excavation", aliases: [],
     type: "place", scope: "icespire", status: "canon",
-    summary: "Ancient ruins south-west of Phandalin where the party has contracts. A collapse here is one suggested knockout.",
+    summary: "Ancient ruins south-west of Phandalin where the party had contracts in the Icespire game.",
     related: ["phandalin", "the-knockout"],
     sources: ["campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md"]
   },
@@ -928,9 +920,8 @@ window.THINGS = [
   },
   {
     id: "calimshan", name: "Calimshan (Alimir foothills)", aliases: ["Alimir foothills"],
-    type: "place", scope: "icespire", status: "canon",
-    summary: "Where Sal's sheet placed the Vel'tharin and the Great Erasure, and where Lysa's Calishite slavers came from. Superseded 2026-10-13: the Erasure happened on Lumenshire.",
-    details: "What survives of Calimshan depends on the Lysa/slavers decision in 09.",
+    type: "place", scope: "icespire", status: "deprecated",
+    summary: "Where Sal's sheet placed the Vel'tharin and the Great Erasure, and where Lysa's slavers came from. Superseded 2026-10-13: the Erasure happened on Lumenshire and Liv took Lysa's role.",
     related: ["vel-tharin", "great-erasure", "lysa", "salanar"],
     sources: ["campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/02-party.md"]
   },
@@ -1123,23 +1114,22 @@ window.THINGS = [
     id: "void-stones", name: "Void stones", aliases: ["void stone", "Sal's last void stone", "black stone"],
     type: "item", scope: "icespire", status: "canon",
     summary: "Black crystals that erase pain, and held long enough, erase people. Salanar's addiction; he wears his last one on a cord to resist it. Decided 2026-10-13: void stones belong to this story.",
-    details: "Decided 2026-10-11: no void stone prop on the beach.\nDecided 2026-10-13: Sal took void crystals recreationally to forget, before his bond with Ilmater.",
+    details: "Decided 2026-10-13: Sal took void crystals recreationally to forget, before his bond with Ilmater. Open: where Sal's last one is now (on Kael, on the lich, or lost in the surf).",
     related: ["salanar", "portal-wizard", "keeper-clause", "great-erasure", "brother-aldric", "vial-of-complete-restoration"],
     sources: ["campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/01-plan.md"]
   },
   {
     id: "sending-stones", name: "Sending Stones", aliases: ["the stone", "sending stone"],
     type: "item", scope: "icespire", status: "proposal",
-    summary: "Darla's sending stone reaches Sal in Phandalin live, as the Cryovain storyline happens. From his side the party is asleep beside him; he answers up to three times a day, gives them the errand, and remembers the island as it was.",
-    details: "Proposal for feedback (05). First contact: 'You are right here. You are all asleep.' Hearing 'Kael' is when Sal knows it is real.\nDrift: each session is later in the Icespire story; the song reaches the stone as static where names should be.\nOpen: who holds the other stone, Sal or an NPC. Only one is on any sheet.",
+    summary: "Darla's stone is paired with Sal's. After the landing, Sal's stone is on unconscious Kael at the temple: a call gets silence and breathing; once he wakes, 'Who is this?'; after a re-merge, Sal.",
+    details: "Open: one call a day (the item) or three (older docs).",
     related: ["salanar", "darla-dewdrop", "sals-errand", "marta-fenwick", "dream-frame", "jack"],
     sources: ["campaigns/icespire-nad-group/05-sending-stone-and-goals.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md"]
   },
   {
     id: "forgetting-edge", name: "The Forgetting Edge", aliases: [],
-    type: "item", scope: "icespire", status: "proposal",
-    summary: "Recommended past-timeline artifact against Cryovain: a weapon forged from one of Liv's scales. What it cuts, forgets: a dragon that forgets how to fly, its breath, its name.",
-    details: "Obtained however Liv is resolved: kill her and take a scale, or save her and the hydra form sheds. In 05 it becomes something the island gave them that they stashed and forgot, not the reason they went.",
+    type: "item", scope: "icespire", status: "deprecated",
+    summary: "Superseded 2026-10-13: a past-timeline artifact against Cryovain from the dream-frame design. A weapon forged from Liv's scale that makes what it cuts forget.",
     related: ["cryovain", "liv", "past-future-rule", "stashable-rewards", "feyfire-lantern", "luminous-vanguard-armour"],
     sources: ["campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md", "campaigns/icespire-nad-group/07-todo.md"]
   },
@@ -1171,7 +1161,7 @@ window.THINGS = [
   {
     id: "revivify", name: "Revivify", aliases: [],
     type: "spell", scope: "icespire", status: "canon",
-    summary: "Rowan has it. A death undone inside the dream does not count for the past/future rule, so Revivify changes the death math. Diamonds are the limit; the party has none listed.",
+    summary: "Rowan has it. Diamonds are the limit; the party has none listed.",
     related: ["rowan-sunwood", "past-future-rule"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "book/06-dream-frame.md"]
   },
@@ -1215,7 +1205,6 @@ window.THINGS = [
     id: "cultist-journal", name: "The cultist's journal", aliases: ["cult journal"],
     type: "document", scope: "book", status: "canon",
     summary: "Linked from the Cultist sheet but deleted from Drive. To be rewritten as the cult's planted pitch: she is a goddess who takes away pain; it names the cave on the Reach and the night of the Feast.",
-    table: "Lysa option D (proposal): Lysa is its author.",
     related: ["cult-of-obliviosa", "cultist", "first-night", "cult-track", "lysa"],
     sources: ["drive/obliviosa-root/cultist-character-sheet.md", "book/03-open-questions.md", "book/05-sacrifice-and-hooks.md", "campaigns/icespire-nad-group/06-lysa-options.md"]
   },
@@ -1314,7 +1303,7 @@ window.THINGS = [
     type: "event", scope: "book", status: "canon",
     summary: "The campaign opens with the song in the dark, then the party waking on a beach beside their wrecked ship, a pool of blood, the blade and the letter. Their friend was eaten during the wreck and nobody remembers him.",
     details: "Medicine 12: human blood under an hour old, drag marks into the surf. Investigation 13: one more set of footprints than the party. Insight 10: you are grieving and do not know for whom. Two roads: the farmhouse or the town. Cid is missing (alive, in town).",
-    table: "A small coastal hull that is not theirs, nobody at the tiller; the blood site is a perception void; the headcount comes up one short and the missing name is Sal's. No weapon, only the letter.",
+    table: "The party wakes one short: Sal is missing. The letter to Thorne lies in the blood. Kael has already been taken to the temple (how, and when, is open).",
     related: ["letter-found-in-blood", "blackwood-blade", "thorne-blackwood", "forgotten-friend", "hydra-song", "blackwood-farmstead", "ships-manifest", "salt-wind", "cid-tidebringer"],
     sources: ["book/01-opening-the-letter.md", "book/02-story-flow.md", "drive/loose/rude-awakening.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/01-plan.md"],
     images: [{ src: "img/the-wreck.jpg", caption: "From the Rude Awakening doc: the wreck on the beach" }]
@@ -1360,7 +1349,6 @@ window.THINGS = [
     id: "lost-child", name: "The lost child search", aliases: ["lost child near the cave"],
     type: "event", scope: "book", status: "canon",
     summary: "Villagers search for a child last seen near the cave. The child is never found, and when the party returns the parents remember neither the child nor the party. 50% chance of meeting Liv and the song.",
-    table: "Lysa option A (proposal): the 'lost child' could be Lysa.",
     related: ["cult-cave", "cult-track", "lysa"],
     sources: ["drive/notes/into-lumenshire.md", "book/05-sacrifice-and-hooks.md", "campaigns/icespire-nad-group/06-lysa-options.md"]
   },
@@ -1388,8 +1376,8 @@ window.THINGS = [
   },
   {
     id: "the-knockout", name: "The knockout", aliases: ["dream entry"],
-    type: "event", scope: "icespire", status: "canon",
-    summary: "How the dream starts at Jack's table: the Icespire DM knocks out the whole party at once (Cryovain's breath, an avalanche, an excavation collapse, poisoned ale at Gnomengarde, an ordinary night's camp). Sal stays awake; beforehand Sal is shown separated or in danger.",
+    type: "event", scope: "icespire", status: "deprecated",
+    summary: "Superseded 2026-10-13: the dream-frame entry. Replaced by Nick's cut to black during the Cryovain epilogue.",
     related: ["icespire-dm", "dream-frame", "salanar", "the-wreck"],
     sources: ["campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md", "campaigns/icespire-nad-group/04-session-1-intro.md"]
   },
@@ -1423,7 +1411,7 @@ window.THINGS = [
     id: "memory-cards", name: "Memory cards", aliases: ["index cards"],
     type: "concept", scope: "book", status: "canon",
     summary: "At session zero each player writes 6 to 8 index cards, one fact each about their character's relationships and history. Each time the song plays the DM takes one per player, face down; that fact is no longer true. Killing Liv returns every card; saving her does not.",
-    table: "One card each at the end of every dream session; staying on the island costs them who they are.",
+    table: "Still used: one card per player each time the song plays.",
     related: ["hydra-song", "dont-forget-pages", "session-boundaries", "ending-kill-liv"],
     sources: ["book/01-opening-the-letter.md", "book/06-dream-frame.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -1440,7 +1428,7 @@ window.THINGS = [
     type: "concept", scope: "book", status: "canon",
     summary: "Unnamed people who will die on the island do not register to the players. Perception 10-14: extremely forgettable; 15-19: something is off; 20+: the face will not resolve. Named NPCs are shown normally. Never explained.",
     details: "Replaces 'blurred faces' (Jack, 2026-10-11). Naming someone at the table is a small mercy. A dead PC's portrait in recaps gets the same treatment, the first visible sign it is the future. Killing Liv restores the faces. A nameless-victim list is TODO.",
-    table: "The forgotten friend (a nameless sailor or guide) and the blood site are voids. Cid is undecided.",
+    table: "Open at Jack's table whether the rule still applies.",
     related: ["dream-frame", "past-future-rule", "forgotten-friend", "vanguard-soldier"],
     sources: ["book/06-dream-frame.md", "book/00-canon.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/04-session-1-intro.md"]
   },
@@ -1449,7 +1437,7 @@ window.THINGS = [
     type: "concept", scope: "book", status: "canon",
     summary: "Obliviosa runs as a dream inside another campaign with an existing party, picked up a session here and there. The wreck on the beach is how the dream begins each time. The players are told nothing about it.",
     details: "Entry needs an existing party, so the book needs per-tier scaling. Persistence: characters and inventory are never forked; continuity conflicts are Liv's illusions.",
-    table: "Runs inside the NAD Group's Dragon of Icespire Peak game. Entry level 5, party of five or six; scaled Liv, Forgotten, Fawkes and Seraphina still TODO. Working assumption: one dream session is one night's sleep in the Icespire game.",
+    table: "Not used at Jack's table: the dream frame was dropped there on 2026-10-13.",
     related: ["past-future-rule", "persistence-rule", "session-boundaries", "void-of-perception", "the-knockout", "stashable-rewards"],
     sources: ["book/06-dream-frame.md", "book/00-canon.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md"]
   },
@@ -1458,7 +1446,7 @@ window.THINGS = [
     type: "concept", scope: "book", status: "canon",
     summary: "If nobody died in the dream it was the past: they wake remembering it all, stashes included. If anyone died or continuity broke it was the future: no recovery, the dreams end, and the waking campaign later arrives at the island for real. If everyone died it was only a dream.",
     details: "Erasure by Liv counts as death. A character brought back inside the dream has not died. The forgotten friend never counts. A keeper is forgotten, not killed (decided 2026-10-11).",
-    table: "Future is the default. Past: they wake from the knockout with the Cryovain weapon's location. Future: a letter for Kael arrives in Phandalin after Cryovain.",
+    table: "Not used at Jack's table: the dream frame was dropped there on 2026-10-13.",
     related: ["dream-frame", "revivify", "keeper-clause", "stashable-rewards", "forgetting-edge", "cryovain"],
     sources: ["book/06-dream-frame.md", "book/04-todo.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md"]
   },
@@ -1466,7 +1454,7 @@ window.THINGS = [
     id: "persistence-rule", name: "Persistence", aliases: ["nothing is forked"],
     type: "concept", scope: "book", status: "canon",
     summary: "Characters and inventory persist across dream sessions and the waking campaign; nothing is forked. Any continuity conflict is one of Liv's illusions, never apologised for or explained.",
-    table: "The Icespire DM is asked not to patch the contradictions. Jack sends a loot list after each session.",
+    table: "Not used at Jack's table: the dream frame was dropped there on 2026-10-13.",
     related: ["dream-frame", "past-future-rule"],
     sources: ["book/06-dream-frame.md", "book/00-canon.md", "campaigns/icespire-nad-group/03-handoff-for-other-dm.md"]
   },
@@ -1474,6 +1462,7 @@ window.THINGS = [
     id: "session-boundaries", name: "Session boundaries are the song", aliases: [],
     type: "concept", scope: "book", status: "canon",
     summary: "Each time the DM leaves Lumenshire for the waking campaign the song plays, and each return begins mid-scene or on the beach. Expect to lose a memory card at every boundary. The full procedure is TODO.",
+    table: "Not used at Jack's table: the dream frame was dropped there on 2026-10-13.",
     related: ["hydra-song", "memory-cards", "dream-frame"],
     sources: ["book/06-dream-frame.md", "book/04-todo.md"]
   },
@@ -1481,6 +1470,7 @@ window.THINGS = [
     id: "stashable-rewards", name: "Stashable rewards", aliases: ["reward stashes", "caches"],
     type: "concept", scope: "book", status: "canon",
     summary: "Every significant reward on the island needs a plausible hiding place, so the past ending can pay out: the party wakes remembering where they stashed it.",
+    table: "Not used at Jack's table: the dream frame was dropped there on 2026-10-13.",
     related: ["past-future-rule", "forgetting-edge"],
     sources: ["book/06-dream-frame.md", "book/04-todo.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -1546,7 +1536,6 @@ window.THINGS = [
     type: "concept", scope: "book", status: "canon",
     summary: "Jack, 2026-10-11. Assume the party ends knowing part of the story. Every track must reach an ending on its own, and the keeper clause, song-blocking tools and Fawkes's guilt must each be learnable in two places. Unlearned truth becomes the epilogue.",
     details: "NPCs fill gaps in the finale: Fawkes, Liv's lair projections, Seraphina's dreams, the Eternal Tome. If a player guesses everything in session two, let them be right.",
-    table: "Sal on the stone is an extra information source that only gives broad strokes: he remembers a childhood, not a trial.",
     related: ["routing-rule", "eternal-tome", "livs-lair", "sending-stones"],
     sources: ["book/05-sacrifice-and-hooks.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -1566,7 +1555,7 @@ window.THINGS = [
   },
   {
     id: "burden-songs", name: "Burden songs", aliases: [],
-    type: "concept", scope: "icespire", status: "proposal",
+    type: "concept", scope: "icespire", status: "deprecated",
     summary: "The Vel'tharin's oral tradition, lost in the Erasure (Sal's sheet).",
     related: ["vel-tharin", "hydra-song", "merith", "spell-oblivion"],
     sources: ["campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
@@ -1580,17 +1569,15 @@ window.THINGS = [
   },
   {
     id: "sals-errand", name: "Sal's errand: bring Ashe home", aliases: ["the goal", "bring Ashe home"],
-    type: "concept", scope: "icespire", status: "proposal",
-    summary: "The obvious goal on the island: 'Find Ashe Orendis. Make sure he is alright. Do not tell him anything about me. If he will come, bring him back to Phandalin.' Ashe will not leave, and what holds him there is the song, which means Liv, which means Fawkes.",
-    details: "Pressures: one memory card lost every night, the four-day festival clock, and Sal on the stone. The letter is the reason for the trip in both timelines (proposal replacing the two-reason version in 01-plan).",
+    type: "concept", scope: "icespire", status: "deprecated",
+    summary: "Superseded 2026-10-13: 'bring Ashe home', from the dream-frame design. The goals now are getting Sal back, surviving the song and the festival clock.",
     related: ["salanar", "ashe-blackwood", "sending-stones", "letter-found-in-blood", "remembrance-festival", "origin-wrinkle"],
     sources: ["campaigns/icespire-nad-group/05-sending-stone-and-goals.md", "campaigns/icespire-nad-group/04-session-1-intro.md", "campaigns/icespire-nad-group/07-todo.md"]
   },
   {
     id: "origin-wrinkle", name: "The origin wrinkle", aliases: ["they met twice"],
-    type: "concept", scope: "icespire", status: "proposal",
-    summary: "Past-timeline idea: Sal posted the Lumenshire job in Phandalin and five strangers took it, which is how the party met. Liv ate the trip, so their 'first' meeting at the Phandalin job board was the second, and the odd familiarity was real.",
-    details: "Present-day Sal does not remember hiring them: either a continuity break (so the future) or the song took it from him too. Jack decides when the ending is known.",
+    type: "concept", scope: "icespire", status: "deprecated",
+    summary: "Superseded 2026-10-13: a past-timeline idea from the dream-frame design.",
     related: ["sals-errand", "past-future-rule", "salanar"],
     sources: ["campaigns/icespire-nad-group/05-sending-stone-and-goals.md"]
   },
@@ -1615,7 +1602,7 @@ window.THINGS = [
     id: "ending-player-sacrifice", name: "Ending 2: A player's sacrifice", aliases: [],
     type: "concept", scope: "book", status: "canon",
     summary: "A PC becomes the keeper. It must be earned through caring about Liv or the town, and the clause is only learned in fiction. If nobody dies, the dream was the past, and the keeper is remembered only by their own player.",
-    table: "In the future timeline Sal himself can be the keeper (08 proposal).",
+    table: "At Jack's table a re-merged Sal is a natural keeper (proposal).",
     related: ["keeper-clause", "past-future-rule", "vial-of-complete-restoration", "salanar"],
     sources: ["book/00-canon.md", "book/05-sacrifice-and-hooks.md", "book/06-dream-frame.md"]
   },
