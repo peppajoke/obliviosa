@@ -484,7 +484,13 @@
     "related": [
       "party"
     ],
-    "seen": "Before Lumenshire"
+    "seen": "Before Lumenshire",
+    "images": [
+      {
+        "src": "img/porridge.jpg",
+        "caption": "Porridge"
+      }
+    ]
   },
   {
     "id": "rowan-sunwood",
