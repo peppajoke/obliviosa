@@ -19,7 +19,7 @@ window.THINGS = [
     type: "person", scope: "book", status: "canon",
     summary: "Mayor of Lumenshire, hailed as the hero who drove off 'the Forgotten's attack' five years ago. In truth he killed his wife Elara while she was drowning Liv, and has fed captives to his daughter every few nights since. The only person who remembers everything; suicidal at campaign start.",
     details: "Human fighter 10 (sheet says Lawful Evil). AC 18, HP 85, longsword +1, Protection style, Second Wind, Action Surge, crits on 19-20.\nGreying hair, deep blue eyes, gold and silver armour, dark blue cloak.\nWants to keep Liv alive and keep Karleen out of it. Can be convinced to change.\nHis serum plan for the Remembrance Festival is the keeper ritual by force (decided 2026-10-11, Q3). He owns the Oblivion tome but not the Eternal Tome, so he does not know the clause needs consent.\nHands out marbles that each imprison one witness. Declining his errand means never leaving the island.",
-    table: "Decided 2026-10-13 (09): Fawkes is a woman, Kael's wife and Liv's mother. Her magic half-saved Liv from Salanar's unmaking into the hydra. She keeps every book Fawkes role (mayor, hero of the attack, the feedings, the only one who remembers) and is on the re-election posters. Her husband, dead two years, has just come back; she sits at his bedside and cannot tell him anything. Proposal: she also takes Elara's roles (the portal-wizard's blood), so Elara is cut at this table. First name and stat block open. Image prompts in campaigns/icespire-nad-group/art/fawkes-image-prompts.md.",
+    table: "Decided 2026-10-13 (09): Fawkes is a woman, Kael's wife and Liv's mother. Her magic half-saved Liv from Salanar's unmaking into the hydra. She keeps every book Fawkes role (mayor, hero of the attack, the feedings, the only one who remembers) and is on the re-election posters. Her husband, dead two years, has just come back; she sits at his bedside and cannot tell him anything. Proposal: she also takes Elara's roles (the portal-wizard's blood), so Elara is cut at this table. First name and stat block open. Image prompts in campaigns/icespire-nad-group/art/image-prompts.md.",
     related: ["liv", "elara", "karleen", "seraphina-dawnbringer", "luminous-vanguard", "fawkes-serum", "fawkes-marbles", "oblivion-tome", "fawkes-trial", "the-feedings", "remembrance-festival", "town-hall", "fawkes-secret-lair", "fawkes-track", "ending-fawkes-sacrifice"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "book/00-canon.md", "book/02-story-flow.md", "book/05-sacrifice-and-hooks.md", "drive/characters/mayor-fawkes.md", "drive/loose/fawkes-missions.md", "drive/obliviosa-root/what-really-happened-five-years-ago.md", "drive/loose/false-hydra-redux-script.md", "campaigns/icespire-nad-group/08-salanar.md"]
   },
@@ -231,12 +231,12 @@ window.THINGS = [
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "campaigns/icespire-nad-group/06-lysa-options.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/07-todo.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
   {
-    id: "evil-salanar", name: "Evil Salanar (the Unmaker)", aliases: ["the Unmaker", "old Salanar"],
+    id: "evil-salanar", name: "Salanar Reborn", aliases: ["evil Salanar", "the Unmaker", "old Salanar", "the lich"],
     type: "monster", scope: "icespire", status: "canon",
-    summary: "Decided 2026-10-13: the old Salanar returns as a boss. The Sal the party knows is Kael plus Sal; this is Salanar before he lived Kael's life.",
-    details: "Proposal (09): the song splits him out of Kael on landing. He hates Kael, and merging back is the only way to get our Sal back, so killing him loses Sal for good. Persuasion DC 25-30, eased by Liv, by showing him what Sal did with the merge, and by Ilmater's temple. May also be the will inside the Forgotten, taking Elara's book role.",
+    summary: "Decided 2026-10-13: the boss. On landing, Liv recognised her father and tore Sal out of his mind; Sal's soul went back to Salanar's own body, two years dead and decomposed on the Reach, and rose as a dark lich.",
+    details: "Our Sal exists only when Kael and Salanar are merged; his Cryovain memories are locked in that merge. Separated, they hate each other and detest merging (extremely high Persuasion).\nProposal (09): the lich is Salanar without the Cryovain years, the Unmaker voice made whole. Killing him loses Sal for good. Image prompt in campaigns/icespire-nad-group/art/image-prompts.md.",
     related: ["salanar", "kael-orendis", "two-voices", "the-forgotten", "forgotten-reach", "great-erasure"],
-    sources: ["campaigns/icespire-nad-group/09-kael-returns.md"]
+    sources: ["campaigns/icespire-nad-group/art/image-prompts.md", "campaigns/icespire-nad-group/09-kael-returns.md"]
   },
   {
     id: "temple-of-ilmater", name: "Temple of Ilmater", aliases: ["the temple", "Ilmater's temple"],

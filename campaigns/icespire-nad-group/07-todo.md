@@ -31,9 +31,10 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [x] Fawkes is a woman, Kael's wife, Liv's mother, on the posters.
 - [x] Kael returned recently, critical, at the temple of Ilmater; unconscious a few days; advanced healing and a quest can wake him early; joins the Vanguard once awake.
 - [x] Sal's Cryovain memories locked until Sal and Kael merge again. Separated, they hate each other; extremely high Persuasion for either.
-- [x] Evil Salanar returns as a boss.
-- [ ] Generate Fawkes portrait and poster (prompts in `art/fawkes-image-prompts.md`; image service had no subscription).
-- [ ] Confirm: evil Salanar is the half split out of Kael, and re-merging replaces "kill Liv and Sal comes back".
+- [x] Evil Salanar returns as a boss: Liv recognised her father and tore Sal out; Sal's soul went back to Salanar's decomposed body and rose as a dark lich, Salanar Reborn.
+- [ ] Generate Fawkes portrait, poster and Salanar Reborn (prompts in `art/image-prompts.md`; image service had no subscription).
+- [ ] Confirm: re-merging (not killing Liv) brings Sal back; killing Salanar Reborn loses him.
+- [ ] How a lich and a living man re-merge (phylactery, temple, Liv).
 - [ ] Fawkes's first name and stat block (fighter or caster).
 - [ ] Elara cut at this table; evil Salanar as the will inside the Forgotten.
 - [ ] The healing quest: what it fetches (Greater Restoration source, a Reach reagent, or the Vial).

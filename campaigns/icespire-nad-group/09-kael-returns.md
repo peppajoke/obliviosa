@@ -30,13 +30,16 @@ Replaces `08-salanar.md` (rejected 2026-10-13). Fifth pass, same day.
 - **Sal's memories of the Cryovain campaign are locked until Sal and Kael merge again.**
 - **Separately, Sal and Kael hate each other**, and if they learn of it both detest the idea of merging. Getting either to agree takes an **extremely high Persuasion check**.
 - **Evil Salanar returns as a boss.** The Sal the party knows is Kael plus Sal.
+- **Liv recognised her father and removed Sal from his mind.** Sal's soul returned to his original body, two years dead and badly decomposed, and he became a kind of dark lich: **Salanar Reborn**, the boss.
 
 Rejected: Sal inside the hydra; 08 (Salanar as Elara's partner); Fawkes as Kael; the "void tore open, Elara felt it" chain.
 
 ## How the pieces fit (proposal)
 
-### The split (this is option B from the previous pass)
-On landing, the song pulls Salanar out of Kael. Kael keeps the body, with his own memories up to the fight on the Reach. **Salanar walks out as the boss**: Salanar as he was before he lived Kael's life, the Unmaker voice made flesh. Our Sal exists only when the two are merged, and his memories of the Cryovain campaign are locked in that merge.
+### The split (decided)
+When the party lands, Liv eats Thorne in the surf, and then she sees her father. **She recognises him and tears Sal out of his mind.** Kael keeps the body, with his own memories up to the fight on the Reach. Sal's soul goes back to the only other body it has ever had: Salanar's corpse on the Reach, where Kael killed it two years ago. It rises as **Salanar Reborn**, a dark lich. Our Sal exists only when Kael and Salanar are merged, and his memories of the Cryovain campaign are locked in that merge.
+
+Proposal: what is in the lich is Salanar without the Cryovain years. He has Kael's life in him only as the thing that broke him, and the Unmaker voice is now the whole of him.
 
 So **getting Sal back means getting two men who hate each other to merge**:
 
@@ -76,7 +79,8 @@ So **getting Sal back means getting two men who hate each other to merge**:
 
 ## Open
 
-- Confirm: evil Salanar is the half that split out of Kael (B), and re-merging replaces "kill Liv and Sal comes back".
+- Confirm: re-merging (not killing Liv) is how Sal comes back, and killing Salanar Reborn loses Sal for good.
+- How a lich and a living man merge: the lich's phylactery, Ilmater's temple, Liv.
 - Fawkes's first name and stat block.
 - Elara cut at this table.
 - The healing quest: what it fetches.

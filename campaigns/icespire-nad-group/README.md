@@ -29,7 +29,7 @@ Waking campaign: Phandalin, the white dragon Cryovain, the dwarf excavation, Gno
 | `07-todo.md` | Open tasks and questions for this table only. |
 | `08-salanar.md` | Rejected 2026-10-13: Salanar as Elara's partner who handed Liv the spell. |
 | `09-kael-returns.md` | Current direction: the handoff from Nick, Thorne's forgotten hook, why Sal reverts to Kael. |
-| `art/` | Image prompts for table-specific art (female Fawkes). |
+| `art/` | Image prompts for table-specific art (female Fawkes, Salanar Reborn). |
 | `party/` | D&D Beyond sync: procedure, script, raw roster, changelog. |
 
 ## How this table differs from the book
