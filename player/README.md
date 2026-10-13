@@ -1,10 +1,10 @@
 # The players' journal
 
-One shared codex for the whole party (decided by Jack, 2026-10-13), containing only what the party has seen, heard or been told, and only what Jack has approved. It is published to a **separate public repo** as a static GitHub Pages site. The DM codex (`codex/things.js`) never leaves this repo.
+One shared codex for the whole party (decided by Jack, 2026-10-13), containing only what the party has seen, heard or been told, and only what Jack has approved. It is published as this repo's GitHub Pages site; the DM codex sits at an unlisted address beside it (see Publishing).
 
 ## Why it is safe enough
 
-GitHub Pages serves files, and anyone can read a served file. So the journal is filtered **before** it is published: `build.py` writes a fresh `dist/` from `entries.json` alone. Secrets are never in the public repo, so there is nothing for a curious player to find. **This only holds while this repo is private.**
+GitHub Pages serves files, and anyone can read a served file. So the journal is filtered **before** it is published: `build.py` writes the journal from `entries.json` alone, and nothing from the DM codex goes into it. The journal page and its data contain no secrets. The DM codex and this repo are public but unlisted, which is fine for this table.
 
 ## Files
 
@@ -42,7 +42,12 @@ GitHub Pages serves files, and anyone can read a served file. So the journal is 
 
 ## Publishing
 
-`.github/workflows/journal.yml` runs on every push that touches `player/`, the codex page or its images. It builds the journal (stopping if the leak guard trips) and pushes only `dist/` to the public repo named in `config.json` (`peppajoke/lumenshire-journal`), which serves it with GitHub Pages. Setup steps are at the top of the workflow file. Until the `JOURNAL_TOKEN` secret exists, the workflow builds but does not publish.
+`.github/workflows/pages.yml` runs on every push that touches `player/` or `codex/`. It builds the journal (stopping if the leak guard trips) and deploys one GitHub Pages site:
+
+- **https://peppajoke.github.io/obliviosa/** is the players' journal. This is the link to give the players.
+- **https://peppajoke.github.io/obliviosa/dm-aaa0a039/** is the DM codex, at an unlisted address. Do not share it.
+
+Decided 2026-10-13: one repo, no separate public repo. Jack keeps this repo public and accepts that the DM material is only hidden, not locked: the players are not going to go looking.
 
 Players just keep the page open: it checks for new entries every minute and pops up "New in your journal: ...". From commit to their screen is about one to two minutes.
 

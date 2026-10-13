@@ -1,12 +1,12 @@
-# Publishes the codex (codex/) to GitHub Pages on every push to main.
-# One-time setup: repo Settings -> Pages -> Source: "GitHub Actions".
-# Note: a Pages site is public on the internet, even when the repo is private.
-name: Codex to GitHub Pages
+# Publishes the site on every push to main:
+#   /            the players' journal (built by player/build.py, leak guard included)
+#   /dm-aaa0a039/  the DM codex (an unlisted address; do not share it)
+name: Site to GitHub Pages
 
 on:
   push:
     branches: [main]
-    paths: ["codex/**", ".github/workflows/pages.yml"]
+    paths: ["codex/**", "player/**", ".github/workflows/pages.yml"]
   workflow_dispatch:
 
 permissions:
@@ -26,9 +26,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Build the players' journal (fails if a secret leaks)
+        run: python3 player/build.py --out site
+      - name: Add the DM codex at its unlisted address
+        run: |
+          mkdir -p site/dm-aaa0a039
+          cp -r codex/index.html codex/things.js codex/img site/dm-aaa0a039/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: codex
+          path: site
       - id: deployment
         uses: actions/deploy-pages@v4

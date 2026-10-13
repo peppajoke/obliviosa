@@ -28,8 +28,7 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic. Cleaned 2
 ## Players' journal (`../../player/`, 2026-10-13)
 
 - [x] One shared journal for the whole party, Jack-approved reveals only, built from `player/entries.json`.
-- [ ] Make `peppajoke/obliviosa` private again (it was made public for Pages; the journal's safety depends on this repo being private).
-- [ ] Create the empty public repo for the journal and name it.
+- [x] Decided 2026-10-13: the repo stays public; one Pages site with the journal at the root and the DM codex at an unlisted address (`player/README.md`). No second repo.
 - [ ] Where session transcripts come from.
 
 ## Waiting on Nick

@@ -9,3 +9,4 @@ Jack keeps feeding story ideas in conversation; refine the docs as they come and
 - Record Jack's decisions with dates, and move answered questions out of the open lists.
 - When story docs change (new or renamed people, places, items, decisions), update `codex/things.js` to match. The object shape is in `codex/README.md`.
 - `player/` is the players' journal: only Jack-approved, player-facing entries. Never copy DM truth into `player/entries.json` without his approval, and always run `python3 player/build.py` (it has a leak guard). See `player/README.md`.
+- The Pages site serves the players' journal at the root and the DM codex at `/dm-aaa0a039/`. Never link or mention that DM path anywhere players could see it.
