@@ -28,7 +28,8 @@ Waking campaign: Phandalin, the white dragon Cryovain, the dwarf excavation, Gno
 | `06-lysa-options.md` | Four ways to tie Sal's missing niece Lysa to the island. |
 | `07-todo.md` | Open tasks and questions for this table only. |
 | `08-salanar.md` | Rejected 2026-10-13: Salanar as Elara's partner who handed Liv the spell. |
-| `09-kael-returns.md` | Current direction: the handoff from Nick, Thorne's forgotten hook, why Sal reverts to Kael. |
+| `09-kael-returns.md` | Current direction: the handoff from Nick, what happened on Lumenshire, Fawkes as Kael's wife, Kael at the temple, Salanar Reborn. |
+| `10-quest-board.md` | The quest board model: boards, 21 quest stubs, the three ways to re-merge Sal, Ilmater's intervention. |
 | `art/` | Image prompts for table-specific art (female Fawkes, Salanar Reborn). |
 | `party/` | D&D Beyond sync: procedure, script, raw roster, changelog. |
 

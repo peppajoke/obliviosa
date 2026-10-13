@@ -1,6 +1,6 @@
 # Codex
 
-A searchable index of every thing in the Obliviosa story: people, places, items, factions, events, monsters, spells, documents and concepts/rules. Each entry is one short DM-facing truth with links to related things and to the docs it comes from.
+A searchable index of every thing in the Obliviosa story: people, places, items, factions, events, monsters, spells, documents, concepts/rules and quests. Each entry is one short DM-facing truth with links to related things and to the docs it comes from.
 
 ## Opening it
 
@@ -17,7 +17,7 @@ Edit `things.js`. Each thing is one object in `window.THINGS`:
   id: "kebab-slug",            // unique, used in the URL hash and in `related`
   name: "Display Name",
   aliases: ["Other names"],    // also searched
-  type: "person",              // person | place | item | faction | event | monster | spell | document | concept
+  type: "person",              // person | place | item | faction | event | monster | spell | document | concept | quest
   scope: "book",               // book (generic Lumenshire) | icespire (only Jack's table)
   status: "canon",             // canon | proposal | deprecated
   summary: "1-3 plain sentences, DM-facing truth.",

@@ -1,6 +1,6 @@
 # 09. Kael returns
 
-Replaces `08-salanar.md` (rejected 2026-10-13). Fifth pass, same day.
+Replaces `08-salanar.md` (rejected 2026-10-13). Sixth pass, same day.
 
 ## Decided (Jack, 2026-10-13)
 
@@ -31,6 +31,15 @@ Replaces `08-salanar.md` (rejected 2026-10-13). Fifth pass, same day.
 - **Separately, Sal and Kael hate each other**, and if they learn of it both detest the idea of merging. Getting either to agree takes an **extremely high Persuasion check**.
 - **Evil Salanar returns as a boss.** The Sal the party knows is Kael plus Sal.
 - **Liv recognised her father and removed Sal from his mind.** Sal's soul returned to his original body, two years dead and badly decomposed, and he became a kind of dark lich: **Salanar Reborn**, the boss.
+
+**Sixth pass (Jack, 2026-10-13)**
+- **Fawkes keeps the book's stat block** (level 10 fighter).
+- **Kael plays from Sal's sheet.** His paladin powers no longer work.
+- **Ilmater likes the merged Sal/Kael and wants them rejoined.** If the party is not doing a good job, Ilmater finds a way to send someone to steer them toward it.
+- **There are several ways to merge them back**, including a wizard on Lumenshire powerful enough to do it, who is missing (a quest to find him), and a magic item that can do it (a quest to find it). See `10-quest-board.md`.
+- **The table moves to a quest board model.** Quests offered to the players lead to encounters. See `10-quest-board.md`.
+- **The dream framing is gone at this table.**
+- **Accepted:** re-merging, not killing Liv, is how Sal comes back, and killing Salanar Reborn loses him; Liv tore Sal out because she recognised her father and Salanar is the man who tried to erase her; Elara is cut at this table and Salanar Reborn is the will inside the Forgotten; Ashe is the book's Ashe Blackwood; the Lysa slaver story and the name Vel'tharin are dropped; the Persuasion DCs; the healing quest; the sending stone reaching an unconscious Kael.
 
 Rejected: Sal inside the hydra; 08 (Salanar as Elara's partner); Fawkes as Kael; the "void tore open, Elara felt it" chain.
 
@@ -79,10 +88,6 @@ So **getting Sal back means getting two men who hate each other to merge**:
 
 ## Open
 
-- Confirm: re-merging (not killing Liv) is how Sal comes back, and killing Salanar Reborn loses Sal for good.
-- How a lich and a living man merge: the lich's phylactery, Ilmater's temple, Liv.
-- Fawkes's first name and stat block.
-- Elara cut at this table.
-- The healing quest: what it fetches.
-- Dream frame at this table: still used?
+- Fawkes's first name.
+- Finn's price for a forced merge; whether Liv is a merge method.
 - Rewrite `01` to `06` and the handoff (`03`, now for Nick).

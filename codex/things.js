@@ -18,7 +18,7 @@ window.THINGS = [
     id: "fawkes", name: "Mayor Fawkes", aliases: ["Fawkes", "Fawks", "Hawkes", "the mayor"],
     type: "person", scope: "book", status: "canon",
     summary: "Mayor of Lumenshire, hailed as the hero who drove off 'the Forgotten's attack' five years ago. In truth he killed his wife Elara while she was drowning Liv, and has fed captives to his daughter every few nights since. The only person who remembers everything; suicidal at campaign start.",
-    details: "Human fighter 10 (sheet says Lawful Evil). AC 18, HP 85, longsword +1, Protection style, Second Wind, Action Surge, crits on 19-20.\nGreying hair, deep blue eyes, gold and silver armour, dark blue cloak.\nWants to keep Liv alive and keep Karleen out of it. Can be convinced to change.\nHis serum plan for the Remembrance Festival is the keeper ritual by force (decided 2026-10-11, Q3). He owns the Oblivion tome but not the Eternal Tome, so he does not know the clause needs consent.\nHands out marbles that each imprison one witness. Declining his errand means never leaving the island.",
+    details: "Human fighter 10 (sheet says Lawful Evil). AC 18, HP 85, longsword +1, Protection style, Second Wind, Action Surge, crits on 19-20.\nGreying hair, deep blue eyes, gold and silver armour, dark blue cloak.\nWants to keep Liv alive and keep Karleen out of it. Can be convinced to change.\nHis serum plan for the Remembrance Festival is the keeper ritual by force (decided 2026-10-11, Q3). He owns the Oblivion tome but not the Eternal Tome, so he does not know the clause needs consent.\nHands out marbles that each imprison one witness. Declining his errand means never leaving the island.\nDecided 2026-10-13: at Jack's table she keeps this stat block.",
     table: "Decided 2026-10-13 (09): Fawkes is a woman, Kael's wife and Liv's mother. Her magic half-saved Liv from Salanar's unmaking into the hydra. She keeps every book Fawkes role (mayor, hero of the attack, the feedings, the only one who remembers) and is on the re-election posters. Her husband, dead two years, has just come back; she sits at his bedside and cannot tell him anything. Proposal: she also takes Elara's roles (the portal-wizard's blood), so Elara is cut at this table. First name and stat block open. Image prompts in campaigns/icespire-nad-group/art/image-prompts.md.",
     related: ["liv", "elara", "karleen", "seraphina-dawnbringer", "luminous-vanguard", "fawkes-serum", "fawkes-marbles", "oblivion-tome", "fawkes-trial", "the-feedings", "remembrance-festival", "town-hall", "fawkes-secret-lair", "fawkes-track", "ending-fawkes-sacrifice"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "book/00-canon.md", "book/02-story-flow.md", "book/05-sacrifice-and-hooks.md", "drive/characters/mayor-fawkes.md", "drive/loose/fawkes-missions.md", "drive/obliviosa-root/what-really-happened-five-years-ago.md", "drive/loose/false-hydra-redux-script.md", "campaigns/icespire-nad-group/08-salanar.md"]
@@ -163,6 +163,7 @@ window.THINGS = [
     id: "thaddeus-finn", name: "Thaddeus Finn", aliases: ["the mystic"],
     type: "person", scope: "book", status: "canon",
     summary: "A powerful mystic said to solve any problem, whose solutions backfire as the universe balances itself. He theorises the monster took memories as payment and that restoring them has a price. Decided 2026-10-11 (Q10) to salvage him from the deprecated Thorne's Journal.",
+    table: "Proposal (10): the only wizard on Lumenshire powerful enough to re-merge Sal and Kael, and the Mystic's Emporium is his shop. Missing: Fawkes holds him under town hall to make the festival serum (Q3). He can force the merge without consent, but his solutions always backfire.",
     related: ["thornes-journal", "keeper-clause"],
     sources: ["book/03-open-questions.md", "drive/deprecated/thornes-journal.md"]
   },
@@ -246,6 +247,188 @@ window.THINGS = [
     related: ["kael-orendis", "salanar", "evil-salanar", "vial-of-complete-restoration"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md"]
   },
+  // ───────────────────────────── QUEST BOARD (Icespire table) ─────────────────────────────
+
+  {
+    id: "quest-board", name: "The quest board", aliases: [],
+    type: "concept", scope: "icespire", status: "canon",
+    summary: "Decided 2026-10-13: Jack's table runs on a quest board model. Four boards post work (town hall, the Dragon's Inn, the temple of Ilmater, and Karleen's pages and the cult's chalk pinned over the rest); each quest leads to encounters and pays something concrete plus one piece of the truth.",
+    details: "Ignored quests keep moving: torn down, re-posted with a bigger reward, or replaced by news of what went wrong. Recommended day one: Q1, Q3, Q6, Q10, Q13.",
+    related: ["re-merge", "town-hall", "the-dragons-inn", "temple-of-ilmater", "karleen"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "re-merge", name: "Re-merging Sal and Kael", aliases: [],
+    type: "concept", scope: "icespire", status: "canon",
+    summary: "Decided 2026-10-13: our Sal comes back only when Kael and Salanar Reborn merge again. There are several ways; separated, the two hate each other.",
+    details: "Proposal (10): 1, Thaddeus Finn can force it without consent at a backfiring price; 2, the Bound Hands of Ilmater, if both grip it willingly (Persuasion DC 25-30 each); 3, Liv, who split them, if she trusts the party. Ilmater wants it done: Kael's paladin powers fail until then, and if the party stalls, Ilmater sends someone (proposal: Brother Aldric). Killing Salanar Reborn loses Sal for good.",
+    related: ["salanar", "kael-orendis", "evil-salanar", "thaddeus-finn", "bound-hands", "liv", "brother-aldric", "temple-of-ilmater"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "bound-hands", name: "The Bound Hands of Ilmater", aliases: [],
+    type: "item", scope: "icespire", status: "proposal",
+    summary: "A relic cord of Ilmater that joins two hands, and two souls, if both grip it willingly. Kael's party's cleric carried it to bind Salanar and died with it on the Reach.",
+    details: "Merge method 2 (Q4). Salanar Reborn recognises it on sight.",
+    related: ["re-merge", "kaels-party", "forgotten-reach", "evil-salanar"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "kaels-party", name: "Kael's fallen party", aliases: [],
+    type: "faction", scope: "icespire", status: "canon",
+    summary: "Decided 2026-10-13: the companions who fought Salanar beside Kael two years ago. Salanar killed them all; their bones are still on the Reach.",
+    details: "Proposal (10): their cleric carried the Bound Hands of Ilmater. Kael, once awake, asks for help bringing them home (Q4).",
+    related: ["kael-orendis", "evil-salanar", "bound-hands", "forgotten-reach"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q01", name: "Q1. Remedies sought for Ser Kael Orendis", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Temple board. Kael's wound is a soul wound and needs Greater Restoration or better. Reward: he wakes days early, before the Vanguard gets to him; the temple's favour.",
+    related: ["kael-orendis", "temple-of-ilmater", "q02", "q03", "q05"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q02", name: "Q2. Gary's short list", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board, posted by Gary: a tide-pearl from the Reach shallows, grave-moss, banshee breath. A restorative draught that casts Greater Restoration once. Forgotten in the shallows.",
+    related: ["gary", "apothe-gary", "q01", "potion-of-encapsulation", "forgotten-reach"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q03", name: "Q3. Thaddeus Finn owes me 200 gold", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board, posted by Willem. Fawkes holds Finn under town hall to make the festival serum. The ransacked Emporium, a Vanguard patrol, the secret lair. Merge method 1.",
+    related: ["thaddeus-finn", "willem", "mystics-emporium", "fawkes-secret-lair", "fawkes-serum", "re-merge"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q04", name: "Q4. The fallen of the Reach", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Temple board, posted by Kael once awake. Bring his party's bones home; their cleric carried the Bound Hands. Crossing to the Reach, the Forgotten, the first sighting of Salanar Reborn. Merge method 2.",
+    related: ["kaels-party", "bound-hands", "forgotten-reach", "evil-salanar", "q17"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q05", name: "Q5. Night watch wanted", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Temple board. Singing near the temple: Liv comes at night to look at her father, touches the glass, does not attack. Song damage. Merge method 3.",
+    related: ["liv", "kael-orendis", "temple-of-ilmater", "hydra-song", "re-merge"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q06", name: "Q6. Discreet couriers wanted", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Town hall board. The book's potion pickup at Lumen Pier for Fawkes's serum; a rival crew gets there first. Reward: passage home, gold, the mayor's trust.",
+    related: ["fawkes", "fawkes-serum", "lumen-pier", "fawkes-marbles", "fawkes-track"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q07", name: "Q7. A witness to be brought in", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Town hall board. The witness is Karleen or someone with her drawings: the Fawkes track's handoff to the Karleen track.",
+    related: ["karleen", "fawkes-marbles", "fawkes-track"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q08", name: "Q8. Bounty: Forgotten sighted", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Town hall board. The Act 2 daylight Forgotten, fought in front of everyone; its body carries a clue pointing at Fawkes.",
+    related: ["the-forgotten", "luminous-vanguard", "fawkes"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q09", name: "Q9. Festival guards", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Town hall board. Guard the Remembrance Festival: the clock, and a place next to the serum.",
+    related: ["remembrance-festival", "fawkes-serum", "luminous-vanguard"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q10", name: "Q10. DON'T FORGET", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Pinned over a Vanguard notice: a page describing each of the party and a crossed-out sixth. 'Treehouse past the graveyard. Dusk.'",
+    related: ["karleen", "karleens-treehouse"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q11", name: "Q11. Missing child near the Reach shore", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board. The cult's lost child, near the cave.",
+    related: ["lost-child", "cult-cave", "cult-track"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q12", name: "Q12. Scrub the chalk", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Town hall board. The cult's blue chalk symbols; followed in order, they lead to the cave.",
+    related: ["cult-of-obliviosa", "cult-cave", "merchant-district"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q13", name: "Q13. Deliveries", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board, Bartholomew. Every address on his old receipts is an empty house set for people nobody remembers.",
+    related: ["bartholomew", "bartholomews-bakery", "residential-district"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q14", name: "Q14. Who is in my portrait?", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board, Willem. A reward for naming the woman in the painting over his forge.",
+    related: ["willem", "willems-forge"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q15", name: "Q15. A fitting", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board, Gwendolyn. A finished gown for a woman nobody on the island fits.",
+    related: ["gwendolyn", "gwendolyns-garments"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q16", name: "Q16. Hydra's Fury challenge", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board, Beatrice. Drink three; the 'so drunk the song cannot land' discovery. TJ's quest.",
+    related: ["beatrice", "hydras-fury", "the-dragons-inn", "tj-star"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q17", name: "Q17. Boat for hire past the Reach", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Dragon's Inn board, Thomas. The way across with no bridge, and the hidden boat graveyard.",
+    related: ["thomas", "forgotten-reach", "boat-graveyard"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q18", name: "Q18. Escort duty, Blackwood farm", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Town hall board. Fawkes is trying to get Ashe off the island alive; Ashe has a flintlock and two dogs.",
+    related: ["ashe-blackwood", "blackwood-farmstead", "fawkes", "luminous-vanguard"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q19", name: "Q19. Parts wanted for a flying machine", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Cid's notice. The escape valve.",
+    related: ["cid-tidebringer"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q20", name: "Q20. Gravedigger wanted", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "The church: graves keep getting opened. Salanar Reborn is taking the dead. The first lich thread.",
+    related: ["evil-salanar", "the-forgotten"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+  {
+    id: "q21", name: "Q21. A dream interpreter sought", aliases: [],
+    type: "quest", scope: "icespire", status: "proposal",
+    summary: "Posted anonymously by Seraphina: her nightmare of a three-headed monster. A way to turn her.",
+    related: ["seraphina-dawnbringer", "mystic-melatonin"],
+    sources: ["campaigns/icespire-nad-group/10-quest-board.md"]
+  },
+
   {
     id: "sals-disappearance", name: "Sal's disappearance", aliases: ["after Cryovain", "the bridge to Lumenshire"],
     type: "event", scope: "icespire", status: "proposal",
@@ -258,6 +441,7 @@ window.THINGS = [
     id: "brother-aldric", name: "Brother Aldric", aliases: ["Aldric"],
     type: "person", scope: "icespire", status: "canon",
     summary: "A kindly old cleric who is Sal's sponsor, treating the void-stone habit like any other addiction. He has no idea what Sal did; his advice is mundane, earnest and accidentally profound.",
+    table: "Proposal (10): Ilmater's messenger. If the party stalls on the merge, he steps off the weekly ferry, sent by a dream, looking for his friend Sal, and talks about Sal's atonement in front of a Kael who has never heard of it.",
     related: ["salanar", "void-stones", "shrine-of-ilmater", "lysa"],
     sources: ["campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/06-lysa-options.md"]
   },
@@ -653,6 +837,7 @@ window.THINGS = [
     id: "mystics-emporium", name: "The Mystic's Emporium", aliases: ["the magic shop", "abandoned shop"],
     type: "place", scope: "book", status: "canon",
     summary: "A ransacked, abandoned magic shop smelling of burnt wood: overturned shelves, smashed potions, tattered spellbooks. Still needs a clue planted in it (TODO).",
+    table: "Proposal (10): Thaddeus Finn's shop, ransacked by the Vanguard when Fawkes took him. The missing clue: Finn's notes on what the song takes and how to give it back, and a Vanguard boot print (Q3).",
     related: ["merchant-district", "enchanted-garden"],
     sources: ["drive/locations/the-mystics-emporium.md", "book/00-canon.md", "drive/obliviosa-root/liv-todo.md"]
   },

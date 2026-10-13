@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Obliviosa Codex</title>
-<meta name="description" content="Searchable index of every person, place, item, faction, event, monster, spell, document and rule in the Obliviosa campaign.">
+<meta name="description" content="Searchable index of every person, place, item, faction, event, monster, spell, document, rule and quest in the Obliviosa campaign.">
 <style>
   :root {
     --bg: #f6f4ef;
@@ -225,8 +225,8 @@
   var byId = {};
   THINGS.forEach(function (t) { byId[t.id] = t; });
 
-  var TYPE_ORDER = ["person", "place", "item", "faction", "event", "monster", "spell", "document", "concept"];
-  var TYPE_LABEL = { person: "People", place: "Places", item: "Items", faction: "Factions", event: "Events", monster: "Monsters", spell: "Spells", document: "Documents", concept: "Concepts" };
+  var TYPE_ORDER = ["person", "place", "item", "faction", "event", "monster", "spell", "document", "concept", "quest"];
+  var TYPE_LABEL = { person: "People", place: "Places", item: "Items", faction: "Factions", event: "Events", monster: "Monsters", spell: "Spells", document: "Documents", concept: "Concepts", quest: "Quests" };
   var SCOPE_LABEL = { book: "Book", icespire: "Icespire" };
 
   // Backlinks: which entries point at this one.

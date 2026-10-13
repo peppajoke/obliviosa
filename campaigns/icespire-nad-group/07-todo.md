@@ -32,12 +32,13 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [x] Kael returned recently, critical, at the temple of Ilmater; unconscious a few days; advanced healing and a quest can wake him early; joins the Vanguard once awake.
 - [x] Sal's Cryovain memories locked until Sal and Kael merge again. Separated, they hate each other; extremely high Persuasion for either.
 - [x] Evil Salanar returns as a boss: Liv recognised her father and tore Sal out; Sal's soul went back to Salanar's decomposed body and rose as a dark lich, Salanar Reborn.
+- [x] Fawkes keeps the book stat block. Kael plays from Sal's sheet; his paladin powers do not work.
+- [x] Ilmater wants them rejoined and sends someone if the party stalls (proposal: Brother Aldric).
+- [x] Several merge methods: a missing wizard (Thaddeus Finn, proposal), a relic (the Bound Hands of Ilmater, proposal), Liv (proposal).
+- [x] Quest board model (`10-quest-board.md`). Dream frame gone. Earlier proposals accepted (see 09, sixth pass).
 - [ ] Generate Fawkes portrait, poster and Salanar Reborn (prompts in `art/image-prompts.md`; image service had no subscription).
-- [ ] Confirm: re-merging (not killing Liv) brings Sal back; killing Salanar Reborn loses him.
-- [ ] How a lich and a living man re-merge (phylactery, temple, Liv).
-- [ ] Fawkes's first name and stat block (fighter or caster).
-- [ ] Elara cut at this table; evil Salanar as the will inside the Forgotten.
-- [ ] The healing quest: what it fetches (Greater Restoration source, a Reach reagent, or the Vial).
-- [ ] Ashe Orendis back to Ashe Blackwood.
-- [ ] Dream frame: still used at this table?
+- [ ] Fawkes's first name.
+- [ ] Finn's price for a forced merge; Liv as a merge method or not.
+- [ ] Day-one quests, rewards and DCs (`10-quest-board.md`).
 - [ ] Rewrite `01` to `06` and the handoff (`03`, now for Nick).
+- [ ] Rewrite Sal's D&D Beyond backstory to match (no Calimshan, Vel'tharin or slavers).
