@@ -6,7 +6,7 @@ A searchable index of every thing in the Obliviosa story: people, places, items,
 
 Open `codex/index.html` in a browser, straight from disk. No build step and no server needed. `/` focuses search, `Esc` clears it (or closes the open entry). Each entry has its own URL hash (`index.html#ashe-blackwood`), so you can link to it and back/forward works.
 
-Filters: type chips, scope (All / Book / Icespire table), and a toggle for deprecated things, which are hidden by default.
+Filters: type chips, scope (All / Book / Icespire table), a toggle for deprecated things (hidden by default), and a Has picture toggle.
 
 ## Adding or changing a thing
 
@@ -24,7 +24,10 @@ Edit `things.js`. Each thing is one object in `window.THINGS`:
   details: "Optional. Stats, DCs, who knows what.\nNew lines are kept.",
   table: "Optional. Icespire-specific twist on a book thing.",
   related: ["other-ids"],      // every id must exist
-  sources: ["book/00-canon.md"] // repo-relative paths that exist
+  sources: ["book/00-canon.md"], // repo-relative paths that exist
+  images: [                    // optional; first one is the list thumbnail
+    { src: "img/kebab-slug.jpg", caption: "Where the picture came from" }
+  ]
 }
 ```
 
@@ -33,4 +36,5 @@ Rules:
 - When a book thing gets a table-specific twist (Ashe Blackwood becomes Ashe Orendis), keep one entry with `scope: "book"` and put the twist in `table`. Do not make a second entry.
 - Where docs disagree, follow `book/00-canon.md` and the newest campaign docs, and mark undecided ideas as `proposal`.
 - `deprecated` is for things that only survive in `drive/deprecated/` or were explicitly cut.
+- Pictures live in `codex/img/`, named after the entry id (`<id>.jpg`, then `<id>-2.jpg` and so on for extras). `src` is relative to `codex/`. Keep them small: at most 900px on the long side, JPEG quality around 82. Put each picture on the most specific entry it shows (a shopkeeper's portrait goes on the person, not the shop). The current set came from the pictures embedded in the Google Docs, which the `drive/` text mirror does not keep.
 - Keep the codex in step with the story docs: when people, places, items or decisions change, update `things.js` in the same change.

@@ -143,6 +143,13 @@
   .item .name { font-weight: 650; font-size: 16px; overflow-wrap: anywhere; }
   .item .sum { color: var(--muted); font-size: 14px; margin-top: 4px; overflow-wrap: anywhere;
     display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .item.has-thumb { display: flex; gap: 12px; align-items: flex-start; }
+  .item .body { flex: 1 1 auto; min-width: 0; }
+  .thumb {
+    flex: none; width: 56px; height: 56px; border-radius: 8px; object-fit: cover;
+    background: var(--surface-2); border: 1px solid var(--border); display: block;
+  }
+  .item.deprecated .thumb { opacity: .6; }
   .item.deprecated .name { text-decoration: line-through; text-decoration-thickness: 1px; color: var(--muted); }
 
   .badge {
@@ -164,6 +171,17 @@
     background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
     padding: 16px; box-shadow: var(--shadow); min-width: 0;
   }
+  .pics { display: grid; grid-template-columns: minmax(0, 1fr); gap: 8px; margin: 0 0 14px; }
+  .pics.multi { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .pic { margin: 0; min-width: 0; }
+  .pic a { display: block; }
+  .pic img {
+    display: block; width: 100%; height: auto; max-height: 440px; object-fit: contain;
+    background: var(--surface-2); border: 1px solid var(--border); border-radius: 10px;
+  }
+  .pics.multi .pic img { aspect-ratio: 1 / 1; object-fit: cover; max-height: none; }
+  .pic-cap { grid-column: 1 / -1; margin: -2px 0 0; color: var(--muted); font-size: 13px; }
+  .pic figcaption { color: var(--muted); font-size: 13px; margin-top: 4px; overflow-wrap: anywhere; }
   .card .back { display: inline-flex; align-items: center; gap: 4px; border: 0; background: none; color: var(--accent); padding: 0; cursor: pointer; font-size: 14px; margin-bottom: 8px; }
   .card h2 { margin: 0 0 6px; font-size: 22px; line-height: 1.25; overflow-wrap: anywhere; }
   .card .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
@@ -207,6 +225,7 @@
         <button type="button" data-scope="icespire" aria-pressed="false">Icespire table</button>
       </div>
       <label class="toggle"><input type="checkbox" id="showDep"> Show deprecated</label>
+      <label class="toggle"><input type="checkbox" id="hasImg"> Has picture</label>
       <span class="count" id="count" aria-live="polite"></span>
     </div>
   </div>
@@ -235,12 +254,13 @@
     (t.related || []).forEach(function (r) { (backlinks[r] = backlinks[r] || []).push(t.id); });
   });
 
-  var state = { q: "", type: null, scope: "all", showDep: false };
+  var state = { q: "", type: null, scope: "all", showDep: false, hasImg: false };
 
   var $q = document.getElementById("q");
   var $types = document.getElementById("types");
   var $scope = document.getElementById("scope");
   var $dep = document.getElementById("showDep");
+  var $img = document.getElementById("hasImg");
   var $list = document.getElementById("list");
   var $detail = document.getElementById("detail");
   var $layout = document.getElementById("layout");
@@ -271,9 +291,12 @@
     return -1;
   }
 
+  function hasImages(t) { return !!(t.images && t.images.length); }
+
   function passesBase(t) {
     if (!state.showDep && t.status === "deprecated") return false;
     if (state.scope !== "all" && t.scope !== state.scope) return false;
+    if (state.hasImg && !hasImages(t)) return false;
     return true;
   }
 
@@ -323,10 +346,12 @@
       $list.innerHTML = '<li class="empty">Nothing matches' + (state.showDep ? "" : ". Deprecated entries are hidden; tick Show deprecated to include them") + '.</li>';
     } else {
       $list.innerHTML = scored.map(function (s) {
-        var t = s.t;
+        var t = s.t, img = hasImages(t);
         return '<li><a class="item' + (t.status === "deprecated" ? " deprecated" : "") + (t.id === cur ? " current" : "") +
-          '" href="#' + esc(t.id) + '"><div class="head"><span class="name">' + esc(t.name) + '</span>' + badges(t) +
-          '</div><div class="sum">' + esc(t.summary) + '</div></a></li>';
+          (img ? " has-thumb" : "") + '" href="#' + esc(t.id) + '"><div class="body"><div class="head"><span class="name">' +
+          esc(t.name) + '</span>' + badges(t) + '</div><div class="sum">' + esc(t.summary) + '</div></div>' +
+          (img ? '<img class="thumb" src="' + esc(t.images[0].src) + '" alt="" width="56" height="56" loading="lazy" decoding="async">' : "") +
+          '</a></li>';
       }).join("");
     }
     $count.textContent = scored.length + (scored.length === 1 ? " thing" : " things");
@@ -336,6 +361,18 @@
     var r = byId[id];
     if (!r) return "";
     return '<a href="#' + esc(id) + '">' + esc(r.name) + '<span class="t">' + esc(r.type) + '</span></a>';
+  }
+
+  function pics(t) {
+    if (!hasImages(t)) return "";
+    var first = t.images[0].caption || "";
+    var shared = t.images.length > 1 && first && t.images.every(function (im) { return (im.caption || "") === first; });
+    return '<div class="pics' + (t.images.length > 1 ? " multi" : "") + '">' + t.images.map(function (im, i) {
+      var alt = im.caption || (t.name + (t.images.length > 1 ? " (picture " + (i + 1) + ")" : ""));
+      return '<figure class="pic"><a href="' + esc(im.src) + '" target="_blank" rel="noopener"><img src="' + esc(im.src) +
+        '" alt="' + esc(alt) + '"' + (i > 0 ? ' loading="lazy"' : "") + ' decoding="async"></a>' +
+        (im.caption && !shared ? '<figcaption>' + esc(im.caption) + '</figcaption>' : "") + '</figure>';
+    }).join("") + (shared ? '<p class="pic-cap">' + esc(first) + '</p>' : "") + '</div>';
   }
 
   function renderDetail() {
@@ -349,6 +386,7 @@
     var t = byId[id];
     var h = '<article class="card">' +
       '<button type="button" class="back" id="back">&larr; All things</button>' +
+      pics(t) +
       '<h2>' + esc(t.name) + '</h2>' +
       '<div class="badges">' + badges(t, true) + '</div>';
     if (t.aliases && t.aliases.length) h += '<p class="aliases">Also: ' + t.aliases.map(esc).join(", ") + '</p>';
@@ -410,6 +448,7 @@
     render();
   });
   $dep.addEventListener("change", function () { state.showDep = $dep.checked; render(); });
+  $img.addEventListener("change", function () { state.hasImg = $img.checked; render(); });
 
   document.addEventListener("keydown", function (e) {
     var tag = (e.target && e.target.tagName) || "";
