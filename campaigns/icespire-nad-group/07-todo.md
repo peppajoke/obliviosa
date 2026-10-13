@@ -21,3 +21,14 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [ ] Does Ashe know his son's eyes do not match? (`04-session-1-intro.md`)
 - [ ] Cid: perception void or not. (`01-plan.md`)
 - [ ] Is the Icespire DM comfortable with Cryovain having already hit Phandalin, if that version survives? (`01-plan.md`)
+
+## Salanar (from `08-salanar.md`, 2026-10-13)
+
+- [x] Sal and Kael are from Lumenshire; Salanar's catastrophe happened there; he was on the bad side of the Liv ordeal.
+- [ ] Confirm or cut the merge: the Great Erasure is the night of Liv's spell, Salanar as Elara's partner who handed Liv the spell.
+- [ ] How dark: did Salanar know what Elara was doing to Liv?
+- [ ] What went wrong with the stone: cracked, flinched, or pulled back on purpose.
+- [ ] The Unmaker: Elara, Salanar's own eaten self, or ambiguous.
+- [ ] Calimshan at the table: retcon, deflection, or mix-up.
+- [ ] Rewrite `05` and `06` for the new timeline once the merge is confirmed.
+- [ ] Book: add the general "accomplice slot" if Jack likes it.
