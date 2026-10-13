@@ -363,7 +363,7 @@
     }
     if (t.sources && t.sources.length) {
       h += '<h3>Sources</h3><ul class="sources">' + t.sources.map(function (s) {
-        return '<li><a href="../' + esc(s) + '">' + esc(s) + '</a></li>';
+        return '<li><a href="' + (location.protocol === "file:" ? "../" : "https://github.com/peppajoke/obliviosa/blob/main/") + esc(s) + '">' + esc(s) + '</a></li>';
       }).join("") + '</ul>';
     }
     h += '<p class="hint">Press <b>/</b> to search, <b>Esc</b> to clear.</p></article>';

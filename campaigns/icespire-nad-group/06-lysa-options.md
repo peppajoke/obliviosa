@@ -1,5 +1,7 @@
 # 06. Retrofitting Lysa
 
+**Superseded 2026-10-13.** The Lysa slaver story is dropped at this table (`09-kael-returns.md`). **Liv took Lysa's role:** the missing girl Sal's mission was about is Kael's daughter, and Sal's mission is atonement. None of the options below are current. Kept for the reasoning only. It also still assumes the dream frame, Ashe Orendis and Calimshan, all of which are gone.
+
 Fixed by Sal's sheet: Lysa is Kael's niece, taken by Calishite slavers six months before the Great Erasure (about two and a half years ago). Finding her is Kael's mission and Sal's thread to redemption. Fixed by the integration: Kael is Ashe Orendis's son, born on Lumenshire, left young. So Lysa is Ashe's granddaughter, the child of one of the Orendis children Liv ate. Everything else about Kael is open.
 
 Shared mechanism for most options: **the slaver ship wrecked on Lumenshire.** The raw notes already say travel to the island is obstructed and "there are MANY destroyed boats somewhere secret". Rowan's notes already give the waking game wreckers at a lighthouse, Mosco, who lure ships for Talos and are friends with Cryovain. A Calishite slaver making the northern run, lured onto the Reach, is one sentence and it ties both campaigns together.
