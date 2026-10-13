@@ -22,15 +22,15 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [ ] Cid: perception void or not. (`01-plan.md`)
 - [ ] Is the Icespire DM comfortable with Cryovain having already hit Phandalin, if that version survives? (`01-plan.md`)
 
-## Kael returns (from `09-kael-returns.md`, 2026-10-13)
+## Kael returns (from `09-kael-returns.md`, 2026-10-13, second pass)
 
-- [x] 08 (Salanar as Elara's partner) rejected.
-- [x] The mayor is Kael; Liv is Lysa; it all happens in order; Sal is wiped out of Kael on the island; kill Liv or lift the curse and Sal returns; the players must understand that rule.
-- [ ] Pick the bridge from Cryovain to the beach (recommend the letter plus the humming stone).
-- [ ] Mechanism: Liv ate Sal and left the body? (proposal)
-- [ ] The five years: song-written memory, or a different island timeline for this table.
-- [ ] Liv as Kael's daughter or niece.
-- [ ] Fawkes or Kael as the name the island uses.
-- [ ] Ashe: what he knows about the mayor.
-- [ ] Dream frame: retired for this table, or kept with a new meaning.
-- [ ] Rewrite `01`, `04`, `05`, `06` and `03` (the Icespire DM handoff) once the broad strokes settle.
+- [x] 08 rejected. Sal inside the hydra rejected.
+- [x] Close to the original design. Nick cuts to black in the Cryovain epilogue; letter-in-blood opening; Sal not with the party.
+- [x] Sal came with the party and told them why; Liv wiped it on arrival; Sal reverts to Kael, who has returned home as a hero presumed dead.
+- [x] The forgotten friend is Kael's old friend who roped them in; eating them erases the hook.
+- [ ] Confirm Thorne as that friend, and the epilogue beat for Nick ("Kael?").
+- [ ] Confirm the mechanism: the song peels Salanar off as a graft; Thorne's erasure is why it happened that night.
+- [ ] Kael: the mayor, or a returning hero beside Fawkes?
+- [ ] Lysa as Liv: Elara as Kael's sister?
+- [ ] Dream frame: still used at this table?
+- [ ] Rewrite `01` to `06` and the handoff (`03`, now for Nick).
