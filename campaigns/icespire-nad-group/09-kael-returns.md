@@ -17,6 +17,7 @@ Replaces `08-salanar.md` (rejected 2026-10-13). Fourth pass, same day.
 - **Merged consciousness.** Sal relived Kael's whole life and emerged as the dominant personality, but changed a great deal, because he is also Kael now.
 - **He left.** Kael-as-Sal went back to town believing his family had been erased. He could not face the survivors, and with his family gone there was no reason to stay, so he left Lumenshire. That is where Sal's atonement starts.
 - **Becoming a paladin.** He took void crystals recreationally to forget. Then he formed a spirit bond with Ilmater, became a true paladin in Ilmater's light, and vowed to do everything he can to atone.
+- **Evil Salanar returns as a boss.** The Sal the party knows is Kael plus Sal. The old Salanar comes back as a boss in this campaign.
 - **Sal/Kael replaces Fawkes as Liv's father.** Fawkes's other functions on the island need a new owner, because Kael left. That is resolved below.
 
 Rejected: Sal inside the hydra; 08 (Salanar as Elara's partner); Fawkes as Kael; the earlier "the void tore open and Elara felt it" chain (too complicated).
@@ -45,6 +46,17 @@ Rejected: Sal inside the hydra; 08 (Salanar as Elara's partner); Fawkes as Kael;
 
 **The redux's Elara goal still fits, darker.** "Reunite her family into one being" no longer needs a ghost. With Kael home, her family is the hydra, Kael and herself.
 
+## Evil Salanar (proposal)
+
+The Sal the party knows is two men merged, and he hears two voices: Ilmater and **the Unmaker**. The Unmaker is the old Salanar, the one who never lived Kael's life.
+
+Two ways he comes back. Recommend A.
+
+- **A. His body rises.** Kael killed Salanar's real body on the Reach, the ground where the unmaking happened. The void does not let go of a man who emptied that many people into it, and he rises as the first and worst of the Forgotten. All he has left is what he was before Kael: the conviction that erasure is mercy, and unfinished business. The Unmaker voice was him all along, calling from the Reach. He wants his work finished, and he wants the body that was taken from him while he was in it. Separate from Sal's return: kill Liv or lift the curse and Sal still comes back.
+- **B. The song splits them.** When the song peels Salanar off Kael on landing, it does not destroy him. The old Salanar, the Unmaker half, is cast out and walks again. The redeemed part, what Salanar became by living Kael's life, cannot exist without Kael. Sal only returns if both halves are put back together, which means the party cannot simply destroy the boss. Stronger dilemma, more complicated rule.
+
+Either way: Kael is hunting the man who did this, the party knows the boss wears their friend's history, and the boss knows the party is the thing that made him soft.
+
 ## Smaller fixes
 
 - **Vel'tharin:** drop the name. It was Salanar's people on the sheet. At this table Salanar is simply a healer on Lumenshire, and the Great Erasure is what he did to the island.
@@ -55,6 +67,8 @@ Rejected: Sal inside the hydra; 08 (Salanar as Elara's partner); Fawkes as Kael;
 - **The reversion:** with a merged consciousness, the song peels Salanar away and leaves Kael, whose last memory is the fight on the Reach.
 
 ## Open
+
+- Evil Salanar: A (his body rises as a Forgotten; the Unmaker voice was him) or B (the song splits him off Kael).
 
 - The mother's name, and whether she is a sympathetic antagonist or slides toward the redux villain.
 - Fawkes cut, or kept as a minor figure.

@@ -29,6 +29,8 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [x] Liv is Kael's daughter. Salanar was unmaking her; her mother's magic half-saved her into the hydra.
 - [x] Salanar killed Kael's party, jumped into Kael, and Kael killed Salanar's body. Merged; Sal dominant but changed.
 - [x] Kael-as-Sal left believing his family erased; void crystals; Ilmater; atonement.
+- [x] Evil Salanar returns as a boss.
+- [ ] Evil Salanar: A (body rises as a Forgotten; he is the Unmaker voice) or B (the song splits him off Kael).
 - [ ] Confirm: Liv's mother survived and takes over Fawkes's role as mayor.
 - [ ] Her name (keep Elara or rename); sympathetic or villain.
 - [ ] Fawkes cut, or a minor figure.

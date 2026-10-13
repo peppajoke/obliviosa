@@ -231,6 +231,14 @@ window.THINGS = [
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "campaigns/icespire-nad-group/06-lysa-options.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/07-todo.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
   {
+    id: "evil-salanar", name: "Evil Salanar (the Unmaker)", aliases: ["the Unmaker", "old Salanar"],
+    type: "monster", scope: "icespire", status: "canon",
+    summary: "Decided 2026-10-13: the old Salanar returns as a boss in this campaign. The Sal the party knows is Kael plus Sal; this is Salanar as he was before he lived Kael's life.",
+    details: "Proposal (09): A, his body, killed by Kael on the Reach, rises as the first and worst of the Forgotten, and the Unmaker voice was him all along (recommended); or B, the song that strips Sal from Kael on landing casts the old Salanar out to walk again, and Sal only returns if the halves are rejoined.",
+    related: ["salanar", "kael-orendis", "two-voices", "the-forgotten", "forgotten-reach", "great-erasure"],
+    sources: ["campaigns/icespire-nad-group/09-kael-returns.md"]
+  },
+  {
     id: "sals-disappearance", name: "Sal's disappearance", aliases: ["after Cryovain", "the bridge to Lumenshire"],
     type: "event", scope: "icespire", status: "proposal",
     summary: "Decided 2026-10-13: at the Cryovain epilogue Thorne finds Sal, thinks he is Kael and shows him Ashe's letter; Nick cuts to black and the party wakes on the beach without Sal. Nick's one beat: a salt-stained stranger stops in front of Sal and says 'Kael?'",
