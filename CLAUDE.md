@@ -7,3 +7,4 @@ Jack keeps feeding story ideas in conversation; refine the docs as they come and
 - When an idea is specific to Jack's table, write it in the campaign folder. When it would work for any table, write the general version in `book/` and the specific application in the campaign folder.
 - `drive/` is a read-only mirror of Google Drive. Do not edit it.
 - Record Jack's decisions with dates, and move answered questions out of the open lists.
+- When story docs change (new or renamed people, places, items, decisions), update `codex/things.js` to match. The object shape is in `codex/README.md`.

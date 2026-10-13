@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Obliviosa Codex</title>
+<meta name="description" content="Searchable index of every person, place, item, faction, event, monster, spell, document and rule in the Obliviosa campaign.">
+<style>
+  :root {
+    --bg: #f6f4ef;
+    --surface: #ffffff;
+    --surface-2: #efece4;
+    --text: #1d1f24;
+    --muted: #5d6270;
+    --border: #dcd7cb;
+    --accent: #2f5d8a;
+    --accent-soft: #e2ebf4;
+    --focus: #2f5d8a;
+    --proposal: #8a5a00;
+    --proposal-bg: #fbefd6;
+    --deprecated: #8b2f2f;
+    --deprecated-bg: #f7e1e1;
+    --book: #2f5d8a;
+    --book-bg: #e2ebf4;
+    --icespire: #2d6e63;
+    --icespire-bg: #dcefeb;
+    --type-bg: #ece8de;
+    --table-bg: #eef6f4;
+    --table-border: #a9d3ca;
+    --shadow: 0 1px 2px rgba(0,0,0,.05);
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14161b;
+      --surface: #1c1f26;
+      --surface-2: #242833;
+      --text: #e6e8ee;
+      --muted: #9aa1b2;
+      --border: #313643;
+      --accent: #8db7e3;
+      --accent-soft: #233446;
+      --focus: #8db7e3;
+      --proposal: #f0c36b;
+      --proposal-bg: #3a2e14;
+      --deprecated: #f09a9a;
+      --deprecated-bg: #3b1f22;
+      --book: #8db7e3;
+      --book-bg: #1f3044;
+      --icespire: #7fd0c0;
+      --icespire-bg: #1a3631;
+      --type-bg: #2a2e39;
+      --table-bg: #17302b;
+      --table-border: #2f5c53;
+      --shadow: none;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14161b; --surface: #1c1f26; --surface-2: #242833; --text: #e6e8ee; --muted: #9aa1b2;
+    --border: #313643; --accent: #8db7e3; --accent-soft: #233446; --focus: #8db7e3;
+    --proposal: #f0c36b; --proposal-bg: #3a2e14; --deprecated: #f09a9a; --deprecated-bg: #3b1f22;
+    --book: #8db7e3; --book-bg: #1f3044; --icespire: #7fd0c0; --icespire-bg: #1a3631;
+    --type-bg: #2a2e39; --table-bg: #17302b; --table-border: #2f5c53; --shadow: none;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    overflow-x: hidden;
+  }
+  a { color: var(--accent); }
+  button, input { font: inherit; color: inherit; }
+  :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 0 16px; }
+
+  header.top {
+    position: sticky; top: 0; z-index: 5;
+    background: var(--bg); border-bottom: 1px solid var(--border);
+    padding: 14px 0 10px;
+  }
+  .titlebar { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+  .titlebar h1 { font-size: 20px; margin: 0; letter-spacing: .01em; }
+  .titlebar .sub { color: var(--muted); font-size: 14px; }
+
+  .searchrow { position: relative; }
+  #q {
+    width: 100%; padding: 10px 40px 10px 12px; border-radius: 10px;
+    border: 1px solid var(--border); background: var(--surface); box-shadow: var(--shadow);
+    font-size: 17px;
+  }
+  #q::placeholder { color: var(--muted); }
+  .kbd {
+    position: absolute; right: 10px; top: 50%; transform: translateY(-50%);
+    font: 12px/1 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted);
+    border: 1px solid var(--border); border-radius: 5px; padding: 3px 6px; background: var(--surface-2);
+    pointer-events: none;
+  }
+  #q:focus + .kbd, #q:not(:placeholder-shown) + .kbd { display: none; }
+  @media (max-width: 899px) { header.top { position: static; } }
+
+  .filters { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; margin-top: 10px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip {
+    border: 1px solid var(--border); background: var(--surface); border-radius: 999px;
+    padding: 3px 10px; font-size: 13px; cursor: pointer; white-space: nowrap;
+  }
+  .chip .n { color: var(--muted); margin-left: 4px; font-variant-numeric: tabular-nums; }
+  .chip[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+  .chip[aria-pressed="true"] .n { color: inherit; opacity: .8; }
+  .chip:disabled { opacity: .45; cursor: default; }
+
+  .seg { display: inline-flex; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
+  .seg button { border: 0; background: var(--surface); padding: 4px 10px; font-size: 13px; cursor: pointer; }
+  .seg button + button { border-left: 1px solid var(--border); }
+  .seg button[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+
+  .toggle { display: inline-flex; gap: 6px; align-items: center; font-size: 13px; color: var(--muted); cursor: pointer; }
+  .count { font-size: 13px; color: var(--muted); margin-left: auto; }
+
+  main.layout { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; padding-top: 14px; padding-bottom: 48px; }
+  @media (min-width: 900px) {
+    main.layout.has-detail { grid-template-columns: minmax(0, 1fr) minmax(0, 1.1fr); }
+    #detail { position: sticky; top: var(--header-h, 170px); max-height: calc(100vh - var(--header-h, 170px) - 16px); overflow: auto; }
+  }
+  @media (max-width: 899px) {
+    main.layout.has-detail #list { display: none; }
+  }
+
+  #list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+  .item {
+    display: block; text-decoration: none; color: inherit;
+    background: var(--surface); border: 1px solid var(--border); border-radius: 10px;
+    padding: 10px 12px; box-shadow: var(--shadow); min-width: 0;
+  }
+  .item:hover { border-color: var(--accent); }
+  .item.current { border-color: var(--accent); box-shadow: 0 0 0 1px var(--accent) inset; }
+  .item .head { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; }
+  .item .name { font-weight: 650; font-size: 16px; overflow-wrap: anywhere; }
+  .item .sum { color: var(--muted); font-size: 14px; margin-top: 4px; overflow-wrap: anywhere;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .item.deprecated .name { text-decoration: line-through; text-decoration-thickness: 1px; color: var(--muted); }
+
+  .badge {
+    display: inline-block; font-size: 11px; line-height: 1; padding: 4px 7px; border-radius: 999px;
+    text-transform: uppercase; letter-spacing: .05em; font-weight: 600; white-space: nowrap;
+  }
+  .b-type { background: var(--type-bg); color: var(--muted); }
+  .b-book { background: var(--book-bg); color: var(--book); }
+  .b-icespire { background: var(--icespire-bg); color: var(--icespire); }
+  .b-proposal { background: var(--proposal-bg); color: var(--proposal); }
+  .b-deprecated { background: var(--deprecated-bg); color: var(--deprecated); }
+  .b-canon { display: none; }
+
+  .empty { color: var(--muted); padding: 24px 4px; }
+
+  #detail { min-width: 0; }
+  #detail[hidden] { display: none; }
+  .card {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 12px;
+    padding: 16px; box-shadow: var(--shadow); min-width: 0;
+  }
+  .card .back { display: inline-flex; align-items: center; gap: 4px; border: 0; background: none; color: var(--accent); padding: 0; cursor: pointer; font-size: 14px; margin-bottom: 8px; }
+  .card h2 { margin: 0 0 6px; font-size: 22px; line-height: 1.25; overflow-wrap: anywhere; }
+  .card .badges { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+  .card .badges .b-canon { display: inline-block; background: var(--surface-2); color: var(--muted); }
+  .aliases { color: var(--muted); font-size: 14px; margin: 0 0 12px; overflow-wrap: anywhere; }
+  .card .summary { font-size: 16px; margin: 0 0 12px; }
+  .card h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 18px 0 6px; }
+  .details { white-space: pre-line; margin: 0; font-size: 15px; overflow-wrap: anywhere; }
+  .tablenote { background: var(--table-bg); border: 1px solid var(--table-border); border-radius: 10px; padding: 10px 12px; font-size: 15px; overflow-wrap: anywhere; }
+  .tablenote strong { color: var(--icespire); }
+  .rel { display: flex; flex-wrap: wrap; gap: 6px; }
+  .rel a {
+    text-decoration: none; border: 1px solid var(--border); border-radius: 8px; padding: 3px 8px;
+    font-size: 14px; background: var(--surface-2); color: var(--text); overflow-wrap: anywhere;
+  }
+  .rel a:hover { border-color: var(--accent); color: var(--accent); }
+  .rel a .t { color: var(--muted); font-size: 11px; margin-left: 4px; text-transform: uppercase; letter-spacing: .04em; }
+  .sources { margin: 0; padding-left: 18px; font: 13px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; overflow-wrap: anywhere; }
+  .sources a { color: var(--muted); }
+  .hint { color: var(--muted); font-size: 13px; margin-top: 16px; }
+</style>
+</head>
+<body>
+<header class="top" id="top">
+  <div class="wrap">
+    <div class="titlebar">
+      <h1>Obliviosa Codex</h1>
+      <span class="sub">Every person, place, thing and rule in the story</span>
+    </div>
+    <div class="searchrow">
+      <input id="q" type="search" placeholder="Search names, aliases, notes…" autocomplete="off" spellcheck="false" aria-label="Search the codex">
+      <span class="kbd" aria-hidden="true">/</span>
+    </div>
+    <div class="filters">
+      <div class="chips" id="types" role="group" aria-label="Filter by type"></div>
+    </div>
+    <div class="filters">
+      <div class="seg" id="scope" role="group" aria-label="Filter by scope">
+        <button type="button" data-scope="all" aria-pressed="true">All</button>
+        <button type="button" data-scope="book" aria-pressed="false">Book</button>
+        <button type="button" data-scope="icespire" aria-pressed="false">Icespire table</button>
+      </div>
+      <label class="toggle"><input type="checkbox" id="showDep"> Show deprecated</label>
+      <span class="count" id="count" aria-live="polite"></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap layout" id="layout">
+  <ul id="list" aria-label="Results"></ul>
+  <section id="detail" hidden aria-live="polite"></section>
+</main>
+
+<script src="things.js"></script>
+<script>
+(function () {
+  "use strict";
+  var THINGS = (window.THINGS || []).slice();
+  var byId = {};
+  THINGS.forEach(function (t) { byId[t.id] = t; });
+
+  var TYPE_ORDER = ["person", "place", "item", "faction", "event", "monster", "spell", "document", "concept"];
+  var TYPE_LABEL = { person: "People", place: "Places", item: "Items", faction: "Factions", event: "Events", monster: "Monsters", spell: "Spells", document: "Documents", concept: "Concepts" };
+  var SCOPE_LABEL = { book: "Book", icespire: "Icespire" };
+
+  // Backlinks: which entries point at this one.
+  var backlinks = {};
+  THINGS.forEach(function (t) {
+    (t.related || []).forEach(function (r) { (backlinks[r] = backlinks[r] || []).push(t.id); });
+  });
+
+  var state = { q: "", type: null, scope: "all", showDep: false };
+
+  var $q = document.getElementById("q");
+  var $types = document.getElementById("types");
+  var $scope = document.getElementById("scope");
+  var $dep = document.getElementById("showDep");
+  var $list = document.getElementById("list");
+  var $detail = document.getElementById("detail");
+  var $layout = document.getElementById("layout");
+  var $count = document.getElementById("count");
+
+  function esc(s) {
+    return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+      return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c];
+    });
+  }
+  function norm(s) { return String(s || "").toLowerCase(); }
+
+  // Search rank: lower is better; -1 means no match.
+  function rank(t, q) {
+    if (!q) return 0;
+    var n = norm(t.name);
+    // Word-start match, so "liv" finds "Liv" but not "delivers".
+    var ws = new RegExp("(^|[^a-z0-9])" + q.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+    if (n === q) return 0;
+    if (n.indexOf(q) === 0) return 1;
+    if (ws.test(n)) return 2;
+    if (n.indexOf(q) !== -1) return 3;
+    var al = (t.aliases || []).map(norm);
+    if (al.some(function (a) { return a === q || a.indexOf(q) === 0; })) return 4;
+    if (al.some(function (a) { return ws.test(a); })) return 5;
+    if (ws.test(norm(t.summary))) return 6;
+    if (ws.test(norm(t.details)) || ws.test(norm(t.table))) return 7;
+    return -1;
+  }
+
+  function passesBase(t) {
+    if (!state.showDep && t.status === "deprecated") return false;
+    if (state.scope !== "all" && t.scope !== state.scope) return false;
+    return true;
+  }
+
+  function badges(t, withCanon) {
+    var h = '<span class="badge b-type">' + esc(t.type) + '</span>' +
+      '<span class="badge b-' + esc(t.scope) + '">' + esc(SCOPE_LABEL[t.scope] || t.scope) + '</span>';
+    if (t.status !== "canon" || withCanon) h += '<span class="badge b-' + esc(t.status) + '">' + esc(t.status) + '</span>';
+    return h;
+  }
+
+  function currentId() {
+    var h = decodeURIComponent(location.hash.replace(/^#/, ""));
+    return byId[h] ? h : null;
+  }
+
+  function render() {
+    var q = norm(state.q.trim());
+    var scored = [];
+    var typeCounts = {};
+    THINGS.forEach(function (t) {
+      if (!passesBase(t)) return;
+      var r = rank(t, q);
+      if (r < 0) return;
+      typeCounts[t.type] = (typeCounts[t.type] || 0) + 1;
+      if (state.type && t.type !== state.type) return;
+      scored.push({ t: t, r: r });
+    });
+    scored.sort(function (a, b) {
+      if (a.r !== b.r) return a.r - b.r;
+      var da = a.t.status === "deprecated", db = b.t.status === "deprecated";
+      if (da !== db) return da ? 1 : -1;
+      return a.t.name.localeCompare(b.t.name);
+    });
+
+    // Type chips with counts (counts respect search, scope and deprecated, not the type itself).
+    var total = 0; TYPE_ORDER.forEach(function (k) { total += typeCounts[k] || 0; });
+    var chips = '<button type="button" class="chip" data-type="" aria-pressed="' + (!state.type) + '">All<span class="n">' + total + '</span></button>';
+    TYPE_ORDER.forEach(function (k) {
+      var n = typeCounts[k] || 0;
+      chips += '<button type="button" class="chip" data-type="' + k + '" aria-pressed="' + (state.type === k) + '"' +
+        (n === 0 && state.type !== k ? " disabled" : "") + '>' + TYPE_LABEL[k] + '<span class="n">' + n + '</span></button>';
+    });
+    $types.innerHTML = chips;
+
+    var cur = currentId();
+    if (!scored.length) {
+      $list.innerHTML = '<li class="empty">Nothing matches' + (state.showDep ? "" : ". Deprecated entries are hidden; tick Show deprecated to include them") + '.</li>';
+    } else {
+      $list.innerHTML = scored.map(function (s) {
+        var t = s.t;
+        return '<li><a class="item' + (t.status === "deprecated" ? " deprecated" : "") + (t.id === cur ? " current" : "") +
+          '" href="#' + esc(t.id) + '"><div class="head"><span class="name">' + esc(t.name) + '</span>' + badges(t) +
+          '</div><div class="sum">' + esc(t.summary) + '</div></a></li>';
+      }).join("");
+    }
+    $count.textContent = scored.length + (scored.length === 1 ? " thing" : " things");
+  }
+
+  function relLink(id) {
+    var r = byId[id];
+    if (!r) return "";
+    return '<a href="#' + esc(id) + '">' + esc(r.name) + '<span class="t">' + esc(r.type) + '</span></a>';
+  }
+
+  function renderDetail() {
+    var id = currentId();
+    if (!id) {
+      $detail.hidden = true; $detail.innerHTML = "";
+      $layout.classList.remove("has-detail");
+      document.title = "Obliviosa Codex";
+      return;
+    }
+    var t = byId[id];
+    var h = '<article class="card">' +
+      '<button type="button" class="back" id="back">&larr; All things</button>' +
+      '<h2>' + esc(t.name) + '</h2>' +
+      '<div class="badges">' + badges(t, true) + '</div>';
+    if (t.aliases && t.aliases.length) h += '<p class="aliases">Also: ' + t.aliases.map(esc).join(", ") + '</p>';
+    h += '<p class="summary">' + esc(t.summary) + '</p>';
+    if (t.details) h += '<h3>Details</h3><p class="details">' + esc(t.details) + '</p>';
+    if (t.table) h += '<h3>At the Icespire table</h3><div class="tablenote details">' + esc(t.table) + '</div>';
+    if (t.related && t.related.length) h += '<h3>Related</h3><div class="rel">' + t.related.map(relLink).join("") + '</div>';
+    var back = (backlinks[id] || []).filter(function (b) { return (t.related || []).indexOf(b) === -1; });
+    if (back.length) {
+      back.sort(function (a, b) { return byId[a].name.localeCompare(byId[b].name); });
+      h += '<h3>Also mentioned by</h3><div class="rel">' + back.map(relLink).join("") + '</div>';
+    }
+    if (t.sources && t.sources.length) {
+      h += '<h3>Sources</h3><ul class="sources">' + t.sources.map(function (s) {
+        return '<li><a href="../' + esc(s) + '">' + esc(s) + '</a></li>';
+      }).join("") + '</ul>';
+    }
+    h += '<p class="hint">Press <b>/</b> to search, <b>Esc</b> to clear.</p></article>';
+    $detail.innerHTML = h;
+    $detail.hidden = false;
+    $layout.classList.add("has-detail");
+    document.title = t.name + " · Obliviosa Codex";
+    document.getElementById("back").addEventListener("click", closeDetail);
+    $detail.scrollTop = 0;
+  }
+
+  function closeDetail() {
+    history.pushState(null, "", location.pathname + location.search);
+    route();
+  }
+
+  function route() {
+    renderDetail();
+    render();
+    if (currentId() && window.matchMedia("(max-width: 899px)").matches) window.scrollTo(0, 0);
+  }
+
+  function syncHeaderHeight() {
+    var h = document.getElementById("top").offsetHeight;
+    document.documentElement.style.setProperty("--header-h", (h + 12) + "px");
+  }
+
+  // Events
+  $q.addEventListener("input", function () { state.q = $q.value; render(); });
+  $types.addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-type]");
+    if (!b || b.disabled) return;
+    var v = b.getAttribute("data-type") || null;
+    state.type = state.type === v ? null : v;
+    render();
+  });
+  $scope.addEventListener("click", function (e) {
+    var b = e.target.closest("button[data-scope]");
+    if (!b) return;
+    state.scope = b.getAttribute("data-scope");
+    Array.prototype.forEach.call($scope.querySelectorAll("button"), function (x) {
+      x.setAttribute("aria-pressed", String(x === b));
+    });
+    render();
+  });
+  $dep.addEventListener("change", function () { state.showDep = $dep.checked; render(); });
+
+  document.addEventListener("keydown", function (e) {
+    var tag = (e.target && e.target.tagName) || "";
+    var typing = tag === "INPUT" || tag === "TEXTAREA" || e.target.isContentEditable;
+    if (e.key === "/" && !typing && !e.metaKey && !e.ctrlKey && !e.altKey) {
+      e.preventDefault(); $q.focus(); $q.select();
+    } else if (e.key === "Escape") {
+      if ($q.value) { $q.value = ""; state.q = ""; render(); }
+      else if (currentId()) { closeDetail(); }
+      if (document.activeElement === $q) $q.blur();
+    }
+  });
+
+  window.addEventListener("hashchange", route);
+  window.addEventListener("popstate", route);
+  window.addEventListener("resize", syncHeaderHeight);
+
+  syncHeaderHeight();
+  route();
+})();
+</script>
+</body>
+</html>

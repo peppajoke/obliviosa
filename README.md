@@ -9,6 +9,7 @@ Jack's homebrew D&D 5e campaign. A false-hydra mystery on the isolated island of
 | `drive/` | Verbatim text mirror of every Google Drive doc for this campaign (46 docs). One folder per Drive folder, plus `loose/` for docs that sit in My Drive root. Each file's first line is an HTML comment with the Drive id and last-modified date. **Do not edit these; they are the pull side of the sync.** |
 | `book/` | The general Lumenshire campaign, the material that becomes the published campaign book. This is where story edits happen. |
 | `campaigns/` | One folder per real table running Obliviosa. Specific people, characters and the host campaign it plugs into. Never goes in the book. |
+| `codex/` | The things registry: a searchable index of every person, place, item, faction, event, monster, spell, document and rule. Open `codex/index.html` in a browser; data lives in `codex/things.js`. |
 | `campaigns/icespire-nad-group/` | Jack's current table: the NAD Group's *Dragon of Icespire Peak* game (Cryovain, Phandalin), where Jack plays Sal. |
 
 ## The separation rule
