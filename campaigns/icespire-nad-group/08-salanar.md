@@ -1,5 +1,7 @@
 # 08. Salanar: Sal is part of the Obliviosa story
 
+**Rejected by Jack, 2026-10-13.** Replaced by `09-kael-returns.md`. Kept for the reasoning only; nothing below is current.
+
 ## Decided (Jack, 2026-10-13)
 
 - Sal is fundamentally part of Lumenshire. Void stones and his backstory belong to this story.

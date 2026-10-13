@@ -22,13 +22,15 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [ ] Cid: perception void or not. (`01-plan.md`)
 - [ ] Is the Icespire DM comfortable with Cryovain having already hit Phandalin, if that version survives? (`01-plan.md`)
 
-## Salanar (from `08-salanar.md`, 2026-10-13)
+## Kael returns (from `09-kael-returns.md`, 2026-10-13)
 
-- [x] Sal and Kael are from Lumenshire; Salanar's catastrophe happened there; he was on the bad side of the Liv ordeal.
-- [ ] Confirm or cut the merge: the Great Erasure is the night of Liv's spell, Salanar as Elara's partner who handed Liv the spell.
-- [ ] How dark: did Salanar know what Elara was doing to Liv?
-- [ ] What went wrong with the stone: cracked, flinched, or pulled back on purpose.
-- [ ] The Unmaker: Elara, Salanar's own eaten self, or ambiguous.
-- [ ] Calimshan at the table: retcon, deflection, or mix-up.
-- [ ] Rewrite `05` and `06` for the new timeline once the merge is confirmed.
-- [ ] Book: add the general "accomplice slot" if Jack likes it.
+- [x] 08 (Salanar as Elara's partner) rejected.
+- [x] The mayor is Kael; Liv is Lysa; it all happens in order; Sal is wiped out of Kael on the island; kill Liv or lift the curse and Sal returns; the players must understand that rule.
+- [ ] Pick the bridge from Cryovain to the beach (recommend the letter plus the humming stone).
+- [ ] Mechanism: Liv ate Sal and left the body? (proposal)
+- [ ] The five years: song-written memory, or a different island timeline for this table.
+- [ ] Liv as Kael's daughter or niece.
+- [ ] Fawkes or Kael as the name the island uses.
+- [ ] Ashe: what he knows about the mayor.
+- [ ] Dream frame: retired for this table, or kept with a new meaning.
+- [ ] Rewrite `01`, `04`, `05`, `06` and `03` (the Icespire DM handoff) once the broad strokes settle.

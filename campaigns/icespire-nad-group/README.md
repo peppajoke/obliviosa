@@ -27,7 +27,8 @@ Waking campaign: Phandalin, the white dragon Cryovain, the dwarf excavation, Gno
 | `05-goal-stones-and-origin.md` | The goal on the island (bring Ashe home), the sending stone to Sal, the origin wrinkle. |
 | `06-lysa-options.md` | Four ways to tie Sal's missing niece Lysa to the island. |
 | `07-todo.md` | Open tasks and questions for this table only. |
-| `08-salanar.md` | Sal is part of the Obliviosa story: Salanar was Elara's partner and put the spell in Liv's hands. |
+| `08-salanar.md` | Rejected 2026-10-13: Salanar as Elara's partner who handed Liv the spell. |
+| `09-kael-returns.md` | Current direction: the mayor is Kael with Sal wiped out of him; Liv is Lysa; bridging Cryovain to the beach. |
 | `party/` | D&D Beyond sync: procedure, script, raw roster, changelog. |
 
 ## How this table differs from the book
@@ -35,4 +36,4 @@ Waking campaign: Phandalin, the white dragon Cryovain, the dwarf excavation, Gno
 - The forgotten friend is not Thorne. Ashe Blackwood becomes **Ashe Orendis**, and the letter is to **Kael**, the body Sal wears. The party assumes the blood on the beach is Sal's.
 - Sal is alive and in Phandalin, reachable through the sending stone, and remembers the island as it was before the rampage.
 - The reason for the trip is the letter, in both timelines.
-- Salanar is from Lumenshire and was on the bad side of the night Liv became the hydra (`08-salanar.md`).
+- The mayor is Kael Orendis, Sal's body with Sal wiped out of it. Liv is Lysa. Kill Liv or lift the curse and Sal comes back (`09-kael-returns.md`). Parts of this README and of `01` to `06` that assume Sal stays in Phandalin are out of date until rewritten.

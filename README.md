@@ -11,11 +11,11 @@ Jack's homebrew D&D 5e campaign. A false-hydra mystery on the isolated island of
 | `campaigns/` | One folder per real table running Obliviosa. Specific people, characters and the host campaign it plugs into. Never goes in the book. |
 | `codex/` | The things registry: a searchable index of every person, place, item, faction, event, monster, spell, document and rule. Open `codex/index.html` in a browser; data lives in `codex/things.js`. |
 | `campaigns/icespire-nad-group/` | Jack's current table: the NAD Group's *Dragon of Icespire Peak* game (Cryovain, Phandalin), where Jack plays Sal. |
+| `MANIFEST.json` | Drive id, title, folder, modified date for every mirrored doc. Used to re-pull. |
 
 ## The separation rule
 
 `book/` is the generic, publishable campaign. It never names a real player, a specific party's characters, or a host campaign (no Sal, Kael, Phandalin, Cryovain). Anything that only makes sense for one group goes in that group's `campaigns/` folder. When a table decision would work for any table, write the general version into `book/` and keep the specific one in `campaigns/`.
-| `MANIFEST.json` | Drive id, title, folder, modified date for every mirrored doc. Used to re-pull. |
 
 ## book/
 
