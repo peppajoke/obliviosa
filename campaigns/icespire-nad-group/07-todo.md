@@ -30,6 +30,7 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic. Cleaned 2
 - [x] One shared journal for the whole party, Jack-approved reveals only, built from `player/entries.json`.
 - [x] Decided 2026-10-13: the repo stays public; one Pages site with the journal at the root and the DM codex at an unlisted address (`player/README.md`). No second repo.
 - [ ] Where session transcripts come from.
+- [ ] Re-pull the D&D Beyond sheets and add party portraits to the codex and journal (blocked 2026-10-13: the environment's network policy denies dndbeyond.com; allow it, then re-run).
 
 ## Waiting on Nick
 
