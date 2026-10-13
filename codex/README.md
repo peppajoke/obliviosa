@@ -25,6 +25,7 @@ Edit `things.js`. Each thing is one object in `window.THINGS`:
   table: "Optional. Icespire-specific twist on a book thing.",
   related: ["other-ids"],      // every id must exist
   sources: ["book/00-canon.md"], // repo-relative paths that exist
+  links: [{ label: "Character sheet on D&D Beyond", url: "https://..." }] // optional outside links
   images: [                    // optional; first one is the list thumbnail
     { src: "img/kebab-slug.jpg", caption: "Where the picture came from" }
   ]
