@@ -25,6 +25,13 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic. Cleaned 2
 - [ ] Sending stone: one call a day or three. (`05-sending-stone-and-goals.md`)
 - [ ] Blackwood blade in the pool at this table, or not. (`04-session-1-intro.md`)
 
+## Players' journal (`../../player/`, 2026-10-13)
+
+- [x] One shared journal for the whole party, Jack-approved reveals only, built from `player/entries.json`.
+- [ ] Make `peppajoke/obliviosa` private again (it was made public for Pages; the journal's safety depends on this repo being private).
+- [ ] Create the empty public repo for the journal and name it.
+- [ ] Where session transcripts come from.
+
 ## Waiting on Nick
 
 - [ ] The answers listed at the end of `03-handoff-for-other-dm.md`.

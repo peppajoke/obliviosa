@@ -150,6 +150,7 @@
     background: var(--surface-2); border: 1px solid var(--border); display: block;
   }
   .item.deprecated .thumb { opacity: .6; }
+  .item.forgotten .name, .card.forgotten h2 { color: var(--muted); letter-spacing: .08em; }
   .item.deprecated .name { text-decoration: line-through; text-decoration-thickness: 1px; color: var(--muted); }
 
   .badge {
@@ -240,6 +241,9 @@
 <script>
 (function () {
   "use strict";
+  // Player mode: the party's journal built by player/build.py. Hides every DM-only field and control.
+  var PLAYER = window.CODEX_MODE === "player";
+  var TITLE = window.CODEX_TITLE || "Obliviosa Codex";
   var THINGS = (window.THINGS || []).slice();
   var byId = {};
   THINGS.forEach(function (t) { byId[t.id] = t; });
@@ -301,6 +305,7 @@
   }
 
   function badges(t, withCanon) {
+    if (PLAYER) return '<span class="badge b-type">' + esc(t.type) + '</span>';
     var h = '<span class="badge b-type">' + esc(t.type) + '</span>' +
       '<span class="badge b-' + esc(t.scope) + '">' + esc(SCOPE_LABEL[t.scope] || t.scope) + '</span>';
     if (t.status !== "canon" || withCanon) h += '<span class="badge b-' + esc(t.status) + '">' + esc(t.status) + '</span>';
@@ -347,7 +352,7 @@
     } else {
       $list.innerHTML = scored.map(function (s) {
         var t = s.t, img = hasImages(t);
-        return '<li><a class="item' + (t.status === "deprecated" ? " deprecated" : "") + (t.id === cur ? " current" : "") +
+        return '<li><a class="item' + (t.status === "deprecated" ? " deprecated" : "") + (t.forgotten ? " forgotten" : "") + (t.id === cur ? " current" : "") +
           (img ? " has-thumb" : "") + '" href="#' + esc(t.id) + '"><div class="body"><div class="head"><span class="name">' +
           esc(t.name) + '</span>' + badges(t) + '</div><div class="sum">' + esc(t.summary) + '</div></div>' +
           (img ? '<img class="thumb" src="' + esc(t.images[0].src) + '" alt="" width="56" height="56" loading="lazy" decoding="async">' : "") +
@@ -380,11 +385,11 @@
     if (!id) {
       $detail.hidden = true; $detail.innerHTML = "";
       $layout.classList.remove("has-detail");
-      document.title = "Obliviosa Codex";
+      document.title = TITLE;
       return;
     }
     var t = byId[id];
-    var h = '<article class="card">' +
+    var h = '<article class="card' + (t.forgotten ? " forgotten" : "") + '">' +
       '<button type="button" class="back" id="back">&larr; All things</button>' +
       pics(t) +
       '<h2>' + esc(t.name) + '</h2>' +
@@ -392,14 +397,15 @@
     if (t.aliases && t.aliases.length) h += '<p class="aliases">Also: ' + t.aliases.map(esc).join(", ") + '</p>';
     h += '<p class="summary">' + esc(t.summary) + '</p>';
     if (t.details) h += '<h3>Details</h3><p class="details">' + esc(t.details) + '</p>';
-    if (t.table) h += '<h3>At the Icespire table</h3><div class="tablenote details">' + esc(t.table) + '</div>';
+    if (t.seen && PLAYER) h += '<p class="aliases">First learned: ' + esc(t.seen) + '</p>';
+    if (t.table && !PLAYER) h += '<h3>At the Icespire table</h3><div class="tablenote details">' + esc(t.table) + '</div>';
     if (t.related && t.related.length) h += '<h3>Related</h3><div class="rel">' + t.related.map(relLink).join("") + '</div>';
     var back = (backlinks[id] || []).filter(function (b) { return (t.related || []).indexOf(b) === -1; });
     if (back.length) {
       back.sort(function (a, b) { return byId[a].name.localeCompare(byId[b].name); });
       h += '<h3>Also mentioned by</h3><div class="rel">' + back.map(relLink).join("") + '</div>';
     }
-    if (t.sources && t.sources.length) {
+    if (t.sources && t.sources.length && !PLAYER) {
       h += '<h3>Sources</h3><ul class="sources">' + t.sources.map(function (s) {
         return '<li><a href="' + (location.protocol === "file:" ? "../" : "https://github.com/peppajoke/obliviosa/blob/main/") + esc(s) + '">' + esc(s) + '</a></li>';
       }).join("") + '</ul>';
@@ -408,7 +414,7 @@
     $detail.innerHTML = h;
     $detail.hidden = false;
     $layout.classList.add("has-detail");
-    document.title = t.name + " · Obliviosa Codex";
+    document.title = t.name + " · " + TITLE;
     document.getElementById("back").addEventListener("click", closeDetail);
     $detail.scrollTop = 0;
   }
@@ -466,6 +472,12 @@
   window.addEventListener("popstate", route);
   window.addEventListener("resize", syncHeaderHeight);
 
+  if (PLAYER) {
+    $scope.hidden = true;
+    $dep.parentNode.hidden = true;
+    document.querySelector(".titlebar h1").textContent = TITLE;
+    if (window.CODEX_SUBTITLE) document.querySelector(".titlebar .sub").textContent = window.CODEX_SUBTITLE;
+  }
   syncHeaderHeight();
   route();
 })();

@@ -1,0 +1,35 @@
+[
+  {
+    "id": "party",
+    "name": "The party",
+    "type": "faction",
+    "summary": "Darla, Porridge, Rowan, Sprig, TJ, Rynn and Sal: the heroes who brought down Cryovain and saved Phandalin.",
+    "related": ["salanar", "phandalin", "cryovain"],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "salanar",
+    "name": "Sal",
+    "aliases": ["Salanar"],
+    "type": "person",
+    "summary": "Your friend: a big-hearted, goofy paladin of Ilmater who keeps the peace and keeps everyone laughing. He has told you he once did something terrible, and that he is spending his life making up for it.",
+    "related": ["party"],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "phandalin",
+    "name": "Phandalin",
+    "type": "place",
+    "summary": "The frontier town you saved from the white dragon. Your last clear memory is the victory celebration there.",
+    "related": ["party", "cryovain"],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "cryovain",
+    "name": "Cryovain",
+    "type": "monster",
+    "summary": "The white dragon of Icespire Peak. You killed him.",
+    "related": ["party", "phandalin"],
+    "seen": "Before Lumenshire"
+  }
+]
