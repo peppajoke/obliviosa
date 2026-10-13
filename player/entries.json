@@ -6,6 +6,12 @@
     "summary": "Darla, Porridge, Rowan, Sprig, TJ, Rynn and Sal: the heroes who brought down Cryovain and saved Phandalin.",
     "related": [
       "salanar",
+      "darla-dewdrop",
+      "porridge",
+      "rowan-sunwood",
+      "sprig-grenoble",
+      "tj-star",
+      "rynn-caulrunners",
       "phandalin",
       "cryovain"
     ],
@@ -22,7 +28,13 @@
     "related": [
       "party"
     ],
-    "seen": "Before Lumenshire"
+    "seen": "Before Lumenshire",
+    "links": [
+      {
+        "label": "Character sheet on D&D Beyond",
+        "url": "https://www.dndbeyond.com/characters/164291771"
+      }
+    ]
   },
   {
     "id": "phandalin",
@@ -435,5 +447,101 @@
       "bartholomew",
       "the-dragons-inn"
     ]
+  },
+  {
+    "id": "darla-dewdrop",
+    "name": "Darla Dewdrop",
+    "type": "person",
+    "summary": "Halfling Rogue 5, Soulknife. Played by Nat. One of the party.",
+    "links": [
+      {
+        "label": "Character sheet on D&D Beyond",
+        "url": "https://www.dndbeyond.com/characters/164907865"
+      }
+    ],
+    "related": [
+      "party"
+    ],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "porridge",
+    "name": "Porridge",
+    "type": "person",
+    "summary": "Drow Wizard 5, Necromancy. Played by Amanda. One of the party.",
+    "links": [
+      {
+        "label": "Character sheet on D&D Beyond",
+        "url": "https://www.dndbeyond.com/characters/169706396"
+      }
+    ],
+    "related": [
+      "party"
+    ],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "rowan-sunwood",
+    "name": "Rowan Sunwood",
+    "type": "person",
+    "summary": "Elf (wood) Druid 5, Circle of the Land. Played by Tara. One of the party.",
+    "links": [
+      {
+        "label": "Character sheet on D&D Beyond",
+        "url": "https://www.dndbeyond.com/characters/164292669"
+      }
+    ],
+    "related": [
+      "party"
+    ],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "rynn-caulrunners",
+    "name": "Rynn Caulrunners",
+    "type": "person",
+    "summary": "Dwarf Fighter 4, Battle Master. Played by Hailey. One of the party.",
+    "links": [
+      {
+        "label": "Character sheet on D&D Beyond",
+        "url": "https://www.dndbeyond.com/characters/168063159"
+      }
+    ],
+    "related": [
+      "party"
+    ],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "sprig-grenoble",
+    "name": "Sprig Grenoble",
+    "type": "person",
+    "summary": "Human Monk 5, Warrior of Mercy. Played by Steph. One of the party.",
+    "links": [
+      {
+        "label": "Character sheet on D&D Beyond",
+        "url": "https://www.dndbeyond.com/characters/164569028"
+      }
+    ],
+    "related": [
+      "party"
+    ],
+    "seen": "Before Lumenshire"
+  },
+  {
+    "id": "tj-star",
+    "name": "TJ Star",
+    "type": "person",
+    "summary": "Half-Orc Barbarian 4, Berserker. Played by Alicia. One of the party.",
+    "links": [
+      {
+        "label": "Character sheet on D&D Beyond",
+        "url": "https://www.dndbeyond.com/characters/164293521"
+      }
+    ],
+    "related": [
+      "party"
+    ],
+    "seen": "Before Lumenshire"
   }
 ]

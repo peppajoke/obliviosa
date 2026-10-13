@@ -221,6 +221,7 @@ window.THINGS = [
     type: "person", scope: "icespire", status: "canon",
     summary: "Jack's paladin: Salanar merged with Kael Orendis. Salanar, a healer on Lumenshire, was unmaking Liv when her mother's magic half-saved her into the hydra; he killed Kael's party, jumped into Kael, lost his own body, and left believing Kael's family erased. Void crystals to forget, then a spirit bond with Ilmater and a vow to atone. Decided 2026-10-13: on Lumenshire Sal and Kael come apart; Sal's Cryovain memories are locked until they merge again.",
     details: "Paladin 5, Oath of Redemption, HP 34, Sentinel Shield. Faith Ilmater. Hears two voices, Ilmater and the Unmaker. Sponsor: Brother Aldric.\nAt the table a lighthearted, peacekeeping goofball, open about having done something terrible.\nDecided: separated, Sal and Kael hate each other and detest merging; an extremely high Persuasion check for either.\nProposal (09): getting Sal back means the re-merge, replacing 'kill Liv and Sal returns'.\nRejected 2026-10-13: 08, Sal inside the hydra, Fawkes as Kael.",
+    links: [{"label": "Character sheet on D&D Beyond (Kael plays from it)", "url": "https://www.dndbeyond.com/characters/164291771"}],
     related: ["kael-orendis", "void-stones", "great-erasure", "vel-tharin", "merith", "brother-aldric", "lysa", "two-voices", "sending-stones", "elara", "jack", "sals-errand", "accomplice-slot"],
     sources: ["campaigns/icespire-nad-group/09-kael-returns.md", "campaigns/icespire-nad-group/08-salanar.md", "campaigns/icespire-nad-group/party/ddb-roster.json", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/01-plan.md", "campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/05-sending-stone-and-goals.md", "campaigns/icespire-nad-group/07-todo.md"]
   },
@@ -487,7 +488,8 @@ window.THINGS = [
     id: "darla-dewdrop", name: "Darla Dewdrop", aliases: ["Darla"],
     type: "person", scope: "icespire", status: "canon",
     summary: "Nat's halfling Rogue 5 (Soulknife). Her sending stone is paired with Sal's, which is now on unconscious Kael at the temple. Karleen's track is hers: the treehouse, the break-in, the DON'T FORGET pages.",
-    details: "Player: Nat. HP 28. Expertise Persuasion and Animal Handling, Actor feat, Potion of Invisibility, Ring of Warmth, Common Sign Language.",
+    details: "From D&D Beyond (pulled 2026-10-11):\nHalfling Rogue 5 / Soulknife, background Farmer. Player: Nat. HP 28, 50 gp.\nSTR 8 DEX 15 CON 10 INT 12 WIS 13 CHA 14\nFeats: Actor, Tough, Weapon Mastery, Dark Bargain\nExpertise: Persuasion, Animal Handling\nMagic items: Sending Stones, Potion of Invisibility, Ring of Warmth (eq)\nGear: Shortbow, Shortsword, 2 daggers, Thieves' Tools, Healer's Kit, Ball bearings x1000, Riding horse, Blue sapphire\nLanguages: Common, Halfling, Elvish, Thieves' Cant, Common Sign Language",
+    links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164907865"}],
     related: ["sending-stones", "karleen", "karleen-track", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -495,7 +497,8 @@ window.THINGS = [
     id: "porridge", name: "Porridge", aliases: [],
     type: "person", scope: "icespire", status: "canon",
     summary: "Amanda's drow Wizard 5 (Necromancy) who talks to spirits nobody else sees. The Oblivion tome and the Eternal Tome are hers; most likely to understand the keeper clause first.",
-    details: "Player: Amanda. HP 22. Animate Dead, Summon Lesser Demons, Tasha's Mind Whip, Cause Fear, Darkness. Blindness/Deafness is a song counter she already owns. Haunted One; bond 'There's evil in me'.",
+    details: "From D&D Beyond (pulled 2026-10-11):\nDrow Wizard 5 / Necromancy, background Haunted One. Player: Amanda. HP 22, 55 gp.\nSTR 8 DEX 14 CON 13 INT 15 WIS 12 CHA 10\nFeats: Shadow Touched, Dark Bargain, Circle Magic (INT), Character Threads, Runestones\nExpertise: Religion\nCantrips: Chill Touch, Ray of Frost, Poison Spray, Lightning Lure\nSpells: Cause Fear, Unseen Servant, Tasha's Mind Whip, Ice Knife, Magic Missile, Melf's Acid Arrow, Blindness/Deafness, Animate Dead, Summon Lesser Demons\nRacial/feat spells: Dancing Lights, Faerie Fire, Darkness, Invisibility, Wrathful Smite\nMagic items: Ring of Warmth (eq)\nLanguages: Common, Elvish, Undercommon\nTraits: {\"personality\": \"I refuse to become a victim, and I will not allow others to be victimized. I live for the thrill of the hunt.\", \"ideal\": \"I have a dark calling that puts me above the law.\", \"bond\": \"There's evil in me, I can feel it. It must never be set free.\", \"flaw\": \"I talk to spirits that no one else can see.\"}\nLooks: Female drow, 100, 5'0, lavender eyes, white hair, faith Lolth",
+    links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/169706396"}],
     related: ["oblivion-tome", "eternal-tome", "keeper-clause", "blindness-deafness", "haunted-one-props", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -503,7 +506,8 @@ window.THINGS = [
     id: "rowan-sunwood", name: "Rowan Sunwood", aliases: ["Rowan"],
     type: "person", scope: "icespire", status: "canon",
     summary: "Tara's wood elf Druid 5 (Circle of the Land) from Ardeep Forest. Revivify; Lightning Bolt hits the Forgotten's weakness. Ashe's dogs and the Reach are hers.",
-    details: "Player: Tara. HP 28. Staff of the Python, Conjure Animals, Moonbeam. Keeps the party's session notes. Personal possession: an eggshell painted with scenes of misery. Saw Cryovain destroying Conyberry at the shrine of Savras.",
+    details: "From D&D Beyond (pulled 2026-10-11):\nElf (wood) Druid 5 / Circle of the Land, background Farmer. Player: Tara. HP 28, 50 gp.\nSTR 8 DEX 13 CON 14 INT 10 WIS 15 CHA 12\nFeats: Crafter, Tough, Dark Bargain\nCantrips: Starry Wisp, Frostbite, Thorn Whip, Druidcraft\nSpells: Healing Word, Moonbeam, Warding Wind, Thunderwave, Absorb Elements, Ice Knife, Conjure Animals, Revivify, Earth Tremor\nLand spells: Speak with Animals, Find Familiar, Shocking Grasp, Sleep, Misty Step, Lightning Bolt\nMagic items: Staff of the Python (eq), Ring of Warmth (eq), Potion of Healing\nLanguages: Common, Elvish, Druidic\nLooks: Female wood elf, 136, light copper skin, strawberry blonde hair dyed pink, green eyes; from Ardeep Forest, ambassador to Nightstone and Waterdeep; rowan staff with copper charms\nPossession: Egg shell painted with scenes of misery in disturbing detail\nBackstory: Born in Ardeep Forest to wood elf druids; forest guardian turned ambassador; began travelling at 120 to teach balance of nature, heal nature in towns, make animal friends.",
+    links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164292669"}],
     related: ["revivify", "the-forgotten", "forgotten-reach", "haunted-one-props", "past-future-rule", "shrine-of-savras", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -511,7 +515,8 @@ window.THINGS = [
     id: "sprig-grenoble", name: "Sprig Grenoble", aliases: ["Sprig"],
     type: "person", scope: "icespire", status: "canon",
     summary: "Steph's human Monk 5 (Warrior of Mercy). Her island hooks are the Staff of Silence and sneaking up on Liv while she is not singing; her drum is a noise tool against the song.",
-    details: "Player: Steph. HP 28. Lucky, Fey Touched (Misty Step, Hex), thieves' tools, speaks Orc. Faith Eldath.",
+    details: "From D&D Beyond (pulled 2026-10-11):\nHuman Monk 5 / Warrior of Mercy, background Wayfarer. Player: Steph. HP 28, 50 gp.\nSTR 12 DEX 15 CON 14 INT 10 WIS 13 CHA 8\nFeats: Lucky, Savage Attacker, Fey Touched, Dark Bargain\nMagic items: Ring of Warmth (eq, attuned), 2 Spell Scrolls (1st), 2 Potions of Healing\nGear: Quarterstaff, Spear, 5 daggers, Drum, Brewer's Supplies, Herbalism Kit, Thieves' Tools, Riding horse\nLanguages: Common, Common Sign Language, Orc",
+    links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164569028"}],
     related: ["staff-of-silence", "song-counters", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -519,7 +524,8 @@ window.THINGS = [
     id: "tj-star", name: "TJ Star", aliases: ["TJ"],
     type: "person", scope: "icespire", status: "canon",
     summary: "Alicia's half-orc Barbarian 4 (Berserker), flaw 'I have an addiction'. He is the 'so drunk the song cannot land' discovery; Hydra's Fury at the Dragon's Inn is for him.",
-    details: "Player: Alicia. HP 33, 550 gp, three chests of gear, Clockwork Amulets. Personal possession: a caltrop made from bone.",
+    details: "From D&D Beyond (pulled 2026-10-11):\nHalf-Orc Barbarian 4 / Berserker, background Haunted One. Player: Alicia. HP 33, 550 gp.\nSTR 15 DEX 12 CON 13 INT 8 WIS 10 CHA 14\nFeats: Weapon Mastery, Dual Wielder, Dark Bargain\nMagic items: Clockwork Amulet x2 (one eq), Potion of Healing\nGear: Flail (eq), Morningstar (eq), Shortsword (eq), Greataxe, 4 handaxes, Shield, three chests of gear\nLanguages: Common, Orc, Infernal\nTraits: {\"personality\": \"I spend money freely and live life to the fullest, knowing that tomorrow I might die. I expect danger around every corner.\", \"ideal\": \"I'm a monster that destroys other monsters, and anything else that gets in my way.\", \"bond\": \"My torment drove away the person I love. I strive to win back the love I've lost. There's evil in me, I can feel it. It must never be set free.\", \"flaw\": \"I have an addiction. I assume the worst in people.\"}\nLooks: Male half-orc, 37, 6'11, 303 lb, hazel eyes, silver hair, green skin\nPossession: A single caltrop made from bone",
+    links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/164293521"}],
     related: ["hydras-fury", "song-counters", "haunted-one-props", "dark-bargain"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },
@@ -527,7 +533,8 @@ window.THINGS = [
     id: "rynn-caulrunners", name: "Rynn Caulrunners", aliases: ["Rynn"],
     type: "person", scope: "icespire", status: "canon",
     summary: "Hailey's dwarf Fighter 4 (Battle Master); Hailey rarely plays. Fine to be absent without comment; if present, Willem's Forge is her door.",
-    details: "Player: Hailey. HP 28. Maul, Great Weapon Master, smith's tools. No Dark Bargain on her sheet.",
+    details: "From D&D Beyond (pulled 2026-10-11):\nDwarf Fighter 4 / Battle Master, background Artisan. Player: Hailey (rarely plays). HP 28, 24 gp.\nSTR 15 DEX 14 CON 12 INT 13 WIS 8 CHA 10\nFeats: Crafter, Weapon Mastery, Great Weapon Fighting, Great Weapon Master\nGear: Breastplate, Maul, Handaxe, Smith's Tools\nLanguages: Common, Dwarvish, Common Sign Language",
+    links: [{"label": "Character sheet on D&D Beyond", "url": "https://www.dndbeyond.com/characters/168063159"}],
     related: ["willems-forge", "willem"],
     sources: ["campaigns/icespire-nad-group/02-party.md", "campaigns/icespire-nad-group/README.md", "campaigns/icespire-nad-group/party/ddb-roster.json"]
   },

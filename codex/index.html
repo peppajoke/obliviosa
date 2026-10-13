@@ -410,6 +410,9 @@
     if (t.details) h += '<h3>Details</h3><p class="details">' + esc(t.details) + '</p>';
     if (t.seen && PLAYER) h += '<p class="aliases">First learned: ' + esc(t.seen) + '</p>';
     if (t.table && !PLAYER) h += '<h3>At the Icespire table</h3><div class="tablenote details">' + esc(t.table) + '</div>';
+    if (t.links && t.links.length) h += '<h3>Links</h3><ul class="sources">' + t.links.map(function (l) {
+      return '<li><a href="' + esc(l.url) + '" target="_blank" rel="noopener">' + esc(l.label) + '</a></li>';
+    }).join("") + '</ul>';
     if (t.related && t.related.length) h += '<h3>Related</h3><div class="rel">' + t.related.map(relLink).join("") + '</div>';
     var back = (backlinks[id] || []).filter(function (b) { return (t.related || []).indexOf(b) === -1; });
     if (back.length) {

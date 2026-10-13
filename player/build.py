@@ -12,7 +12,7 @@ import json, os, re, shutil, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
-FIELDS = {"id", "name", "aliases", "type", "summary", "details", "images", "related", "seen", "forgotten", "allow", "status"}
+FIELDS = {"id", "name", "aliases", "type", "summary", "details", "images", "related", "seen", "forgotten", "allow", "status", "links"}
 STATUSES = {"live", "staged"}
 TYPES = {"person", "place", "item", "faction", "event", "monster", "spell", "document", "concept", "quest"}
 FORGOTTEN_NAME = "▒▒▒▒▒▒▒▒"
