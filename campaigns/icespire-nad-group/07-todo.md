@@ -22,17 +22,18 @@ Moved out of `../../book/04-todo.md` so the book's list stays generic.
 - [ ] Cid: perception void or not. (`01-plan.md`)
 - [ ] Is the Icespire DM comfortable with Cryovain having already hit Phandalin, if that version survives? (`01-plan.md`)
 
-## Kael returns (from `09-kael-returns.md`, 2026-10-13, third pass)
+## Kael returns (from `09-kael-returns.md`, 2026-10-13, fourth pass)
 
-- [x] Rejected: 08, Sal inside the hydra, Fawkes as Kael.
-- [x] Nick cuts to black in the Cryovain epilogue; letter-in-blood opening; Sal not with the party.
-- [x] Thorne is Kael's old friend, meets Sal at the epilogue, thinks he is Kael, shows him the letter; Sal knows it is his fault.
-- [x] The Great Erasure happened on Lumenshire; Sal fled in Kael's body thinking it was over; Liv became the hydra as a result and he never knew.
-- [x] On arrival Liv eats Thorne, the hook goes, Sal reverts to Kael, welcomed home as a hero presumed dead. Kill Liv or lift the curse and Sal returns.
-- [ ] Confirm the reframe: the Erasure tore the void open, Elara felt it, the drowning was a ritual, Liv's Oblivion poured through her.
-- [ ] Sal's Lysa/slavers mission: drop, Elara "took" her, or rename only.
-- [ ] Kael as Elara's brother (portal blood) or Fawkes's.
+- [x] Rejected: 08, Sal inside the hydra, Fawkes as Kael, the "void tore open, Elara felt it" chain.
+- [x] Handoff: Nick cuts to black; Thorne meets Sal at the epilogue and shows him the letter; on landing Liv eats Thorne and Sal reverts to Kael.
+- [x] Liv is Kael's daughter. Salanar was unmaking her; her mother's magic half-saved her into the hydra.
+- [x] Salanar killed Kael's party, jumped into Kael, and Kael killed Salanar's body. Merged; Sal dominant but changed.
+- [x] Kael-as-Sal left believing his family erased; void crystals; Ilmater; atonement.
+- [ ] Confirm: Liv's mother survived and takes over Fawkes's role as mayor.
+- [ ] Her name (keep Elara or rename); sympathetic or villain.
+- [ ] Fawkes cut, or a minor figure.
+- [ ] Drop "Vel'tharin" and the Lysa slaver story.
+- [ ] Optional: Liv had Merith's wasting sickness.
 - [ ] Ashe Orendis back to Ashe Blackwood.
-- [ ] Table timeline: Erasure about two years ago, trial weeks to months after.
 - [ ] Dream frame: still used at this table?
 - [ ] Rewrite `01` to `06` and the handoff (`03`, now for Nick).
