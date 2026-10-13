@@ -66,6 +66,7 @@
   }
 
   * { box-sizing: border-box; }
+  [hidden] { display: none !important; }
   html { -webkit-text-size-adjust: 100%; }
   body {
     margin: 0; background: var(--bg); color: var(--text);
@@ -203,6 +204,12 @@
   .sources { margin: 0; padding-left: 18px; font: 13px/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; overflow-wrap: anywhere; }
   .sources a { color: var(--muted); }
   .hint { color: var(--muted); font-size: 13px; margin-top: 16px; }
+  .toast {
+    position: fixed; left: 50%; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%);
+    max-width: calc(100% - 32px); z-index: 10; background: var(--accent); color: var(--bg);
+    border-radius: 10px; padding: 10px 14px; font-size: 15px; box-shadow: 0 4px 16px rgba(0,0,0,.25);
+  }
+  .toast a { color: inherit; font-weight: 650; }
 </style>
 </head>
 <body>
@@ -244,19 +251,23 @@
   // Player mode: the party's journal built by player/build.py. Hides every DM-only field and control.
   var PLAYER = window.CODEX_MODE === "player";
   var TITLE = window.CODEX_TITLE || "Obliviosa Codex";
-  var THINGS = (window.THINGS || []).slice();
+  var THINGS = [];
   var byId = {};
-  THINGS.forEach(function (t) { byId[t.id] = t; });
+  var backlinks = {};
+  // Load (or reload) the data: entries by id, and backlinks (which entries point at each one).
+  function setData(list) {
+    THINGS = list.slice();
+    byId = {}; backlinks = {};
+    THINGS.forEach(function (t) { byId[t.id] = t; });
+    THINGS.forEach(function (t) {
+      (t.related || []).forEach(function (r) { (backlinks[r] = backlinks[r] || []).push(t.id); });
+    });
+  }
+  setData(window.THINGS || []);
 
   var TYPE_ORDER = ["person", "place", "item", "faction", "event", "monster", "spell", "document", "concept", "quest"];
   var TYPE_LABEL = { person: "People", place: "Places", item: "Items", faction: "Factions", event: "Events", monster: "Monsters", spell: "Spells", document: "Documents", concept: "Concepts", quest: "Quests" };
   var SCOPE_LABEL = { book: "Book", icespire: "Icespire" };
-
-  // Backlinks: which entries point at this one.
-  var backlinks = {};
-  THINGS.forEach(function (t) {
-    (t.related || []).forEach(function (r) { (backlinks[r] = backlinks[r] || []).push(t.id); });
-  });
 
   var state = { q: "", type: null, scope: "all", showDep: false, hasImg: false };
 
@@ -478,6 +489,34 @@
     document.querySelector(".titlebar h1").textContent = TITLE;
     if (window.CODEX_SUBTITLE) document.querySelector(".titlebar .sub").textContent = window.CODEX_SUBTITLE;
   }
+  // Player mode: check for new journal entries every minute while the page is open,
+  // so reveals made during a session show up without a reload.
+  function sig(t) { return [t.name, t.summary, t.details || "", t.forgotten ? 1 : 0].join("|"); }
+  function showToast(html) {
+    var el = document.getElementById("toast");
+    if (!el) { el = document.createElement("div"); el.id = "toast"; el.className = "toast"; el.setAttribute("role", "status"); document.body.appendChild(el); }
+    el.innerHTML = html; el.hidden = false;
+    clearTimeout(showToast.timer);
+    showToast.timer = setTimeout(function () { el.hidden = true; }, 12000);
+  }
+  function checkForUpdates() {
+    if (location.protocol === "file:" || document.hidden) return;
+    fetch("things.js?t=" + Date.now(), { cache: "no-store" }).then(function (r) { return r.ok ? r.text() : null; }).then(function (txt) {
+      if (!txt) return;
+      var list = JSON.parse(txt.slice(txt.indexOf("["), txt.lastIndexOf("]") + 1));
+      var changed = list.filter(function (t) { return !byId[t.id] || sig(byId[t.id]) !== sig(t); });
+      if (!changed.length && list.length === THINGS.length) return;
+      setData(list);
+      route();
+      var names = changed.slice(0, 3).map(function (t) { return '<a href="#' + esc(t.id) + '">' + esc(t.name) + '</a>'; });
+      if (names.length) showToast("New in your journal: " + names.join(", ") + (changed.length > 3 ? " and " + (changed.length - 3) + " more" : ""));
+    }).catch(function () {});
+  }
+  if (PLAYER) {
+    setInterval(checkForUpdates, 60000);
+    document.addEventListener("visibilitychange", function () { if (!document.hidden) checkForUpdates(); });
+  }
+
   syncHeaderHeight();
   route();
 })();

@@ -1,0 +1,4 @@
+# Quick reveals during a session, without Claude.
+# Add one entry id per line (from player/entries.json, e.g. the-mayor) and commit,
+# for example in the GitHub mobile app. That entry goes live on the next build,
+# even if entries.json still marks it "staged". Lines starting with # are ignored.

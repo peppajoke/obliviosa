@@ -4,16 +4,24 @@
     "name": "The party",
     "type": "faction",
     "summary": "Darla, Porridge, Rowan, Sprig, TJ, Rynn and Sal: the heroes who brought down Cryovain and saved Phandalin.",
-    "related": ["salanar", "phandalin", "cryovain"],
+    "related": [
+      "salanar",
+      "phandalin",
+      "cryovain"
+    ],
     "seen": "Before Lumenshire"
   },
   {
     "id": "salanar",
     "name": "Sal",
-    "aliases": ["Salanar"],
+    "aliases": [
+      "Salanar"
+    ],
     "type": "person",
     "summary": "Your friend: a big-hearted, goofy paladin of Ilmater who keeps the peace and keeps everyone laughing. He has told you he once did something terrible, and that he is spending his life making up for it.",
-    "related": ["party"],
+    "related": [
+      "party"
+    ],
     "seen": "Before Lumenshire"
   },
   {
@@ -21,7 +29,10 @@
     "name": "Phandalin",
     "type": "place",
     "summary": "The frontier town you saved from the white dragon. Your last clear memory is the victory celebration there.",
-    "related": ["party", "cryovain"],
+    "related": [
+      "party",
+      "cryovain"
+    ],
     "seen": "Before Lumenshire"
   },
   {
@@ -29,7 +40,400 @@
     "name": "Cryovain",
     "type": "monster",
     "summary": "The white dragon of Icespire Peak. You killed him.",
-    "related": ["party", "phandalin"],
+    "related": [
+      "party",
+      "phandalin"
+    ],
     "seen": "Before Lumenshire"
+  },
+  {
+    "id": "the-song",
+    "name": "The song",
+    "type": "concept",
+    "status": "staged",
+    "summary": "In the dark, before you woke, a song. It hurt. You do not know where it came from.",
+    "seen": "Session 1",
+    "related": [
+      "the-beach"
+    ]
+  },
+  {
+    "id": "the-beach",
+    "name": "The beach",
+    "type": "place",
+    "status": "staged",
+    "summary": "Where you woke: sand, salt, a wrecked boat on the rocks, and a pool of blood. Up the hill a farmhouse; down the shore a road to a town.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/the-wreck.jpg",
+        "caption": "The wreck on the rocks"
+      }
+    ],
+    "related": [
+      "the-wrecked-boat",
+      "the-pool",
+      "the-farm",
+      "lumenshire"
+    ]
+  },
+  {
+    "id": "the-wrecked-boat",
+    "name": "The wrecked boat",
+    "type": "item",
+    "status": "staged",
+    "summary": "A small coastal boat that is not yours, with nobody at the tiller. You do not remember boarding it.",
+    "seen": "Session 1",
+    "details": "If searched: more hammocks than there are of you, and a manifest listing more passengers than you. One name is water-ruined.",
+    "related": [
+      "the-beach"
+    ]
+  },
+  {
+    "id": "the-pool",
+    "name": "The pool of blood",
+    "type": "event",
+    "status": "staged",
+    "summary": "A pool of human blood on the sand, far more than anyone walks away from. No body.",
+    "seen": "Session 1",
+    "details": "If examined: under an hour old. Drag marks into the surf.",
+    "related": [
+      "the-beach",
+      "the-letter",
+      "the-blade"
+    ]
+  },
+  {
+    "id": "the-letter",
+    "name": "The letter in the blood",
+    "type": "document",
+    "status": "staged",
+    "summary": "A soaked letter lying in the pool: 'My Beloved son Thorne', signed 'Your loving father, Ashe Blackwood'. It describes a wailing song and a house full of a family he cannot remember, and begs his son to come home.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/letter-found-in-blood.jpg",
+        "caption": "The letter in the blood"
+      }
+    ],
+    "related": [
+      "the-pool",
+      "ashe",
+      "thorne"
+    ],
+    "allow": [
+      "Thorne"
+    ]
+  },
+  {
+    "id": "the-blade",
+    "name": "A sword in the blood",
+    "type": "item",
+    "status": "staged",
+    "summary": "A fine silvery longsword lying in the pool, with a family crest on a blackwood hilt.",
+    "seen": "Session 1",
+    "details": "If studied: the runes are still warm. It was attuned to someone until very recently.",
+    "images": [
+      {
+        "src": "img/blackwood-blade.jpg",
+        "caption": "The sword in the blood"
+      }
+    ],
+    "related": [
+      "the-pool",
+      "ashe"
+    ]
+  },
+  {
+    "id": "thorne",
+    "name": "Thorne",
+    "type": "person",
+    "status": "staged",
+    "summary": "The name on the letter: Ashe Blackwood's son. None of you knows anyone called Thorne.",
+    "seen": "Session 1",
+    "related": [
+      "the-letter",
+      "ashe"
+    ],
+    "allow": [
+      "Thorne"
+    ]
+  },
+  {
+    "id": "the-farm",
+    "name": "The Blackwood farm",
+    "type": "place",
+    "status": "staged",
+    "summary": "A farmhouse up the hill from the beach, signposted 'Blackwood'. Smoke from the chimney, an overgrown yard, two dogs.",
+    "seen": "Session 1",
+    "related": [
+      "ashe",
+      "the-beach"
+    ]
+  },
+  {
+    "id": "ashe",
+    "name": "Ashe Blackwood",
+    "type": "person",
+    "status": "staged",
+    "summary": "A very old, very frightened man at the farm, with two dogs and a flintlock. He wrote the letter, and did not remember writing it until he did. He asked which of you is Thorne.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/ashe-blackwood.jpg",
+        "caption": "Ashe Blackwood"
+      }
+    ],
+    "related": [
+      "the-farm",
+      "the-letter",
+      "thorne"
+    ],
+    "allow": [
+      "Thorne"
+    ]
+  },
+  {
+    "id": "lumenshire",
+    "name": "Lumenshire",
+    "type": "place",
+    "status": "staged",
+    "summary": "The town down the shore road, on an island far off the coast. Quiet, half-empty, and covered in posters of the mayor.",
+    "seen": "Session 1",
+    "related": [
+      "the-mayor",
+      "the-vanguard",
+      "the-dragons-inn",
+      "the-temple"
+    ]
+  },
+  {
+    "id": "the-mayor",
+    "name": "Mayor Fawkes",
+    "type": "person",
+    "status": "staged",
+    "summary": "The mayor of Lumenshire, a woman in gold and silver armour on posters all over town: 'TEN MORE YEARS'. Hailed as the hero who drove off an attack years ago.",
+    "seen": "Session 1",
+    "details": "Town gossip: Ser Kael Orendis, who has just come back, is her husband.",
+    "related": [
+      "lumenshire",
+      "kael",
+      "the-vanguard"
+    ]
+  },
+  {
+    "id": "kael",
+    "name": "Ser Kael Orendis",
+    "type": "person",
+    "status": "staged",
+    "summary": "The talk of the town: a hero who died on the Reach two years ago walked out of the sea this morning, half-drowned and burning with fever. The mayor's husband. They are calling it Ilmater's miracle. He lies unconscious at the temple.",
+    "seen": "Session 1",
+    "details": "If you see him: he has Sal's face.",
+    "related": [
+      "the-temple",
+      "the-mayor",
+      "salanar"
+    ]
+  },
+  {
+    "id": "the-temple",
+    "name": "The temple of Ilmater",
+    "type": "place",
+    "status": "staged",
+    "summary": "Where the sisters nurse Ser Kael. Its alms board posts requests for help.",
+    "seen": "Session 1",
+    "related": [
+      "kael",
+      "q-remedies"
+    ]
+  },
+  {
+    "id": "the-vanguard",
+    "name": "The Luminous Vanguard",
+    "type": "faction",
+    "status": "staged",
+    "summary": "Lumenshire's soldiers, in deep blue and silver with glowing sigils. They question strangers at the edge of town.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/vanguard-soldier.jpg",
+        "caption": "A Vanguard soldier"
+      }
+    ],
+    "related": [
+      "the-mayor",
+      "seraphina"
+    ]
+  },
+  {
+    "id": "seraphina",
+    "name": "Seraphina Dawnbringer",
+    "type": "person",
+    "status": "staged",
+    "summary": "Commander of the Vanguard, polite and armoured. She found you at the inn with an offer from the mayor.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/seraphina-dawnbringer.jpg",
+        "caption": "Seraphina Dawnbringer"
+      }
+    ],
+    "related": [
+      "the-vanguard",
+      "the-mayor",
+      "q-couriers"
+    ]
+  },
+  {
+    "id": "the-dragons-inn",
+    "name": "The Dragon's Inn",
+    "type": "place",
+    "status": "staged",
+    "summary": "The inn in the merchant district, run by Beatrice. Far more tables and chairs than people to sit in them. It has a notice board.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/the-dragons-inn.jpg",
+        "caption": "The common room"
+      }
+    ],
+    "related": [
+      "beatrice",
+      "q-finn",
+      "q-deliveries"
+    ]
+  },
+  {
+    "id": "beatrice",
+    "name": "Beatrice",
+    "type": "person",
+    "status": "staged",
+    "summary": "The innkeeper of the Dragon's Inn. Welcoming. Rooms are 10 gold a night and every drink is 1.",
+    "seen": "Session 1",
+    "related": [
+      "the-dragons-inn"
+    ]
+  },
+  {
+    "id": "willem",
+    "name": "Willem",
+    "type": "person",
+    "status": "staged",
+    "summary": "The blacksmith. Grumbling at the inn that the mystic owes him money.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/willem.jpg",
+        "caption": "Willem at his forge"
+      }
+    ],
+    "related": [
+      "q-finn"
+    ]
+  },
+  {
+    "id": "bartholomew",
+    "name": "Bartholomew",
+    "type": "person",
+    "status": "staged",
+    "summary": "The baker, cheerful and a little nervous. Needs a runner for his deliveries.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/bartholomew.jpg",
+        "caption": "Bartholomew"
+      }
+    ],
+    "related": [
+      "q-deliveries"
+    ]
+  },
+  {
+    "id": "cid",
+    "name": "Cid",
+    "type": "person",
+    "status": "staged",
+    "summary": "The sailor. He is in town, and he does not remember the trip clearly either. A boat off the island costs 5,000 gold, or wait a week for the ferry.",
+    "seen": "Session 1",
+    "images": [
+      {
+        "src": "img/cid-tidebringer.jpg",
+        "caption": "Cid"
+      }
+    ],
+    "related": [
+      "lumenshire"
+    ]
+  },
+  {
+    "id": "the-stone-silence",
+    "name": "Sal's sending stone",
+    "type": "item",
+    "status": "staged",
+    "summary": "Darla's sending stone is paired with Sal's. The message goes through. No answer: silence, and slow, wet breathing, like someone asleep or dying.",
+    "seen": "Session 1",
+    "related": [
+      "salanar",
+      "kael"
+    ]
+  },
+  {
+    "id": "q-remedies",
+    "name": "Remedies sought for Ser Kael Orendis",
+    "type": "quest",
+    "status": "staged",
+    "summary": "Temple board: 'The hero of the Reach has come home to us half-dead. The temple seeks any remedy, rare or costly. Ilmater bless the giver.'",
+    "seen": "Session 1",
+    "related": [
+      "the-temple",
+      "kael"
+    ]
+  },
+  {
+    "id": "q-finn",
+    "name": "Thaddeus Finn owes me 200 gold",
+    "type": "quest",
+    "status": "staged",
+    "summary": "Dragon's Inn board, posted by Willem: 'Anyone who finds Finn the mystic, tell him Willem wants his money. Shop's been shut a month.'",
+    "seen": "Session 1",
+    "related": [
+      "willem",
+      "the-dragons-inn"
+    ]
+  },
+  {
+    "id": "q-couriers",
+    "name": "Discreet couriers wanted",
+    "type": "quest",
+    "status": "staged",
+    "summary": "Town hall board, brought to you by Seraphina: 'Collection at Lumen Pier, two days hence. Discretion rewarded. Apply at town hall.'",
+    "seen": "Session 1",
+    "related": [
+      "seraphina",
+      "the-mayor"
+    ]
+  },
+  {
+    "id": "q-dont-forget",
+    "name": "DON'T FORGET",
+    "type": "quest",
+    "status": "staged",
+    "summary": "A page pinned over the other notices, describing each of you exactly, and a sixth person, crossed out so hard the paper tore. 'Treehouse past the graveyard. Dusk.'",
+    "seen": "Session 1",
+    "related": [
+      "lumenshire"
+    ]
+  },
+  {
+    "id": "q-deliveries",
+    "name": "Deliveries",
+    "type": "quest",
+    "status": "staged",
+    "summary": "Dragon's Inn board, posted by Bartholomew: 'Need a runner for standing orders.'",
+    "seen": "Session 1",
+    "related": [
+      "bartholomew",
+      "the-dragons-inn"
+    ]
   }
 ]
